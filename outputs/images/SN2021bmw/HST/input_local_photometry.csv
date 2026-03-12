@@ -1,2 +1,0 @@
-name,ra,dec,z,filters,survey,ap_radii,ap_units,bkg_sub,use_mask,correct_extinction,save_plots,save_results,raise_exception,save_input,timestamp
-SN2021bmw,206.91544999999996,-29.431844444444447,0.012782,['WFC3_UVIS_F275W'],HST,[1],kpc,,False,False,True,True,True,True,2026-03-12T14:13:59.954611+00:00

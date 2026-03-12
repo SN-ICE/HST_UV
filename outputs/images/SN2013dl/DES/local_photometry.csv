@@ -1,2 +1,0 @@
-name,ra,dec,redshift,survey,ap_units,r_1,r_1_err,r_1_flux,r_1_flux_err,r_2,r_2_err,r_2_flux,r_2_flux_err,r_3,r_3_err,r_3_flux,r_3_flux_err,r_zeropoint
-SN2013dl,19.674,-7.444361111111111,0.017731,DES,kpc,inf,,0.0,,inf,,0.0,,inf,,0.0,,30
