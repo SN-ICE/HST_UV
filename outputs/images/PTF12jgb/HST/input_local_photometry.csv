@@ -1,0 +1,2 @@
+name,ra,dec,z,filters,survey,ap_radii,ap_units,bkg_sub,use_mask,correct_extinction,save_plots,save_results,raise_exception,save_input,timestamp
+PTF12jgb,63.75599999999999,-15.34825,0.028229,['WFC3_UVIS_F275W'],HST,[1],kpc,,False,False,True,True,True,True,2026-03-12T14:07:00.747294+00:00

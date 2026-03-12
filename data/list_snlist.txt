@@ -1,0 +1,1233 @@
+snname,cubename,sem,rasn,decsn,sntype,notes
+               SN2008hj,                SN2008hj, P95  ,00:04:01.910 ,-11:10:07.50  ,Ia      ,
+               SN2006ej,                SN2006ej, P95  ,00:38:59.770 ,-09:00:56.59  ,Ia      ,JOINED WITH ONE FROM THE ARXIV 
+               SN2006et,                SN2006et, P95  ,00:42:45.821 ,-23:33:30.38  ,Ia      ,MUSE-DEEP JOINING 7 OF THE 8 POINTINGS
+               SN2006gt,                SN2006gt, P95  ,00:56:17.299 ,-01:37:45.98  ,Ia-91bg ,
+               SN2007mm,                SN2007mm, P95  ,01:05:46.670 ,-00:45:31.79  ,Ia-86G  ,
+               SN2006hx,                SN2006hx, P95  ,01:13:57.310 ,+00:22:18.01  ,Ia      ,
+               SN2005ir,                SN2005ir, P95  ,01:16:43.759 ,+00:47:40.42  ,Ia      ,
+               SN2005hj,                SN2005hj, P95  ,01:26:48.269 ,-01:14:16.80  ,Ia      ,
+               SN2007ol,                SN2007ol, P95  ,01:37:23.700 ,-00:18:43.20  ,Ia      ,
+               CSP13aad,                CSP13aad, P95  ,01:46:09.34  ,-67:28:00.10  ,Ia      ,
+               SN2006fw,                SN2006fw, P95  ,01:47:10.339 ,-00:08:49.20  ,Ia      ,
+               SN2006ob,                SN2006ob, P95  ,01:51:48.110 ,+00:15:48.31  ,Ia      ,
+               SN2005hc,                SN2005hc, P95  ,01:56:47.940 ,-00:12:49.21  ,Ia      ,
+                 CSP13Q,                  CSP13Q, P95  ,02:02:21.56  ,-65:44:08.66  ,Ia      ,REREDUCED JOINING 6 OF THE 8 POINTINGS
+               SN2006ef,                SN2006ef, P95  ,02:04:19.510 ,-08:43:42.20  ,Ia      ,
+               SN2025yn,                SN2006ef, P95  ,02:04:18.708 ,-08:44:27.35  ,II      ,
+               SN2007hx,                SN2007hx, P95  ,02:06:27.079 ,-00:53:58.31  ,Ia      ,
+               LSQ13dhj,                LSQ13dhj, P95  ,02:12:34.48  ,-37:20:22.81  ,Ia      ,
+               SN2006ot,                SN2006ot, P95  ,02:15:04.841 ,-20:45:58.21  ,Ia-06bt ,
+                SN2012E,                 SN2012E, P95  ,02:33:22.790 ,+09:35:05.60  ,Ia      ,126; 36 CREATED MANUALLY -- BAD
+               LSQ12hnx,                LSQ12hnx, P95  ,02:35:17.81  ,-30:57:49.48  ,Ia      ,NO LC 
+               SN2005lu,                SN2005lu, P95  ,02:36:03.710 ,-17:15:50.00  ,Ia      ,I CHANGED THE HOST WITH RESPECT KRISCIUNAS 2017
+               LSQ12gzm,                LSQ12gzm, P95  ,02:40:43.61  ,-34:44:25.87  ,Ia      ,104;160 CREATED MANUALLY -- BAD 
+                SN2009I,                 SN2009I, P95  ,02:45:10.399 ,-04:42:49.39  ,Ia      ,
+               SN2007so,                SN2007so, P95  ,02:47:43.130 ,+13:15:14.80  ,Ia      ,
+               SN2006os,                SN2006os, P95  ,02:55:01.010 ,+16:00:34.81  ,Ia      ,6 POINTINGS AVAILABLE BUT WE KEPT THE 4 POINTINGS WITH BETTER SEEING
+               SN2005gj,                SN2005gj, P95  ,03:01:11.950 ,-00:33:13.90  ,Ia-CSM  ,NO LC
+               LSQ13dkp,                LSQ13dkp, P95  ,03:10:09.97  ,-36:37:44.91  ,Ia      ,216;235 CREATED MANUALLY -- BAD 
+               LSQ12hxx,                LSQ12hxx, P95  ,03:19:44.23  ,-27:00:25.68  ,Ia      ,
+               LSQ13dsm,                LSQ13dsm, P95  ,03:33:12.83  ,-26:12:24.02  ,Ia      ,
+                SN2009D,                 SN2009D, P95  ,03:54:22.829 ,-19:10:54.19  ,Ia      ,
+               LSQ12hzs,                LSQ12hzs, P95  ,04:01:53.21  ,-26:39:50.15  ,Ia      ,
+               CSP13aaq,                CSP13aaq, P95  ,04:19:47.21  ,-63:43:22.04  ,Ia      ,151;153 CREATED MANUALLY -- BAD
+               SN2014cd,                SN2014cd, P95  ,04:23:47.191 ,-51:36:02.92  ,Ia      ,
+               SN2013fz,                SN2014cd, P95  ,04:23:46.440 ,-51:35:46.28  ,Ia-91T  ,
+             SN2025absv,                SN2014cd, P95  ,04:23:47.254 ,-51:36:09.11  ,IIP     ,
+               LSQ13dcy,                LSQ13dcy, P95  ,04:55:16.42  ,-20:00:05.40  ,Ia      ,
+               SN2006is,                SN2006is, P95  ,05:17:34.370 ,-23:46:54.19  ,Ia      ,140;158 CREATED MANUALLY -- BAD 
+                LSQ12ca,                 LSQ12ca, P95  ,05:31:03.62  ,-19:47:59.28  ,Ia-91T  ,
+               SN2013az,                SN2013az, P95  ,05:39:52.130 ,-40:30:28.12  ,Ia      ,
+               CSP14aar,                CSP14aar, P95  ,05:48:23.49  ,-66:47:29.70  ,Ia      ,
+               CSP13aao,                CSP13aao, P95  ,05:58:30.38  ,-63:33:38.30  ,Ia      ,
+               CSP14aaq,                CSP14aaq, P95  ,06:13:48.04  ,-67:55:15.00  ,Ia-pec  ,
+               CSP13abl,                CSP13abl, P95  ,06:38:06.97  ,-75:43:37.21  ,Ia      ,
+               SN2005na,                SN2005na, P95  ,07:01:36.619 ,+14:07:59.70  ,Ia      ,
+               SN2004gs,                SN2004gs, P95  ,08:38:23.179 ,+17:37:39.79  ,Ia      ,
+               SN2006lu,                SN2006lu, P95  ,09:15:17.630 ,-25:36:00.29  ,Ia      ,
+                SN2005M,                 SN2005M, P95  ,09:37:32.359 ,+23:12:02.70  ,Ia-91T  ,SDSS OBJID problem
+               SN2008bc,                SN2008bc, P95  ,09:38:31.229 ,-63:58:25.61  ,Ia      ,
+               SN2007al,                SN2007al, P95  ,09:59:18.480 ,-19:28:25.79  ,Ia-91bg ,MUSE-DEEP JOINING 8 POINTINGS
+                SN2007S,                 SN2007S, P95  ,10:00:31.260 ,+04:24:26.21  ,Ia-91T  ,
+               LSQ12agq,                LSQ12agq, P95  ,10:17:41.67  ,-07:24:54.45  ,Ia      ,
+               LSQ12aor,                LSQ12aor, P95  ,10:55:17.64  ,-14:18:01.38  ,Ia      ,MUSE-DEEP AVAILABLE (8 POINTINGS); BUT WE KEPT THE 4 POINTINGS WITH BETTER SEEING
+               LSQ12hvj,                LSQ12hvj, P95  ,11:07:38.62  ,-29:42:40.96  ,Ia-91T  ,
+               SN2007bc,                SN2007bc, P95  ,11:19:14.570 ,+20:48:32.51  ,Ia      ,
+               SN2002bp,                SN2007bc, P95  ,11:19:18.20  ,+20:48:23.1   ,Ia-02cx ,
+               SN2009aa,                SN2009aa, P95  ,11:23:42.281 ,-22:16:14.48  ,Ia      ,
+               SN2025gc,                SN2009aa, P95  ,11:23:40.021 ,-22:16:09.17  ,Ic      ,
+               SN2013ao,                SN2013ao, P95  ,11:44:44.741 ,-20:31:41.09  ,Ia-03fg ,
+               SN2013as,                SN2013as, P95  ,11:52:52.339 ,-18:59:19.90  ,Ia      ,
+               SN2005bg,                SN2005bg, P95  ,12:17:17.179 ,+16:22:17.62  ,Ia      ,
+               SN2008ar,                SN2008ar, P95  ,12:24:37.920 ,+10:50:17.41  ,Ia      ,
+                 CSP12N,                  CSP12N, P95  ,12:38:16.19  ,-15:06:32.15  ,Ia      ,148;158 CREATED MANUALLY -- BAD
+                SN2012G,                 SN2012G, P95  ,12:39:35.100 ,+16:35:11.90  ,Ia-91T  ,
+               PS1-14rx,                PS1-14rx, P95  ,12:46:53.35  ,+14:47:50.10  ,Ia      ,
+                SN2006D,                 SN2006D, P95  ,12:52:33.941 ,-09:46:30.79  ,Ia      ,MUSE-DEEP AVAILABLE (8 POINTINGS); BUT WE KEPT THE 4 POINTINGS WITH BETTER SEEING
+                LSQ14ie,                 LSQ14ie, P95  ,12:55:33.46  ,-32:56:40.37  ,Ia      ,MUSE-DEEP JOINING 6 POINTINGS
+               SN2007cg,                SN2007cg, P95  ,13:25:33.581 ,-24:39:08.10  ,Ia      ,
+               SN2013bz,                SN2013bz, P95  ,13:26:51.319 ,-10:01:32.20  ,Ia-91T  ,
+               SN2006br,                SN2006br, P95  ,13:30:01.800 ,+13:24:56.81  ,Ia      ,
+              SN2021gvm,                SN2006br, P95  ,13:30:01.224 ,+13:24:40.28  ,II      ,
+               PTF11akn,                SN2006br, P95  ,13:30:03.923 ,+13:24:57.54  ,IIn     ,
+               SN2006dz,                SN2006br, P95  ,13:30:00.370 ,+13:24:43.09  ,untyped ,
+               LSQ14ahc,                LSQ14ahc, P95  ,13:43:48.25  ,-32:54:35.12  ,Ia      ,
+               SN2014bz,                CSP14abn, P95  ,13:56:04.19  ,-43:35:09.90  ,Ia      ,153;154 CREATED MANUALLY
+               LSQ12cfx,                LSQ12cfx, P95  ,13:59:40.96  ,-25:22:50.98  ,Ia-91T  ,NO LC - NO WAY
+               SN2008cf,                SN2008cf, P95  ,14:07:32.561 ,-26:33:06.59  ,Ia      ,
+               LSQ14bjj,                LSQ14bjj, P95  ,14:20:49.08  ,-05:15:02.25  ,Ia      ,MUSE-DEEP JOINING 7 POINTINGS
+               SN2011jt,                SN2011jt, P95  ,14:53:23.011 ,+02:57:43.09  ,Ia      ,162; 75 CREATED MANUALLY -- BAD
+               SN2005ag,                SN2005ag, P95  ,14:56:43.649 ,+09:19:42.49  ,Ia      ,
+               SN2005be,                SN2005be, P95  ,14:59:32.719 ,+16:40:11.60  ,Ia      ,
+               SN2007ba,                SN2007ba, P95  ,15:16:42.631 ,+07:23:47.80  ,Ia-91bg ,
+               SN2006bt,                SN2006bt, P95  ,15:56:30.530 ,+20:02:45.60  ,Ia-06bt ,JOINED WITH P102
+               LSQ14bbv,                LSQ14bbv, P95  ,19:59:33.12  ,-56:59:27.84  ,Ia      ,
+               SN2008ff,                SN2008ff, P95  ,20:13:59.959 ,-44:21:07.81  ,Ia      ,MUSE-DEEP AVAILABLE (8 POINTINGS); BUT WE KEPT THE 4 POINTINGS WITH BETTER SEEING; 16;139 CREATED MANUALLY -- BAD
+               SN2006eq,                SN2006eq, P95  ,21:28:37.130 ,+01:13:41.20  ,Ia      ,
+               SN2013fy,                SN2013fy, P95  ,21:37:27.120 ,-47:01:54.80  ,Ia      ,
+               SN2014at,                SN2014at, P95  ,21:46:14.820 ,-46:31:21.11  ,Ia-91T  ,
+               SN2004ey,                SN2004ey, P95  ,21:49:07.810 ,+00:26:39.19  ,Ia      ,
+               SN2008go,                SN2008go, P95  ,22:10:44.830 ,-20:47:17.20  ,Ia      ,
+               SN2006py,                SN2006py, P95  ,22:41:42.050 ,-00:08:12.91  ,Ia      ,IT HAS 1 POINTING WITH WRONG COORDINATES
+               SN2004ef,                SN2004ef, P95  ,22:42:10.020 ,+19:59:40.42  ,Ia      ,
+               SN2005ku,                SN2005ku, P95  ,22:59:42.610 ,-00:00:49.28  ,Ia      ,
+               SN2007hj,                SN2007hj, P95  ,23:01:47.890 ,+15:35:11.40  ,Ia      ,
+               SN2012gm,                SN2012gm, P95  ,23:17:37.030 ,+14:00:08.89  ,Ia      ,
+            ASASSN-14mf,             ASASSN-14mf, P96  ,00:04:54.46  ,-32:26:14.63  ,Ia      ,
+            ASASSN-14kp,             ASASSN-14kp, P96  ,00:39:52.58  ,-38:03:52.22  ,II      ,
+            ASASSN-13cu,             ASASSN-13cu, P96  ,00:40:10.14  ,-10:26:25.90  ,Ia      ,
+            ASASSN-14lw,             ASASSN-14lw, P96  ,01:06:49.17  ,-46:58:59.96  ,Ia-91T  ,
+            ASASSN-14ig,             ASASSN-14ig, P96  ,01:16:04.95  ,-61:37:16.70  ,Ia      ,NO LC
+               SN2013dl,             ASASSN-13ar, P96  ,01:18:41.760 ,-07:26:39.70  ,Ia      ,NO LC 
+            ASASSN-14me,             ASASSN-14me, P96  ,01:26:40.08  ,-57:59:49.31  ,Ia-91T  ,REREDUCED JOINING 8 POINTINGS
+            ASASSN-14mw,             ASASSN-14mw, P96  ,01:41:25.16  ,-65:37:01.26  ,Ia      ,JOINED WITH P106; NO LC - REDSHIFT TOO LARGE ?? SN OUT OF FOV in P96. P106 in FOV
+            ASASSN-14hr,             ASASSN-14hr, P96  ,01:50:41.27  ,-14:31:06.37  ,Ia      ,
+               SN2013ef,             ASASSN-13bb, P96  ,01:55:20.710 ,+06:36:35.32  ,Ia      ,NO LC 
+            ASASSN-14fa,             ASASSN-14fa, P96  ,02:52:23.06  ,-31:49:18.00  ,Ia      ,MUSE-DEEP JOINING 13 POINTINGS
+            ASASSN-14mg,             ASASSN-14mg, P96  ,02:53:58.10  ,-21:38:52.86  ,Ia      ,NO LC - 164;171 CREATED MANUALLY -- BAD
+               SN2013hk,             ASASSN-13dm, P96  ,03:02:10.850 ,+15:55:38.78  ,Ia      ,NO LC
+            ASASSN-14lt,             ASASSN-14lt, P96  ,03:11:02.54  ,-13:06:38.76  ,Ia-91T  ,
+            ASASSN-14ko,             ASASSN-14ko, P96  ,05:25:18.13  ,-46:00:20.34  ,IIn     ,
+               SN2013ex,             ASASSN-13cc, P96  ,05:32:46.620 ,-14:02:45.38  ,Ia      ,572;791 CREATED MANUALLY -- BAD
+            ASASSN-14hu,             ASASSN-14hu, P96  ,06:43:26.92  ,-69:38:14.70  ,Ia-91T  ,
+            ASASSN-14jc,             ASASSN-14jc, P96  ,07:35:35.29  ,-62:46:12.64  ,Ia      ,
+            ASASSN-14dd,             ASASSN-14dd, P96  ,07:45:14.38  ,-71:24:14.04  ,Ibn     ,JOINED WITH SN2016iye FROM P100 - 20 POINTINGS IN TOTAL
+              SN2016iye,             ASASSN-14dd, P96  ,07:45:19.720 ,-71:24:17.90  ,IIb     ,
+               SN2003gh,             ASASSN-14dd, P96  ,07:45:17.930 ,-71:24:37.30  ,Ia      ,NO LC
+            ASASSN-13dd,             ASASSN-13dd, P96  ,09:07:36.75  ,+03:23:39.7   ,Ia      ,JOINED WITH SN2008hv OBSERVED IN P97
+               SN2008hv,             ASASSN-13dd, P96  ,09:07:34.061 ,+03:23:32.10  ,Ia      ,
+            ASASSN-14ba,             ASASSN-14ba, P96  ,10:21:31.90  ,+08:24:21.12  ,Ia-91T  ,NO LC
+            ASASSN-15aj,             ASASSN-15aj, P96  ,10:52:53.26  ,-32:55:34.86  ,Ia      ,
+               SN2012bu,             ASASSN-15aj, P96  ,10:52:56.530 ,-32:56:07.69  ,II      ,
+            ASASSN-14dp,             ASASSN-14dp, P96  ,11:21:58.45  ,-37:54:24.50  ,II      ,
+            ASASSN-14dl,             ASASSN-14dl, P96  ,12:21:51.38  ,-24:09:54.00  ,II      ,MUSE-DEEP JOINING 8 POINTINGS
+            ASASSN-14ad,             ASASSN-14ad, P96  ,12:40:11.10  ,+18:03:32.80  ,Ia      ,
+            ASASSN-14lp,             ASASSN-14lp, P96  ,12:45:09.101 ,-00:27:32.49  ,Ia      ,
+                SN1965H,             ASASSN-14lp, P96  ,12:45:07.18  ,-00:28:11.5   ,II      ,before 12:45:09.12 -00:27:32.5 
+              SN2019yvr,             ASASSN-14lp, P96  ,12:45:08.132 ,-00:27:32.66  ,Ib      ,
+            ASASSN-14fd,             ASASSN-14fd, P96  ,12:46:14.768 ,-40:48:52.53  ,IIn     ,
+            ASASSN-14cu,             ASASSN-14cu, P96  ,12:47:02.68  ,-24:14:41.30  ,Ia      ,NO LC
+            ASASSN-14li,             ASASSN-14li, P96  ,12:48:15.23  ,+17:46:26.22  ,TDE     ,
+            ASASSN-14kr,             ASASSN-14kr, P96  ,12:54:13.15  ,-07:38:57.46  ,Ia      ,NO LC
+               SN2013da,             ASASSN-13an, P96  ,13:45:36.209 ,-07:19:32.59  ,Ia      ,JOINED WITH P98 - SN2013da. 8 POINTINGS. BETTER SEEING IN P96. NO LC
+            ASASSN-14bf,             ASASSN-14bf, P96  ,13:58:12.75  ,+17:31:53.66  ,II      ,
+            ASASSN-15ab,             ASASSN-15ab, P96  ,14:03:06.24  ,-38:28:29.9   ,IIn     ,
+            ASASSN-14lu,             ASASSN-14lu, P96  ,14:10:39.52  ,-02:40:56.00  ,Ia      ,NO LC
+            ASASSN-14eu,             ASASSN-14eu, P96  ,15:00:36.84  ,-03:50:48.912 ,Ia-02cx ,JOINED WITH P102. SN IN THE P102 FoV
+            ASASSN-14dz,             ASASSN-14dz, P96  ,15:05:54.522 ,+12:44:43.33  ,Ia      ,NO LC
+            ASASSN-13cp,             ASASSN-13cp, P96  ,15:33:49.236 ,+21:08:21.87  ,Ia      ,NO LC 
+            ASASSN-14co,             ASASSN-14co, P96  ,15:57:29.91  ,+01:06:33.74  ,Ia      ,NO LC
+            ASASSN-13ch,             ASASSN-13ch, P96  ,16:16:34.06  ,-00:35:27.38  ,Ia      ,
+            ASASSN-13cj,             ASASSN-13cj, P96  ,16:17:11.01  ,+04:33:14.72  ,Ia      ,NO LC 
+               SN2014ay,             ASASSN-14at, P96  ,17:55:05.431 ,+18:15:26.39  ,II      ,
+            ASASSN-14jz,             ASASSN-14jz, P96  ,18:44:44.34  ,-52:48:05.48  ,Ia      ,
+            ASASSN-14iz,             ASASSN-14iz, P96  ,20:21:49.84  ,-31:17:06.78  ,II      ,
+            ASASSN-14ew,             ASASSN-14ew, P96  ,20:22:00.88  ,-51:47:46.50  ,Ia      ,NO LC
+            ASASSN-14db,             ASASSN-14db, P96  ,22:02:01.85  ,-70:02:26.19  ,Ia      ,NO LC
+               SN2014dq,             ASASSN-14jb, P96  ,22:23:16.090 ,-28:58:31.80  ,II      ,
+            ASASSN-14lv,             ASASSN-14lv, P96  ,23:32:07.37  ,-41:16:11.76  ,Ia      ,NO LC               
+            ASASSN-14jg,             ASASSN-14jg, P96  ,23:33:13.90  ,-60:34:11.50  ,Ia      ,
+              AT2018kad,             ASASSN-14jg, P96  ,23:33:12.610 ,-60:34:28.81  ,?       ,
+            ASASSN-14kq,             ASASSN-14kq, P96  ,23:45:15.51  ,-29:47:01.14  ,Ia-91T  ,
+               SN2008dh,                SN2008dh, P97  ,00:35:11.321 ,+23:15:15.08  ,Ia      ,NO LC
+               SN2012hd,                SN2012hd, P97  ,01:14:07.459 ,-32:39:07.70  ,Ia      ,
+              SN2016gfk,                SN2012hd, P97  ,01:14:06.470 ,-32:39:25.80  ,Ia      ,NO LC
+               SN2009le,                SN2009le, P97  ,02:09:17.141 ,-23:24:44.78  ,Ia      ,REREDUCED TO JOIN BOTH POINTINGS CORRECTLY
+               SN2003em,                SN2009le, P97  ,02:09:20.230 ,-23:24:52.99  ,Ia      ,REREDUCED TO JOIN BOTH POINTINGS CORRECTLY - NO LC
+              SN2021bxu,                SN2009le, P97  ,02:09:16.455 ,-23:24:45.40  ,IIb     ,REREDUCED TO JOIN BOTH POINTINGS CORRECTLY
+               SN2007gj,                SN2007gj, P97  ,02:19:33.850 ,-37:48:44.21  ,-       ,OUT_OF_FOV SN untyped
+                SN2010A,                 SN2010A, P97  ,02:32:39.461 ,+00:37:10.20  ,Ia      ,
+               SN2006fo,                 SN2010A, P97  ,02:32:38.890 ,+00:37:03.00  ,Ic      ,
+               AT2012iw,                 SN2010A, P97  ,02:32:38.890 ,+00:37:03.00  ,?      ,
+                SN2008J,                 SN2008J, P97  ,02:34:24.199 ,-10:50:38.51  ,Ia-CSM  ,
+               SN2009ig,                SN2009ig, P97  ,02:38:11.611 ,-01:18:45.11  ,Ia      ,
+               PTF12iiq,                PTF12iiq, P97  ,02:50:07.76  ,-00:15:54.40  ,Ia      ,NO LC
+               SN2001el,                SN2001el, P97  ,03:44:30.571 ,-44:38:23.71  ,Ia      ,
+              SN2021pit,                SN2001el, P97  ,03:44:30.210 ,-44:37:57.25  ,Ia      ,
+               PTF12jgb,                PTF12jgb, P97  ,04:15:01.44  ,-15:20:53.70  ,Ia      ,NO LC
+                SN2008V,                 SN2008V, P97  ,04:29:31.301 ,-26:42:39.82  ,IIb     ,
+               SN2007rz,                SN2007rz, P97  ,04:31:10.841 ,+07:37:51.49  ,Ic      ,
+                SN2009K,                 SN2009K, P97  ,04:36:36.770 ,-00:08:35.59  ,IIb     ,
+              SN2023crx,                 SN2009K, P97  ,04:36:35.400, -00:08:56.94  ,Ib      ,                
+               SN2004ff,                SN2004ff, P97  ,04:58:46.190 ,-21:34:12.00  ,Ic      ,
+               SN2005gn,                SN2005gn, P97  ,05:48:49.070 ,-24:22:45.52  ,IIn     ,
+               SN2012hr,                SN2012hr, P97  ,06:21:38.460 ,-59:42:50.62  ,Ia      ,
+               SN2008fp,                SN2008fp, P97  ,07:16:32.599 ,-29:19:31.69  ,Ia      ,
+               SN2008ia,                SN2008ia, P97  ,08:50:35.150 ,-61:16:40.58  ,Ia      ,
+               LSQ12hzj,                LSQ12hzj, P97  ,09:59:12.43  ,-09:00:08.25  ,Ia-91T  ,
+               SN2009dq,                SN2009dq, P97  ,10:08:49.939 ,-67:01:57.29  ,IIb     ,
+               SN2010ev,                SN2010ev, P97  ,10:25:28.990 ,-39:49:51.20  ,Ia      ,
+                SN2005Z,                 SN2005Z, P97  ,10:45:09.180 ,+22:04:38.32  ,II      ,
+               SN2012ht,                SN2012ht, P97  ,10:53:22.750 ,+16:46:34.90  ,Ia      ,SDSS OBJID problem
+               SN2005lw,                SN2005lw, P97  ,11:08:03.209 ,-12:29:09.38  ,II      ,
+               SN2009ds,                SN2009ds, P97  ,11:49:04.109 ,-09:43:44.90  ,Ia      ,
+                SN2001E,                SN2009ds, P97  ,11:49:04.999 ,-09:44:10.90  ,Ia      ,
+                SN2014V,                SN2009ds, P97  ,11:49:06.199 ,-09:43:33.71  ,II      ,
+               SN2004aw,                SN2004aw, P97  ,11:57:50.239 ,+25:15:55.12  ,Ic      ,
+               SN2007sr,                SN2007sr, P97  ,12:01:52.800 ,-18:58:21.68  ,Ia      ,
+                SN2006X,                 SN2006X, P97  ,12:22:53.990 ,+15:48:33.08  ,Ia      ,Also NGC4321 from PHANGS in arx
+               SN2012cg,                SN2012cg, P97  ,12:27:12.830 ,+09:25:13.19  ,Ia      ,JOINED WITH SN2012cg_2 from P98
+                SN1895A,                SN2012cg, P97  ,12:27:17.100 ,+09:25:01.00  ,?       ,
+                SN1994D,                 SN1994D, P97  ,12:34:02.450 ,+07:42:04.72  ,Ia      ,
+                SN1969E,                 SN1994D, P97  ,12:34:02.200 ,+07:41:31.00  ,?       ,
+               SN2007rw,                SN2007rw, P97  ,12:38:03.641 ,-02:15:40.10  ,IIb     ,REREDUCED JOINING THE 4 POINTINGS
+               SN2008aq,                SN2008aq, P97  ,12:50:30.420 ,-10:52:01.42  ,IIb     ,
+               SN2012cu,                SN2012cu, P97  ,12:53:29.350 ,+02:09:38.99  ,Ia      ,JOINED WITH HK 1988E (tot i que a l'arxiu diu 1998E). NO LC 
+                SN1988E,                SN2012cu, P97  ,12:53:28.901 ,+02:10:23.02  ,II      ,JOINED WITH HK 1988E (tot i que a l'arxiu diu 1998E)
+               SN2008aw,                SN2008aw, P97  ,13:04:14.119 ,-10:19:12.29  ,II      ,
+               SN2011iy,                SN2011iy, P97  ,13:08:58.390 ,-15:31:04.12  ,Ia      ,JOINED WITH NGC4984 FROM THE ARXIV. OURS HAD WORSE QUALITY
+               SN2009nr,                SN2009nr, P97  ,13:10:58.949 ,+11:29:29.29  ,Ia      ,
+               SN2009ev,                SN2009ev, P97  ,13:14:17.580 ,-42:58:48.79  ,Ia      ,JOINED WITH P102. SN IN THE P102 FoV - NO LC 
+                SN1986G,                 SN1986G, P97  ,13:25:36.509 ,-43:01:54.19  ,Ia-86G  ,THERE IS A LARGE MOSAICK IN THE ARCHIVE NGC5128 -- TO DO --
+                SN2006E,                 SN2006E, P97  ,13:53:28.649 ,+05:12:22.79  ,Ia      ,NO LC
+               SN2013aj,                SN2013aj, P97  ,13:54:00.679 ,-07:55:43.79  ,Ia      ,
+               SN2009mz,                SN2009mz, P97  ,14:03:24.641 ,-06:03:31.28  ,Ia      ,NO LC
+               SN2002cr,                SN2002cr, P97  ,14:06:37.589 ,-05:26:21.91  ,Ia      ,I TRIED TO COMBINE WITH 2018dfg/2005P BUT NO SOURCES IN THE OVERLAP REGION AND SATURATED
+               SN2007af,                SN2007af, P97  ,14:22:21.060 ,-00:23:37.72  ,Ia      ,JOINED WITH NGC5584 from arx
+               SN1996aq,                SN2007af, P97  ,14:22:22.730 ,-00:23:24.29  ,Ic      ,
+               SN2013aa,                SN2013aa, P97  ,14:32:33.881 ,-44:13:27.80  ,Ia      ,core of NGC5643 from arx below
+               SN2006cu,                SN2006cu, P97  ,14:47:43.310 ,+09:39:33.91  ,IIn     ,
+               SN2006be,                SN2006be, P97  ,15:45:39.000 ,+28:05:19.21  ,II      ,MUSE-DEEP JOINING 8 POINTINGS
+               SN2008cg,                SN2008cg, P97  ,15:54:15.149 ,+10:58:25.00  ,IIn     ,MUSE-DEEP JOINING 5 POINTINGS
+        SNF20080612-003,              SN20080612, P97  ,16:15:28.39  ,+19:13:35.90  ,Ia      ,NO LC 
+               SN2004dk,                SN2004dk, P97  ,16:21:48.931 ,-02:16:17.29  ,Ib      ,JOINED WITH SN2020hvp from P111
+              SN2020hvp,                SN2004dk, P97  ,16:21:45.39  ,-02:17:21.30  ,Ib      ,
+               SN2001cp,                SN2001cp, P97  ,17:11:02.580 ,+05:50:26.81  ,Ia      ,COMBINED WITH ARX 22 POINTINGS TOTAL
+              SN2019mkr,                SN2001cp, P97  ,17:11:05.780 ,+05:51:07.38  ,II      ,               
+               SN2006ca,                SN2006ca, P97  ,18:22:54.149 ,+12:26:03.19  ,II      ,
+               SN2008fq,                SN2008fq, P97  ,20:25:06.190 ,-24:48:27.61  ,II      ,JOINED WITH PSNJ2025038 from P103
+               SN2004bv,                SN2008fq, P97  ,20:25:06.341 ,-24:48:53.71  ,Ia      ,
+               SN2014eh,                SN2008fq, P97  ,20:25:03.86  ,-24:49:13.3   ,Ic      ,
+                SN1984V,                SN2008fq, P97  ,20:25:03.000 ,-24:48:50.00  ,?       ,               
+               SN2002ha,                SN2002ha, P97  ,20:47:18.581 ,+00:18:45.61  ,Ia      ,
+               SN2003dt,                SN2002ha, P97  ,20:47:17.561 ,+00:18:42.80  ,Ia      ,NO LC
+               LSQ12dbr,                LSQ12dbr, P97  ,20:58:51.89  ,-02:58:27.10  ,Ia      ,NO LC
+               SN2012fw,                SN2012fw, P97  ,21:01:58.990 ,-48:16:25.90  ,Ia      ,NO LC
+               SN2006cm,                SN2006cm, P97  ,21:20:17.460 ,-01:41:02.69  ,Ia      ,
+               SN2007fs,                SN2007fs, P97  ,22:01:40.440 ,-21:30:29.59  ,Ia      ,
+               SN2002jg,                SN2002jg, P97  ,22:19:28.800 ,+29:23:04.49  ,Ia      ,REREDUCED JOINING 13 POINTINGS
+              SN2023wuk,                SN2002jg, P97  ,22:19:30.39  ,+29:23:17.60  ,Ia      ,
+               SN2007le,                SN2007le, P97  ,23:38:48.410 ,-06:31:21.29  ,Ia      ,
+               SN2012et,                SN2012et, P97  ,23:42:38.820 ,+27:05:31.49  ,Ia      ,NO LC
+               SN2003hg,                SN2003hg, P97  ,23:51:24.130 ,+20:06:38.30  ,II      ,REREDUCED JOINING 5 POINTINGS
+             SN2021aexi,                SN2003hg, P97  ,23:51:22.335 ,+20:06:34.90  ,Ic      ,
+               SN2001da,                SN2001da, P97  ,23:53:32.779 ,+08:07:02.60  ,Ia      ,
+               LSQ12gdj,                LSQ12gdj, P97  ,23:54:43.32  ,-25:40:34.09  ,Ia-91T  ,
+               SN2007fb,                SN2007fb, P97  ,23:56:52.370 ,+05:30:31.79  ,Ia      ,REREDUCED JOINING 10 POINTINGS
+               LSQ13crf,                LSQ13crf, P98  ,03:10:50.23  ,+01:25:18.90  ,Ia      ,
+               LSQ12fmx,                LSQ12fmx, P98  ,03:12:52.18  ,-00:12:12.80  ,Ia      ,REREDUCED JOINING THE 6 POINTINGS WITH BETTER SEEING; NO LC
+               SN2011ha,                SN2011ha, P98  ,03:57:40.870 ,+10:09:55.19  ,Ia      ,NO LC 
+               LSQ13cwp,                LSQ13cwp, P98  ,04:03:50.65  ,-02:39:17.98  ,Ia      ,
+               SN2014dm,                SN2014dm, P98  ,04:08:07.130 ,-08:49:37.20  ,Ia      ,NO LC 
+              SN2018ezx,                SN2014dm, P98  ,04:08:08.090 ,-08:49:59.45  ,Ia      ,NO LC actually in a different galaxy !!! sn2014dm host is in a merger
+               LSQ12fuk,                LSQ12fuk, P98  ,04:58:15.88  ,-16:17:58.03  ,Ia      ,MUSE-DEEP available 8 pointings
+              iPTF13dge,               iPTF13dge, P98  ,05:03:35.08  ,+01:34:17.40  ,Ia      ,
+               SN2002cy,               iPTF13dge, P98  ,05:03:35.330 ,+01:34:29.50  ,untyped ,
+   PSNJ07250042+2347030,    PSNJ07250042+2347030, P98  ,07:25:00.42  ,+23:47:03.00  ,Ia      ,NO LC 
+CSS130317:082848+293031, CSS130317_082848+293031, P98  ,08:28:47.78  ,+29:30:30.80  ,Ia      ,NO LC 
+                 PS15mb,                  PS15mb, P98  ,08:59:40.13  ,+15:11:12.40  ,Ia      ,NO LC 
+CSS121114:090202+101800, CSS121114_090202+101800, P98  ,09:02:02.34  ,+10:18:00.10  ,Ia      ,
+            ASASSN-15ho,             ASASSN-15ho, P98  ,09:09:23.89  ,-04:43:30.98  ,Ia      ,NO LC 
+            ASASSN-15hg,             ASASSN-15hg, P98  ,09:53:48.62  ,+09:11:37.78  ,Ia      ,
+                 PS15mt,                  PS15mt, P98  ,09:54:44.17  ,+23:11:53.10  ,Ia      ,
+               PTF11qmo,                PTF11qmo, P98  ,10:06:49.76  ,-07:41:12.30  ,Ia      ,NO LC 
+               LSQ14aeg,                LSQ14aeg, P98  ,10:19:36.79  ,+19:33:20.30  ,Ia      ,NO LC 
+              iPTF14hvh,    PSNJ10292799+2200468, P98  ,10:29:27.99  ,+22:00:46.80  ,Ia      ,NO LC 
+                SN1991S,    PSNJ10292799+2200468, P98  ,10:29:27.790 ,+22:00:46.40  ,Ia      ,
+                PS15aez,                 PS15aez, P98  ,11:00:09.77  ,+05:33:48.50  ,Ia      ,NO LC 
+               LSQ14ahm,                LSQ14ahm, P98  ,11:41:22.44  ,-12:23:57.69  ,Ia      ,
+               PTF11qpc,                PTF11qpc, P98  ,12:20:05.47  ,+09:24:12.10  ,Ia      ,NO LC 
+                LSQ14xi,                 LSQ14xi, P98  ,12:30:41.17  ,-13:46:21.91  ,Ia-91T  ,
+               PTF11qri,                PTF11qri, P98  ,12:47:06.28  ,-06:19:49.70  ,Ia      ,NO LC 
+               SN2011jh,                SN2011jh, P98  ,12:47:14.419 ,-10:03:47.30  ,Ia      ,JOINED WITH SN2011jh P102. 8 POINTINGS. SN NOT IN THE P102 FoV 
+               SN2013cs,                SN2013cs, P98  ,13:15:14.810 ,-17:57:55.58  ,Ia      ,45;173 CREATED MANUALLY -- BAD
+               LSQ14age,                LSQ14age, P98  ,13:24:08.62  ,-13:26:26.00  ,Ia      ,
+               PS1-14ra,                PS1-14ra, P98  ,14:41:28.44  ,+09:25:58.70  ,Ia      ,
+               LSQ14act,                LSQ14act, P98  ,15:59:44.65  ,-10:26:40.80  ,Ia      ,
+              iPTF14gnl,               iPTF14gnl, P99  ,00:23:48.33  ,-03:51:27.90  ,Ia-91T  ,
+               SN2014dk,                SN2014dk, P99  ,00:28:11.959 ,+07:09:43.88  ,Ia-91T  ,TWO ANALYSES A: B: but no lines from the host found
+               LSQ14gde,                LSQ14gde, P99  ,01:00:42.49  ,-14:59:33.30  ,Ia      ,NO LC 
+               LSQ13cmt,                LSQ13cmt, P99  ,01:02:41.95  ,-21:52:23.40  ,Ia      ,NO LC - HUGE JET - COMBINED WITH ONE FROM THE ARXIV
+               SN2011hk,                PTF11pra, P99  ,02:18:45.790 ,-06:38:30.08  ,Ia      ,MUSE-DEEP JOINING 8 POINTINGS
+               SN2012fk,                SN2012fk, P99  ,02:30:52.039 ,+22:28:45.91  ,Ia      ,NO LC
+            ASASSN-15be,             ASASSN-15be, P99  ,02:52:46.39  ,-34:18:52.52  ,Ia-91T  ,
+               SN2009ku,                SN2009ku, P99  ,03:29:53.230 ,-28:05:12.19  ,Ia-02cx ,NO LC
+              PS1-13eao,               PS1-13eao, P99  ,03:29:56.35  ,-28:46:17.70  ,Ia      ,
+               SN2005ke,                SN2005ke, P99  ,03:35:04.351 ,-24:56:38.80  ,Ia-91bg ,COMBINED 18 POINTINGS INCLUDING ONE FROM THE ARX
+               SN2012he,                LSQ12fvl, P99  ,05:00:50.069 ,-38:39:11.41  ,Ia      ,
+               LSQ12gln,                LSQ12gln, P99  ,05:22:59.41  ,-33:27:51.32  ,Ia      ,
+            ASASSN-15hf,             ASASSN-15hf, P99  ,10:29:30.76  ,-35:15:35.20  ,Ia      ,
+                SN2015H,                 SN2015H, P99  ,10:54:42.161 ,-21:04:13.80  ,Ia-02cx ,THIS (worse seeing) IS COMBINED WITH JL (deeper) 
+                SN2002J,                 SN2015H, P99  ,10:54:38.359 ,-21:03:53.60  ,Ic      ,
+               SN2002hy,                 SN2015H, P99  ,10:54:39.180 ,-21:03:41.18  ,Ib-pec  ,
+              SN2019dxd,                 SN2015H, P99  ,10:54:41.822 ,-21:04:01.09  ,II      ,               
+               LSQ14asu,                LSQ14asu, P99  ,11:11:35.94  ,-21:27:59.70  ,Ia      ,
+               LSQ15alq,                LSQ15alq, P99  ,13:09:18.56  ,-25:52:20.24  ,Ia      ,
+               SN2007ca,                SN2007ca, P99  ,13:31:05.810 ,-15:06:06.59  ,Ia      ,COMBINED 4 POINTINGS; one rotated
+            ASASSN-15hx,             ASASSN-15hx, P99  ,13:43:16.692 ,-31:33:21.55  ,Ia      ,
+                SN2013M,                 SN2013M, P99  ,13:59:56.681 ,-37:51:49.39  ,Ia      ,MUSE-DEEP JOINING 8 POINTINGS
+            ASASSN-15bm,             ASASSN-15bm, P99  ,15:05:51.58  ,-05:37:37.05  ,Ia-91T  ,
+               SN2005cf,                SN2005cf, P99  ,15:21:32.210 ,-07:24:47.48  ,-       ,SN_OUT_OF_FOV. USEFUL FOR TOTAL. P106 sn in the FOV
+              SN2022frl,                SN2005cf, P99  ,15:21:33.140 ,-07:26:52.04  ,Ib-pec  ,
+              iPTF14aje,               iPTF14aje, P99  ,15:25:12.07  ,-01:48:51.50  ,Ia      ,
+               SN2013cv,               iPTF13asv, P99  ,16:22:43.159 ,+18:57:35.60  ,Ia-91T  ,COMBINED 4 POINTINGS; one rotated
+               LSQ15aja,                LSQ15aja, P99  ,17:03:08.91  ,+12:27:41.60  ,Ia-91T  ,2 ANALYSES. A: z=0.06993753 ; B: z=0.0723754 
+               SN2014cr,                SN2014cr, P99  ,19:37:06.130 ,-42:17:50.50  ,Ia-02cx ,MUSE-DEEP JOINING 8 POINTINGS - NO LC
+            ASASSN-15hy,             ASASSN-15hy, P99  ,20:10:02.35  ,-00:44:21.31  ,Ia-03fg ,
+               SN2012bl,                SN2012bl, P99  ,20:23:55.279 ,-48:21:17.32  ,Ia      ,MUSE-DEEP JOINING 12 POINTINGS
+               SN2009jr,                SN2009jr, P99  ,20:26:26.030 ,+02:54:33.01  ,Ia      ,check if the 4-good pointings are better than the muse deep
+               SN2011gf,                SN2011gf, P99  ,21:12:24.269 ,-07:48:52.09  ,Ia      ,COMBINED 4 POINTINGS; one rotated. NO LC.
+               SN2010dl,                SN2010dl, P99  ,21:35:00.970 ,-00:30:47.81  ,Ia      ,NO LC
+               SN2007cq,                SN2007cq, P99  ,22:14:40.430 ,+05:04:48.90  ,Ia      ,
+               LSQ14fmg,                LSQ14fmg, P99  ,22:16:46.10  ,+15:21:14.10  ,Ia-03fg ,NO LC 
+               SN2011im,                PTF11qnr, P99  ,22:44:25.231 ,-00:10:01.70  ,Ia      ,            
+               SN2009fk,                PTF11qnr, P99  ,22:44:23.899 ,-00:09:42.01  ,II      ,
+               SN2006lc,                PTF11qnr, P99  ,22:44:24.451 ,-00:09:53.89  ,Ib      ,
+               LSQ12fhs,                LSQ12fhs, P99  ,22:52:23.45  ,-20:36:53.30  ,Ia-91bg  ,
+               SN2011io,                SN2011io, P99  ,23:02:47.599 ,+08:48:09.79  ,Ia      ,NO LC
+CSS121006:232854+085452,   CSS121006232854085452, P99  ,23:28:54.48  ,+08:54:51.60  ,Ia      ,NO LC 
+              iPTF13dkl,               iPTF13dkl, P99  ,23:44:57.99  ,+03:23:40.30  ,Ia      ,
+            SN2016gkg_A,             SN2016gkg_A, P100 ,01:34:14.460 ,-29:26:25.00  ,IIb     ,SN SPECTRUM HERE
+            SN2016gkg_B,             SN2016gkg_B, P100 ,01:34:14.460 ,-29:26:25.00  ,-       ,DOWNLOADED MUSE-DEEP OF NGC613 CORE
+              SN2016jga,               SN2016jga, P100 ,02:05:38.645 ,-59:47:58.96  ,II      ,
+              SN2016ecm,               SN2016ecm, P100 ,02:20:14.500 ,-40:53:05.10  ,Ia      ,NO LC
+              SN2016iae,               SN2016iae, P100 ,04:12:05.526 ,-32:51:44.75  ,Ic      ,
+              SN2016hmq,               SN2016hmq, P100 ,04:25:04.917 ,-07:33:56.22  ,II      ,COMBINED with P104. 8 pointings
+             SN2017pn_A,              SN2017pn_A, P100 ,04:46:24.588 ,-11:59:18.25  ,-       ,1ST EPOCH. 2ND EPOCH IN P101 COMBINED WITH P102 - SN SPECTRUM HERE
+              SN2016iaf,               SN2016iaf, P100 ,05:47:04.805 ,-25:46:13.71  ,IIn     ,
+              SN2016iyz,               SN2016iyz, P100 ,05:52:37.430 ,-17:47:13.02  ,II      ,
+               SN2009mi,               SN2016iyz, P100 ,05:52:38.230 ,-17:47:02.51  ,Ic      ,
+              SN2016jbu,               SN2016jbu, P100 ,07:36:25.960 ,-69:32:55.25  ,LBV     ,
+               SN1999ga,               SN2016jbu, P100 ,07:36:16.699 ,-69:33:21.82  ,II      ,
+            SN2016iyd_A,             SN2016iyd_A, P100 ,07:37:09.756 ,-52:19:04.19  ,-       ,1ST EPOCH. 2ND EPOCH IN P101 - SN SPECTRUM HERE
+              SN2016bas,               SN2016bas, P100 ,07:38:05.530 ,-55:11:47.00  ,IIb     ,
+              SN2023bqj,               SN2016bas, P100 ,07:38:06.310 ,-55:10:58.73  ,Ic      ,
+              SN2016bev,               SN2016bev, P100 ,07:47:50.210 ,-18:44:12.80  ,II      ,
+              SN2016bsb,               SN2016bsb, P100 ,11:34:27.587 ,+11:41:55.02  ,II      ,
+              SN2016ase,               SN2016ase, P100 ,11:42:34.654 ,-25:54:45.22  ,II      ,P104 discarded; no signal
+              SN2016hwn,               SN2016hwn, P100 ,12:04:17.069 ,+21:48:03.28  ,II      ,
+              SN2016cdd,               SN2016cdd, P100 ,12:31:53.636 ,-51:44:50.83  ,Ib      ,
+              SN2016aiy,               SN2016aiy, P100 ,13:08:25.400 ,-41:58:50.30  ,IIn     ,
+               SMT16atf,                SMT16atf, P100 ,13:29:55.90  ,-32:08:26.5   ,II      ,
+              SN2016blt,               SN2016blt, P100 ,14:15:45.760 ,-47:38:15.00  ,IIb     ,
+            SN2017bif_A,             SN2017bif_A, P100 ,17:26:27.120 ,-60:32:39.73  ,-       ,1ST EPOCH. 2ND EPOCH IN P101 - SN SPECTRUM HERE
+              SN2016bmi,               SN2016bmi, P100 ,18:34:32.190 ,-58:31:44.80  ,II      ,
+              SN2016hbb,               SN2016hbb, P100 ,18:35:47.170 ,+22:28:30.36  ,IIb     ,
+              SN2021zgm,               SN2016hbb, P100 ,18:35:48.347 ,+22:27:45.27  ,II      ,
+              SN2016css,               SN2016css, P100 ,20:16:53.440 ,-36:59:42.00  ,II      ,
+              SN2016ieq,               SN2016ieq, P100 ,21:22:25.190 ,-11:56:54.82  ,IIn     ,SN SPECTRUM HERE
+              SN2017gaw,               SN2017gaw, P101 ,01:15:35.230 ,-00:50:40.30  ,II      ,COMBINED 4 poinitngs
+              SN2017ful,               SN2017ful, P101 ,01:35:12.390 ,-26:04:58.84  ,Ic      ,
+              SN2017eul,               SN2017eul, P101 ,01:44:30.880 ,+04:40:05.66  ,II      ,COMBINED 6 pointings
+              SN2017giu,               SN2017giu, P101 ,01:47:39.841 ,-22:41:11.18  ,II      ,COMBINED 4 pointings
+              SN2017fqo,               SN2017fqo, P101 ,01:53:01.510 ,+12:42:46.04  ,II      ,
+              SN2017fbu,               SN2017fbu, P101 ,02:11:06.984 ,+03:50:36.38  ,II      ,
+               SN1999dh,               SN2017fbu, P101 ,02:11:06.070 ,+03:51:06.91  ,II      ,
+              SN2017ggw,               SN2017ggw, P101 ,02:30:26.880 ,-43:00:53.10  ,II      ,
+              SN2017gmr,               SN2017gmr, P101 ,02:35:30.150 ,-09:21:14.95  ,II      ,SN spectrum there
+              SN2017fqk,               SN2017fqk, P101 ,02:54:02.213 ,+02:58:04.58  ,II      ,
+               SN2010lp,               SN2017fqk, P101 ,02:54:03.499 ,+02:57:43.42  ,Ia-06bt ,
+              SN2017eni,               SN2017eni, P101 ,03:05:10.780 ,-45:33:03.49  ,IIn     ,SN spectrum there
+              SN2017fvf,               SN2017fvf, P101 ,03:17:53.310 ,-07:18:00.97  ,II      ,
+               SN2013el,               SN2017fvf, P101 ,03:17:52.450 ,-07:18:02.09  ,Ib-pec  ,
+                SN2004F,               SN2017fvf, P101 ,03:17:53.801 ,-07:17:43.01  ,II      ,
+              SN2019knu,               SN2017fvf, P101 ,03:17:52.702 ,-07:18:11.48  ,II      ,
+              SN2017gbv,               SN2017gbv, P101 ,03:42:01.370 ,-39:19:54.95  ,Ic      ,
+              SN2017gax,               SN2017gax, P101 ,04:45:49.430 ,-59:14:42.56  ,Ibc     ,Also NGC1672 from PHANGS in arx
+               SN2017pn,              SN2017pn_B, P101 ,04:46:24.588 ,-11:59:18.25  ,II      ,2ND EPOCH. 1ST EPOCH IN P100. JOINED P101 AND P104
+              SN2017fvr,               SN2017fvr, P101 ,04:47:28.230 ,+23:58:57.83  ,II      ,
+              SNHunt151,               SN2017fvr, P101 ,04:47:30.000 ,+23:58:56.00  ,IIn     ,
+              SN2017auf,               SN2017auf, P101 ,05:02:19.558 ,-10:21:22.86  ,II      ,
+              SN2017dhu,               SN2017dhu, P101 ,05:16:31.940 ,+06:27:46.33  ,II      ,COMBINED 5 POINTINGS - ASTEROIDE REMOVED
+              SN2017gci,               SN2017gci, P101 ,06:46:45.030 ,-27:14:55.86  ,SLSN-I  ,
+              SN2017caw,               SN2017caw, P101 ,08:07:50.100 ,-61:46:15.60  ,II      ,
+               SN2017mw,                SN2017mw, P101 ,09:57:20.970 ,-41:35:20.98  ,IIb     ,
+              SN2017ahn,               SN2017ahn, P101 ,10:37:17.470 ,-41:37:05.27  ,II      ,COMBINED 8 POINTINGS with SN2000cl from HK
+              SN2020aze,               SN2017ahn, P101 ,10:37:15.280 ,-41:37:29.06  ,II      ,
+               SN2000cl,               SN2017ahn, P101 ,10:37:16.070 ,-41:37:47.78  ,IIn     ,
+              SN2017blh,               SN2017blh, P101 ,10:52:10.551 ,-27:47:51.73  ,II      ,
+               SN2017rt,                SN2017rt, P101 ,11:43:29.259 ,-16:47:37.27  ,Ic      ,
+              SN2020aqe,                SN2017rt, P101 ,11:43:29.781 ,-16:47:52.94  ,II      ,
+             SN2021aefs,                SN2017rt, P101 ,11:43:29.690 ,-16:47:49.99  ,IIn     ,
+              SN2017cjd,               SN2017cjd, P101 ,11:50:30.174 ,-18:35:44.96  ,Ic      ,4 more pointigns but very bad resolution
+              SN2017bzm,               SN2017bzm, P101 ,13:15:04.159 ,-24:48:05.48  ,IIn     ,COMBINED 3 POINTINGS
+              SN2017anf,               SN2017anf, P101 ,13:33:13.415 ,+08:03:25.51  ,II      ,
+              SN2017dka,               SN2017dka, P101 ,14:01:46.100 ,+09:29:57.40  ,II      ,COMBINED 3 POINTINGS - LOOKS REALLY BAD
+              SN2011is,                SN2017dka, P101 ,14:01:47.160 ,+09:29:48.80  ,Ia      ,
+              SN2017ewx,               SN2017ewx, P101 ,14:02:16.521 ,+07:40:44.21  ,Ib      ,COMBINED 2 POINTINGS - LOOKS QUITE BAD
+              SN2017ecp,               SN2017ecp, P101 ,14:14:48.926 ,-29:33:36.76  ,Ibn     ,COMBINED 9 POINTINGS
+               SN2017lt,                SN2017lt, P101 ,14:19:44.200 ,-16:50:15.76  ,II      ,COMBINED 6 POINTINGS
+              SN2017fav,               SN2017fav, P101 ,14:32:06.157 ,+21:49:58.69  ,IIn     ,COMBINED 5 POINTINGS
+              SN2017fem,               SN2017fem, P101 ,14:32:27.320 ,+27:25:36.75  ,II      ,
+              SN2017aym,               SN2017aym, P101 ,14:37:41.780 ,+02:17:08.45  ,II      ,COMBINED 4 POINTINGS - LOOKS BAD ANYWAY
+              SN2024jlf,               SN2017aym, P101 ,14:37:42.304 ,+02:17:03.71  ,II      ,
+              SN2017eca,               SN2017eca, P101 ,16:04:15.699 ,+17:57:27.44  ,II      ,
+              SN2017cin,               SN2017cin, P101 ,16:14:00.656 ,+26:54:58.62  ,IIn     ,
+              SN2017dgd,               SN2017dgd, P101 ,16:45:38.976 ,+01:37:20.28  ,IIb     ,4 with bad seeing npt used
+              SN2017bif,             SN2017bif_B, P101 ,17:26:27.120 ,-60:32:39.73  ,II      ,2ND EPOCH. 1ST EPOCH IN P100
+              SN2017faf,               SN2017faf, P101 ,17:34:39.980 ,+26:18:22.00  ,II      ,4 with bad seeing npt used
+              SN2017ffq,               SN2017ffq, P101 ,17:40:14.662 ,-58:25:57.36  ,II      ,
+              SN2017fgk,               SN2017fgk, P101 ,17:47:49.194 ,+16:08:05.18  ,Ic-BL   ,
+              SN2017dkb,               SN2017dkb, P101 ,18:14:03.430 ,+21:52:38.70  ,II      ,
+              SN2017fod,               SN2017fod, P101 ,18:44:55.479 ,+27:18:25.96  ,II      ,
+              SN2017fwm,               SN2017fwm, P101 ,19:12:51.960 ,-60:22:58.37  ,Ic      ,
+              SN2017fbq,               SN2017fbq, P101 ,19:33:45.610 ,-60:58:02.20  ,II      ,
+              SN2017dch,               SN2017dch, P101 ,19:55:35.700 ,-11:38:22.70  ,Ic      ,
+              SN2017gfh,               SN2017gfh, P101 ,20:03:27.400 ,+06:59:27.20  ,IIb     ,
+              SN2017dek,               SN2017dek, P101 ,20:25:44.710 ,-21:39:39.89  ,II      ,
+              SN2017ggv,               SN2017ggv, P101 ,22:54:28.690 ,-13:31:50.58  ,IIn     ,
+              SN2017bzb,               SN2017bzb, P101 ,22:57:17.300 ,-41:00:57.60  ,II      ,SN SPECTRUM HERE
+              SN2017gip,               SN2017gip, P101 ,23:05:00.610 ,+28:45:42.73  ,II      ,
+              SN2017ffm,               SN2017ffm, P101 ,23:18:23.020 ,-04:24:58.27  ,II      ,
+              SN2017eiy,               SN2017eiy, P101 ,23:49:28.270 ,-30:25:04.69  ,IIb     ,
+              SN2017gat,               SN2017gat, P101 ,23:53:17.033 ,-32:46:32.84  ,Ic      ,
+              SN2017ghw,               SN2017ghw, P101 ,23:57:34.754 ,+02:05:11.18  ,IIn     ,
+              SN2017giq,               SN2017giq, P101 ,23:57:54.730 ,+28:30:12.33  ,Ic      ,
+               SN2008gg,                SN2008gg, P101 ,01:25:23.040 ,-18:10:20.78  ,Ia      ,
+               SN2007st,                SN2007st, P101 ,01:48:42.470 ,-48:38:57.80  ,Ia      ,
+               SN2010aa,                SN2007st, P101 ,01:48:43.210 ,-48:39:00.68  ,Ia      ,NO LC 
+               SN2008fu,                SN2008fu, P101 ,03:02:28.500 ,-24:27:21.49  ,Ia      ,
+               SN2006dd,                SN2006dd, P101 ,03:22:41.621 ,-37:12:13.00  ,Ia      ,THIS NEED TO BE JOINED WITH SN1981D in NGC1316 -- TO DO --
+               SN2006mr,                SN2006dd, P101 ,03:22:42.840 ,-37:12:28.51  ,Ia-91bg ,
+               SN2007on,                SN2007on, P101 ,03:38:50.899 ,-35:34:30.00  ,Ia      ,COMBINED FROM ARXIVE. COMBINED IN HIDRA
+               SN2011iv,                SN2007on, P101 ,03:38:51.350 ,-35:35:31.99  ,Ia      ,
+               SN2006hb,                SN2006hb, P101 ,05:02:01.279 ,-21:07:55.09  ,Ia-86G  ,
+               SN2008bq,                SN2008bq, P101 ,06:41:02.510 ,-38:02:19.00  ,Ia      ,
+                SN2008O,                 SN2008O, P101 ,06:57:34.459 ,-45:48:44.32  ,Ia      ,COMBINED WITH ARXIV DATA 12 POINTINGS
+               SN2009ag,                SN2009ag, P101 ,07:11:40.810 ,-26:41:06.29  ,Ia      ,JOINED WITH P114 SN2005lr
+               SN2005lr,                SN2009ag, P101 ,07:11:39.031 ,-26:42:20.20  ,Ic      ,
+               SN2007as,                SN2007as, P101 ,09:27:36.010 ,-80:10:39.22  ,Ia      ,
+               SN2005al,                SN2005al, P101 ,13:50:00.329 ,-30:34:34.21  ,Ia      ,
+            ASASSN-15db,             ASASSN-15db, P101 ,15:46:58.69  ,+17:53:02.55  ,Ia      ,
+               SN2007ai,                SN2007ai, P101 ,16:12:53.741 ,-21:37:48.68  ,Ia-91T  ,
+               SN2008fl,                SN2008fl, P101 ,19:36:44.839 ,-37:33:04.50  ,Ia      ,
+               SN2008cc,                SN2008cc, P101 ,21:03:29.621 ,-67:11:01.10  ,Ia      ,
+               SN2006bh,                SN2006bh, P101 ,22:40:16.099 ,-66:29:06.29  ,Ia      ,
+               SN2005iq,                SN2005iq, P101 ,23:58:32.501 ,-18:42:33.01  ,Ia      ,
+               LSQ14foj,                LSQ14foj, P102 ,00:26:34.67  ,-32:48:33.09  ,Ia      ,
+              OGLE16euo,               OGLE16euo, P102 ,02:50:19.15  ,-75:23:29.40  ,Ia      ,
+               LSQ12gxj,                LSQ12gxj, P102 ,02:52:57.38  ,+01:36:24.25  ,Ia-91T  ,
+               LSQ12gpw,                LSQ12gpw, P102 ,03:12:58.24  ,-11:42:40.13  ,Ia-03fg ,
+               LSQ13dby,                LSQ13dby, P102 ,03:26:42.84  ,-34:38:05.49  ,Ia      ,
+               LSQ12hno,                LSQ12hno, P102 ,03:42:43.25  ,-02:40:09.76  ,Ia-91T  ,
+               LSQ14gov,                LSQ14gov, P102 ,04:06:01.33  ,-16:01:41.49  ,Ia-91T  ,
+               LSQ13dqh,                LSQ13dqh, P102 ,04:22:05.90  ,-02:53:24.24  ,Ia      ,
+              iPTF13dyt,               iPTF13dyt, P102 ,05:01:48.26  ,+02:41:49.70  ,Ia      ,
+               LSQ14gfb,                LSQ14gfb, P102 ,05:10:05.76  ,-36:18:43.57  ,Ia-91bg ,
+                LSQ11ot,                 LSQ11ot, P102 ,05:15:48.34  ,+06:46:39.36  ,Ia-91T  ,
+               SN2011jq,                 LSQ11pn, P102 ,05:16:41.549 ,+06:29:30.19  ,Ia-91bg ,
+               SN2004gc,                SN2004gc, P102 ,05:21:49.949 ,+06:40:33.71  ,Ia      ,
+               LSQ12fxd,                LSQ12fxd, P102 ,05:22:17.02  ,-25:35:47.01  ,Ia-91T  ,
+               SN2010ko,                SN2010ko, P102 ,05:32:49.440 ,-14:05:45.89  ,Ia-91bg ,SN EXPLODED IN THE BIG GALAXY OUT OF FOV (ASASSN-13cc). BUT ON TOP OF A GALAXY AT 0.048 THAT IS NOT THE REAL HOST
+                 CSP12J,                  CSP12J, P102 ,06:07:01.59  ,-69:21:17.10  ,Ia-91bg ,
+                SN2003H,                 NGC2207, P102 ,06:16:25.68  ,-21:22:23.89  ,Ibc     ,JOINED WITH THE ARCHIVE
+              SN2018lab,                 NGC2207, P102 ,06:16:26.520 ,-21:22:32.38  ,II      ,
+               SN2012hn,                SN2012hn, P102 ,06:42:42.550 ,-27:26:49.81  ,-       ,SN OUT OF FOV
+               SN2008hu,                SN2008hu, P102 ,08:09:14.760 ,-18:39:13.10  ,Ia      ,I CHANGED THE HOST WITH RESPECT KRISCIUNAS 2017
+               SN2014ao,                SN2014ao, P102 ,08:34:33.319 ,-02:32:36.10  ,Ia      ,
+            ASASSN-15fr,             ASASSN-15fr, P102 ,09:20:20.44  ,-07:38:26.78  ,Ia-91T  ,
+               LSQ12btn,                LSQ12btn, P102 ,09:21:30.50  ,-09:41:29.86  ,Ia      ,COMBINED 6 POINTINGS P102 and P106
+            ASASSN-15as,             ASASSN-15as, P102 ,09:39:16.55  ,+06:25:48.54  ,Ia-91T  ,
+                LSQ14ip,                 LSQ14ip, P102 ,09:44:20.22  ,+04:35:52.56  ,Ia-91bg ,
+               LSQ12cid,                LSQ12cid, P102 ,10:03:57.04  ,-06:14:37.76  ,Ia      ,
+                LSQ14wp,                 LSQ14wp, P102 ,10:14:05.72  ,+06:40:30.54  ,Ia      ,
+               SN2008bd,                SN2008bd, P102 ,10:18:23.321 ,-13:06:11.20  ,Ia-91bg ,
+                LSQ13ry,                 LSQ13ry, P102 ,10:32:48.00  ,+04:11:51.75  ,Ia      ,
+               SN2005ki,                SN2005ki, P102 ,10:40:28.219 ,+09:12:08.39  ,Ia      ,
+               LSQ12hnr,                LSQ12hnr, P102 ,10:43:14.77  ,-08:46:40.89  ,Ia      ,
+                LSQ14ba,                 LSQ14ba, P102 ,11:01:23.01  ,-15:37:10.29  ,Ia      ,
+               SN2007bm,                SN2007bm, P102 ,11:25:02.299 ,-09:47:53.81  ,Ia      ,
+               SN2008gz,                SN2007bm, P102 ,11:25:03.240 ,-09:47:51.00  ,II      ,
+                CSP13af,                 CSP13af, P102 ,11:41:44.17  ,-17:13:48.00  ,Ia      ,
+                SN2014E,                 iPTF14w, P102 ,12:03:31.241 ,+02:02:35.70  ,Ia      ,
+               iPTF14yy,                iPTF14yy, P102 ,12:26:09.17  ,+09:58:44.20  ,Ia      ,
+               SN2011jn,                SN2011jn, P102 ,12:57:14.789 ,-17:24:00.50  ,Ia      ,COMBINED 7 POINTINGS 3 FROM THE ARX
+               iPTF14uo,                iPTF14uo, P102 ,13:18:57.69  ,+09:42:40.30  ,Ia      ,
+                SN2011Z,                 SN2011Z, P102 ,13:30:43.039 ,-20:57:14.00  ,Ia-91bg ,
+               LSQ12bld,                LSQ12bld, P102 ,13:42:44.03  ,+08:05:33.74  ,Ia      ,
+                LSQ13lq,                 LSQ13lq, P102 ,13:44:10.81  ,+03:03:43.42  ,Ia      ,
+                LSQ13pf,                 LSQ13pf, P102 ,13:48:14.35  ,-11:38:38.58  ,Ia      ,
+               LSQ12cda,                LSQ12cda, P102 ,13:50:02.32  ,+09:37:47.10  ,Ia      ,
+            ASASSN-15ba,             ASASSN-15ba, P102 ,14:04:55.09  ,+08:55:14.53  ,Ia      ,
+              SN2017hcc,               SN2017hcc, P103 ,00:03:50.58  ,-11:28:28.69  ,IIn     ,
+              SN2018cho,               SN2018cho, P103 ,00:13:26.520 ,+17:29:19.57  ,II      ,combined with P115 - 8 pointings
+              SN2017jbj,               SN2017jbj, P103 ,00:48:05.420 ,-02:47:22.40  ,II      ,
+            ASASSN-15ln,             ASASSN-15ln, P103 ,00:53:41.40  ,+18:05:29.0   ,II      ,
+               SN2015ay,                SN2015ay, P103 ,01:09:46.769 ,+13:18:28.91  ,II      ,
+              SN2016hgm,               SN2016hgm, P103 ,01:22:11.813 ,+00:57:07.40  ,II      ,
+                SN1971S,               SN2016hgm, P103 ,01:22:12.1   ,+00:57:21.00  ,II      ,
+              SN2022ywf,               SN2016hgm, P103 ,01:22:12.196 ,+00:57:23.68  ,Ia      ,
+              SN2018cvn,               SN2018cvn, P103 ,01:30:27.12  ,-26:47:06.7   ,IIn     ,
+            ASASSN-15kj,             ASASSN-15kj, P103 ,01:58:11.53  ,-39:32:49.7   ,Ic      ,4 pointings with bad seeing not used
+               SN2015ap,                SN2015ap, P103 ,02:05:13.320 ,+06:06:08.39  ,Ib      ,
+              SN2016cyx,               SN2016cyx, P103 ,02:21:22.786 ,+16:33:54.95  ,II      ,
+              SN2025oas,               SN2016cyx, P103 ,02:21:24.795 ,+16:34:08.27  ,II      ,
+              SN2017gry,               SN2017gry, P103 ,03:28:07.94  ,-56:34:41.99  ,II      ,
+              SN2023xry,               SN2017gry, P103 ,03:28:07.26  ,-56:34:35.63  ,Ia      ,
+              SN2018aad,               SN2018aad, P103 ,03:58:01.540 ,-65:30:24.34  ,II-pec  ,
+              SN2016eso,               SN2016eso, P103 ,04:59:30.056 ,-28:51:39.24  ,IIn     ,
+              SN2018dfh,               SN2018dfh, P103 ,05:11:33.459 ,-21:16:10.27  ,II      ,
+              SN2016aqf,               SN2016aqf, P103 ,05:46:23.907 ,-52:05:18.86  ,II      ,COMBINED 8 POINTINGS P103 and P104
+                SN2015W,                 SN2015W, P103 ,06:57:43.030 ,+13:34:45.70  ,II      ,COMBINED 8 POINTINGS P103 and P104
+            SN2017hpi_A,             SN2017hpi_A, P103 ,08:15:43.390 ,-28:51:19.66  ,-       ,SN SPECTRUM HERE
+               SN2018bl,                SN2018bl, P103 ,08:24:11.590 ,-77:47:16.55  ,II      ,
+               SN2015an,                SN2015an, P103 ,08:24:15.100 ,-18:46:28.50  ,II      ,
+              SN2018ant,               SN2018ant, P103 ,08:36:31.450 ,-11:49:40.87  ,II      ,
+               SN2015bj,                SN2015bj, P103 ,09:19:52.86  ,-68:54:41.9   ,II      ,
+             SN2021agdm,                SN2015bj, P103 ,09:19:49.520 ,-68:54:32.87  ,II      ,
+               SN2016zb,                SN2016zb, P103 ,09:42:29.200 ,-16:58:26.90  ,II      ,
+            ASASSN-15jp,             ASASSN-15jp, P103 ,10:11:38.99  ,-31:39:04.0   ,II      ,
+               SN2018ie,                SN2018ie, P103 ,10:54:01.040 ,-16:01:21.58  ,Ic-BL   ,
+               SN2014dw,                SN2014dw, P103 ,11:10:48.410 ,-37:27:02.20  ,II      ,
+                LSQ15xp,                 LSQ15xp, P103 ,11:32:42.79  ,-16:44:01.2   ,II      ,
+              SN2016blb,               SN2016blb, P103 ,11:37:20.700 ,-04:54:36.50  ,II      ,ONLY ONE POINTING THE OTHER TWO TILTED
+              SN2016adl,               SN2016adl, P103 ,11:51:56.200 ,-13:25:03.10  ,II      ,
+                SN2016B,                 SN2016B, P103 ,11:55:04.246 ,+01:43:06.78  ,II      ,COMBINED 8 POINTINGS P103 and P104
+               SN2018yo,                SN2018yo, P103 ,12:41:11.160 ,-01:35:19.79  ,II      ,
+              SN2016aai,               SN2016aai, P103 ,12:50:28.14  ,-10:50:29.2   ,II      ,COMBINED 8 POINTINGS 
+                SN2016X,                 SN2016X, P103 ,12:55:15.610 ,+00:05:59.35  ,II      ,COMBINED 8 POINTINGS P103 and P104
+               SN2018pq,                SN2018pq, P103 ,12:55:31.291 ,-50:03:16.96  ,II      ,
+            ASASSN-15bb,             ASASSN-15bb, P103 ,13:01:06.38  ,-36:36:00.17  ,II      ,
+              SN2016cyk,               SN2016cyk, P103 ,13:02:44.297 ,-26:56:27.24  ,II      ,
+              SN2017faa,               SN2017faa, P103 ,13:19:03.900 ,-02:30:45.90  ,II      ,
+            ASASSN-15fz,             ASASSN-15fz, P103 ,13:35:25.14  ,+01:24:33.0   ,II      ,COMBINED 5 POINTINGS 
+            ASASSN-15kz,             ASASSN-15kz, P103 ,13:37:18.67  ,-28:39:23.55  ,II      ,COMBINED 8 POINTINGS 
+                SN2016C,                 SN2016C, P103 ,13:38:05.300 ,-17:51:15.30  ,II      ,
+            ASASSN-15ng,             ASASSN-15ng, P103 ,13:51:31.65  ,-48:04:33.73  ,II      ,
+                SN2016P,                 SN2016P, P103 ,13:57:31.100 ,+06:05:51.00  ,Ic-BL   ,
+               SN2003bl,                 SN2016P, P103 ,13:57:30.65  ,+06:05:36.4   ,II      ,
+               SN2010do,                 SN2016P, P103 ,13:57:28.11  ,+06:05:48.5   ,Ic      ,
+              SN2018ddr,               SN2018ddr, P103 ,13:58:38.470 ,+07:13:01.27  ,IIb     ,
+              SN2018dfg,               SN2018dfg, P103 ,14:06:34.709 ,-05:27:01.76  ,II      ,JOINED WITH SN2005P from Lyman
+                SN2005P,               SN2018dfg, P103 ,14:06:34.010 ,-05:27:42.59  ,Ia-02cx ,NO LC 
+              SN2016ccm,               SN2016ccm, P103 ,14:09:58.91  ,+17:45:48.24  ,II      ,
+                SN2016I,                 SN2016I, P103 ,14:39:44.733 ,+23:23:43.27  ,II      ,
+                SN2016L,                 SN2016L, P103 ,15:00:27.470 ,-13:33:09.00  ,II      ,
+            ASASSN-15hs,             ASASSN-15hs, P103 ,15:33:34.31  ,-78:07:23.5   ,IIn     ,
+              SN2017ivu,               SN2017ivu, P103 ,15:36:32.710 ,+16:36:20.09  ,II      ,
+              SN2016afa,               SN2017ivu, P103 ,15:36:32.47  ,+16:36:36.6   ,II      ,
+              SN2016blz,               SN2016blz, P103 ,15:40:29.300 ,+00:54:37.10  ,II      ,COMBINED 7 POINTINGS P103 and P104
+            ASASSN-15bd,             ASASSN-15bd, P103 ,15:54:38.33  ,+16:36:38.06  ,IIb     ,COMBINED 5 POINTINGS
+              SN2018cow,               SN2018cow, P103 ,16:16:00.220 ,+22:16:04.91  ,FBOT    ,
+            ASASSN-15fi,             ASASSN-15fi, P103 ,16:31:48.80  ,+20:24:38.50  ,II      ,
+              SN2016dsb,               SN2016dsb, P103 ,01:58:59.71  ,-32:22:18.5   ,IIb     ,CUBE IS REALLY BAD...
+              SN2018evy,               SN2018evy, P103 ,18:22:38.180 ,+15:41:47.65  ,II      ,
+                SN1998V,               SN2018evy, P103 ,18:22:37.40  ,+15:42:08.4   ,Ia      ,
+             SN2021abkm,               SN2018evy, P103 ,18:22:37.630 ,+15:42:17.68  ,II      ,
+                PS15apj,             PSNJ1828582, P103 ,18:28:58.23  ,+22:54:10.6   ,IIb     ,combined 7 and 5 pointings much worse than only 4 pointing from arxive
+            ASASSN-15oz,             ASASSN-15oz, P103 ,19:19:33.49  ,-33:46:02.0   ,II      ,COMBINED 8 POINTINGS P103 and P104
+              SN2018eog,               SN2018eog, P103 ,20:28:12.050 ,-03:08:10.79  ,II      ,
+            SN2017ivv_A,             SN2017ivv_A, P103 ,20:28:49.78  ,-04:22:57.17  ,IIb     ,spectrum here. P104 2nd epoch
+            ASASSN-15ta,             ASASSN-15ta, P103 ,20:29:33.02  ,-61:57:03.4   ,Ib      ,
+            ASASSN-15lx,             ASASSN-15lx, P103 ,20:36:05.24  ,-73:06:32.41  ,IIn     ,COMBINED 8 POINTINGS P103 and P104
+              SN2018cuf,               SN2018cuf, P103 ,21:16:11.550 ,-64:28:57.50  ,II      ,
+              SN2017hxv,               SN2017hxv, P103 ,21:44:23.011 ,-29:54:59.58  ,II      ,
+            ASASSN-14dq,             ASASSN-14dq, P103 ,21:57:59.97  ,+24:16:08.1   ,II      ,
+              SN2019tua,             ASASSN-14dq, P103 ,21:58:00.280 ,+24:15:57.10  ,II      ,
+              SN2016cvk,               SN2016cvk, P103 ,22:19:49.390 ,-40:40:03.20  ,IIn-pec ,
+            ASASSN-15tu,             ASASSN-15tu, P103 ,22:34:02.58  ,-32:23:53.58  ,IIb     ,
+              SN2016hvu,               SN2016hvu, P103 ,22:35:55.560 ,+20:19:12.58  ,II      ,
+               SN2006cx,               SN2016hvu, P103 ,22:35:56.45  ,+20:19:17.1   ,II      ,
+                PS15cer,                 PS15cer, P103 ,22:41:14.79  ,-21:47:42.1   ,Ib      ,
+                PS15cem,                 PS15cem, P103 ,22:45:13.22  ,-22:43:39.82  ,II      ,
+               SN2015dj,                SN2015dj, P103 ,22:46:05.04  ,-10:59:48.4   ,Ib      ,
+            SN2017bzb_2,             SN2017bzb_2, P103 ,22:57:17.320 ,-41:00:57.46  ,-       ,SN SPECTRUM HERE
+               SN2015ah,                SN2015ah, P103 ,23:00:24.629 ,+01:37:36.80  ,Ib-pec  ,
+               SN2015bf,                SN2015bf, P103 ,23:24:49.030 ,+15:16:52.00  ,IIn     ,
+              SN2018cjk,                SN2015bf, P103 ,23:24:49.030 ,+15:16:52.00  ,-       ,
+               SN2014ce,                SN2014ce, P103 ,23:27:40.860 ,+23:35:21.41  ,II      ,
+              SN2017grn,               SN2017grn, P103 ,23:31:53.570 ,-05:00:43.56  ,II      ,
+              SN2022mmr,               SN2017grn, P103 ,23:31:53.362 ,-05:00:43.85  ,II      ,
+            ASASSN-14az,             ASASSN-14az, P103 ,23:44:48.0   ,-02:07:03.17  ,IIb     ,COMBINED 7 POINTINGS
+            ASASSN-14ma,             ASASSN-14ma, P103 ,23:55:09.129 ,+10:12:54.21  ,II      ,
+              AT2019ahk,               AT2019ahk, P103 ,07:00:11.546 ,-66:02:24.14  ,TDE     ,
+            SDSSJ134244,             SDSSJ134244, P103 ,13:42:44.42  ,+05:30:56.14  ,TDE     ,
+               PTF09axc,                PTF09axc, P103 ,14:53:13.08  ,+22:14:32.27  ,TDE     ,
+              AT2018dyb,               AT2018dyb, P103 ,16:10:58.774 ,-60:55:23.16  ,TDE     ,
+            ASASSN-15oi,             ASASSN-15oi, P103 ,20:39:09.18  ,-30:45:20.10  ,TDE     ,
+              AT2018fyk,               AT2018fyk, P103 ,22:50:16.090 ,-44:51:53.50  ,TDE     ,MORE DATA IN THE ARXIV -> REDO
+                 D23H-1,                  D23H-1, P103 ,23:31:59.54  ,+00:17:14.58  ,TDE     ,
+         SDSS-IISN18737,                  D23H-1, P103 ,23:31:59.52  ,+00:17:14.81  ,II      ,
+            ASASSN-15rp,             ASASSN-15rp, P104 ,00:03:37.25  ,-34:33:24.2   ,II      ,2 extra pointings with very bad seeing not used
+              SN2016egz,               SN2016egz, P104 ,00:04:03.854 ,-34:48:51.87  ,II      ,
+              SN2018gsr,               SN2018gsr, P104 ,00:08:30.390 ,-01:31:29.90  ,II      ,
+               SN2002ig,                SN2002ig, P104 ,01:36:36.720 ,+00:55:25.61  ,II      ,
+               SN2009nf,                PTF09gyp, P104 ,01:58:56.97  ,-07:16:58.3   ,IIb     ,
+              SN2018jfz,               SN2018jfz, P104 ,03:20:18.736 ,-00:17:46.77  ,II      ,
+               PTF09gpn,                PTF09gpn, P104 ,03:43:43.26  ,-17:08:43.1   ,II      ,COMBINED 8 POINTINGS; 4 form P112
+               SN2009lq,                SN2009lq, P104 ,04:14:52.541 ,-62:50:14.78  ,II      ,
+              SN2017imr,               SN2017imr, P104 ,04:21:04.790 ,-04:43:06.05  ,II      ,
+                SN2003E,                 SN2003E, P104 ,04:39:10.879 ,-24:10:36.52  ,II      ,
+              SN2018fqm,               SN2018fqm, P104 ,05:03:21.586 ,-28:43:53.74  ,II      ,
+                PTF10dk,                 PTF10dk, P104 ,05:08:21.54  ,+00:12:42.9   ,II      ,
+               SN1992ba,                SN1992ba, P104 ,05:41:47.160 ,-64:18:00.79  ,II      ,
+              SN2017ipa,               SN2017ipa, P104 ,06:37:58.150 ,-15:22:00.59  ,II      ,
+                SN2006Y,                 SN2006Y, P104 ,07:13:17.191 ,-51:41:18.82  ,II      ,
+              SN2018iuq,               SN2018iuq, P104 ,07:05:53.430 ,+12:53:34.66  ,II      ,SN SPECTRUM HERE
+            SN2016iyd_B,             SN2016iyd_B, P104 ,07:37:09.756 ,-52:19:04.19  ,II      ,2ND EPOCH. 1ST EPOCH IN P100
+            SN2017hpi_B,             SN2017hpi_B, P104 ,08:15:43.390 ,-28:51:19.66  ,II      ,NOT COMBINED WITH P103 becasue P103 has the spectrum
+              SN2017jne,               SN2017jne, P104 ,09:11:43.316 ,-00:15:31.92  ,II      ,
+               SN2017vp,                SN2017vp, P104 ,09:02:35.120 ,+09:45:11.54  ,II      ,
+              SN2017dht,               SN2017dht, P104 ,09:27:06.821 ,+12:42:03.52  ,II-pec  ,COMBINED 8 POINTINGS
+              SN2018hfm,               SN2018hfm, P104 ,09:36:08.736 ,+06:15:27.08  ,II      ,
+               SN2003bn,                SN2003bn, P104 ,10:02:35.510 ,-21:10:54.52  ,II      ,
+                SN2010K,                PTF09iex, P104 ,12:02:46.870 ,+02:24:06.08  ,II      ,
+               SN2015bm,                SN2015bm, P104 ,12:08:00.100 ,+19:44:26.70  ,II      ,
+               PTF10bip,                PTF10bip, P104 ,12:34:10.52  ,+08:21:48.5   ,II      ,COMBINED 6 POINTINGS
+               PTF10bfz,                PTF10bfz, P104 ,12:54:41.288 ,+15:24:17.08  ,II      ,
+               SN2003cx,                SN2003cx, P104 ,13:57:06.461 ,-17:02:22.60  ,II      ,
+            SN2018anu_A,             SN2018anu_A, P104 ,17:36:14.351 ,+18:58:56.59  ,-       ,SN SPECTRUM HERE
+            SN2017ivv_B,             SN2017ivv_B, P104 ,20:28:49.780 ,-04:22:57.39  ,-       ,spectrum here. P103 1st epoch
+               PTF09cvi,                PTF09cvi, P104 ,21:47:09.80  ,+08:18:35.6   ,II      ,
+              SN2016hpt,               SN2016hpt, P104 ,21:54:36.581 ,-42:51:01.98  ,II      ,
+               SN2014cw,                SN2014cw, P104 ,22:15:26.549 ,-10:28:34.61  ,II      ,
+               PTF09dfk,                PTF09dfk, P104 ,23:09:13.42  ,+07:48:15.4   ,Ib      ,
+              SN2018evk,               SN2018evk, P104 ,23:15:44.958 ,+06:54:39.70  ,II      ,
+              SN2018fit,               SN2018fit, P104 ,23:25:16.178 ,+13:56:02.44  ,II      ,
+               SN2007od,                SN2007od, P104 ,23:55:48.679 ,+18:24:54.79  ,II      ,
+              analogue1,               analogue1, P104 ,nan          ,nan           ,-       ,
+              analogue3,               analogue3, P104 ,nan          ,nan           ,-       ,
+              analogue4,               analogue4, P104 ,nan          ,nan           ,-       ,
+              analogue5,               analogue5, P104 ,nan          ,nan           ,-       ,
+              analogue6,               analogue6, P104 ,nan          ,nan           ,-       ,
+             analogue10,              analogue10, P104 ,nan          ,nan           ,-       ,
+             analogue11,              analogue11, P104 ,nan          ,nan           ,-       ,
+             analogue12,              analogue12, P104 ,nan          ,nan           ,-       ,COMBINED 5 POINTINGS
+             analogue13,              analogue13, P104 ,nan          ,nan           ,-       ,
+             analogue19,              analogue19, P104 ,nan          ,nan           ,-       ,
+             analogue21,              analogue21, P104 ,nan          ,nan           ,-       ,
+             analogue22,              analogue22, P104 ,nan          ,nan           ,-       ,COMBINED 8 POINTINGS
+             analogue23,              analogue23, P104 ,nan          ,nan           ,-       ,
+             analogue24,              analogue24, P104 ,nan          ,nan           ,-       ,
+             analogue25,              analogue25, P104 ,nan          ,nan           ,-       ,
+             analogue26,              analogue26, P104 ,nan          ,nan           ,-       ,
+             analogue28,              analogue28, P104 ,nan          ,nan           ,-       ,
+             analogue30,              analogue30, P104 ,nan          ,nan           ,-       ,COMBINED 23 CUBES IN HIDRA
+             analogue31,              analogue31, P104 ,nan          ,nan           ,-       ,
+             analogue33,              analogue33, P104 ,nan          ,nan           ,-       ,
+             analogue36,              analogue36, P104 ,nan          ,nan           ,-       ,
+             analogue45,              analogue45, P104 ,nan          ,nan           ,-       ,
+             analogue48,              analogue48, P104 ,nan          ,nan           ,-       ,
+               LSQ14fms,                LSQ14fms, P106 ,00:14:59.82  ,-51:12:39.54  ,Ia      ,
+               CSP14acy,                CSP14acy, P106 ,00:42:28.75  ,-64:45:51.00  ,Ia-91T  ,
+               CSP14acl,                CSP14acl, P106 ,01:01:07.04  ,-10:18:39.90  ,Ia-91T  ,COMBINED 4 POINTINGS
+               SN2007if,                SN2007if, P106 ,01:10:51.37  ,+15:27:39.89  ,Ia-03fg ,
+               SN2008fr,                SN2008fr, P106 ,01:11:49.14  ,+14:38:27.00  ,Ia      ,
+               SN2013ct,                SN2013ct, P106 ,01:12:54.92  ,+00:58:45.70  ,Ia      ,
+                SN2014Z,                 SN2014Z, P106 ,01:44:07.99  ,-61:07:07.40  ,Ia      ,
+                SN2012U,                 SN2012U, P106 ,02:06:04.33  ,-55:11:37.50  ,Ia      ,
+               SN2014du,                CSP14adc, P106 ,02:26:23.31  ,+27:39:34.80  ,Ia      ,
+               SN2014eg,                SN2014eg, P106 ,02:45:09.27  ,-55:44:16.90  ,Ia-91T  ,
+               SN2013fc,                SN2014eg, P106 ,02:45:08.959 ,-55:44:27.31  ,IIn     ,
+               LSQ12gyc,                LSQ12gyc, P106 ,02:45:50.07  ,-17:55:45.74  ,Ia-91T  ,MUSE-DEEP
+                SN2008R,                 SN2008R, P106 ,03:03:53.70  ,-11:59:39.40  ,Ia-91bg ,
+               CSP13abm,                CSP13abm, P106 ,03:05:59.89  ,+04:32:38.20  ,Ia      ,
+               LSQ12hjm,                LSQ12hjm, P106 ,03:10:28.72  ,-16:29:37.08  ,Ia      ,MUSE-DEEP
+               LSQ14ghv,                LSQ14ghv, P106 ,03:23:44.15  ,-31:35:03.17  ,Ia      ,
+               CSP13aay,                CSP13aay, P106 ,03:25:33.51  ,-53:44:19.00  ,Ia      ,
+               LSQ14gfn,                LSQ14gfn, P106 ,03:28:32.16  ,-04:12:14.22  ,Ia      ,
+               SN2007jg,                SN2007jg, P106 ,03:29:50.82  ,+00:03:24.60  ,Ia      ,
+               SN2007jh,                SN2007jh, P106 ,03:36:01.54  ,+01:06:12.20  ,Ia-86G  ,
+               SN2010kf,                SN2007jh, P106 ,03:36:03.530 ,+01:06:04.00  ,Ia      ,
+               SN2013ad,                SN2013ad, P106 ,03:38:41.04  ,+10:18:27.22  ,Ia-91T  ,
+               SN2013gy,                SN2013gy, P106 ,03:42:16.88  ,-04:43:18.48  ,Ia      ,
+               SN2009ab,                SN2009ab, P106 ,04:16:36.39  ,+02:45:51.00  ,Ia      ,
+                LSQ11bk,                 LSQ11bk, P106 ,04:20:44.25  ,-08:35:55.75  ,Ia      ,COMBINED 4 POINTINGS
+                SN2009F,                 SN2009F, P106 ,04:59:23.56  ,-11:07:50.10  ,Ia-91bg ,
+               SN2005el,                SN2005el, P106 ,05:11:48.72  ,+05:11:39.40  ,Ia      ,
+               CSP13aam,                CSP13aam, P106 ,05:14:47.50  ,-66:50:29.10  ,Ia-91T  ,
+            ASASSN-15da,             ASASSN-15da, P106 ,05:23:51.88  ,-24:42:08.38  ,Ia      ,
+                SN2014I,                 SN2014I, P106 ,05:42:19.80  ,-25:32:39.90  ,Ia      ,
+            ASASSN-15go,             ASASSN-15go, P106 ,06:11:30.50  ,-16:29:03.52  ,Ia      ,
+                SN2015F,                 SN2015F, P106 ,07:36:15.76  ,-69:30:23.00  ,Ia      ,    
+              iPTF13efe,               iPTF13efe, P106 ,08:43:39.30  ,+16:10:37.30  ,Ia      ,
+                LSQ14mc,                 LSQ14mc, P106 ,09:02:13.45  ,+17:03:37.01  ,Ia      ,
+               CSP13aaf,                CSP13aaf, P106 ,09:55:08.22  ,+06:48:31.40  ,Ia-91T  ,
+               CSP14aal,                CSP14aal, P106 ,09:57:39.11  ,+12:33:17.70  ,Ia      ,
+                 CSP13V,                  CSP13V, P106 ,10:13:10.00  ,-16:31:54.00  ,Ia      ,
+               SN2008bt,                SN2008bt, P106 ,10:50:16.88  ,-12:06:32.00  ,Ia-91bg ,
+                PS15afa,                SN2008bt, P106 ,10:50:18.15  ,-12:06:28.14  ,II      ,
+               SN2009al,                SN2009al, P106 ,10:51:22.07  ,+08:34:42.70  ,Ia      ,
+                 CSP13Z,                  CSP13Z, P106 ,10:52:06.06  ,-13:34:24.70  ,Ia-91T  ,COMBINED 4 POINTINGS
+                KISS13l,                 KISS13l, P106 ,11:14:54.07  ,+29:35:06.00  ,Ia      ,
+               CSP13abs,                CSP13abs, P106 ,12:03:06.88  ,-01:01:31.70  ,Ia-03fg ,
+               SN2008bf,                SN2008bf, P106 ,12:04:02.90  ,+20:14:42.60  ,Ia      ,
+                KISS15m,                 KISS15m, P106 ,12:06:00.83  ,+20:36:18.40  ,Ia-91bg ,
+                KISS13j,                 KISS13j, P106 ,12:09:39.70  ,+16:12:14.30  ,Ia      ,
+                KISS15n,                 KISS15n, P106 ,13:00:32.33  ,+27:58:41.00  ,Ia-03fg ,
+              iPTF13anh,               iPTF13anh, P106 ,13:06:50.45  ,+15:34:32.36  ,Ia      ,
+                KISS13v,                 KISS13v, P106 ,13:52:56.63  ,+21:56:21.70  ,Ia      ,MUSE-DEEP
+               SN2015bo,                CSP15aae, P106 ,14:09:55.13  ,+17:31:55.60  ,Ia-91bg ,
+               SN1997cn,                CSP15aae, P106 ,14:09:57.761 ,+17:32:32.32  ,Ia-91bg ,
+               SN2012aq,                SN2012aq, P106 ,14:54:05.13  ,+22:05:40.60  ,Ia-91T  ,MUSE-DEEP
+             SN2005cf_B,              SN2005cf_B, P106 ,15:21:32.210 ,-07:24:47.48  ,Ia      ,P99 out of FOV. Here in the FOV. SN1990Q from Hanin is the other galaxy!
+              iPTF13dwl,               iPTF13dwl, P106 ,21:16:49.05  ,+12:00:50.80  ,Ia      ,
+            ASASSN-14lq,             ASASSN-14lq, P106 ,22:57:19.41  ,-20:58:00.80  ,Ia      ,
+               SN2014ds,                SN2014ds, P111 ,08:11:16.45  ,+25:10:47.39  ,IIb     ,4 pointings covering a nearby galaxy not used
+               SN2014dp,                SN2014dp, P111 ,08:19:37.00  ,-22:34:14.7   ,Ib      ,
+              SN2018hyw,               SN2018hyw, P111 ,08:20:17.33  ,+20:52:32.16  ,II      ,
+                SN1960D,               SN2018hyw, P111 ,08:20:17.820 ,+20:52:04.40  ,?       ,
+               SN2014cq,                SN2014cq, P111 ,09:23:29.55  ,-63:40:28.30  ,IIb     ,
+            ASASSN-18ke,             ASASSN-18ke, P111 ,10:10:28.160 ,+02:13:48.76  ,IIb     ,
+              SN2021bwv,             ASASSN-18ke, P111 ,10:10:27.444 ,+02:13:41.46  ,II      ,
+              SN2019bao,               SN2019bao, P111 ,10:29:18.52  ,+06:07:22.15  ,IIb     ,
+            ASASSN-18ga,             ASASSN-18ga, P111 ,10:29:51.628 ,+09:00:46.83  ,Ic      ,
+              AT2017cpj,              ATLAS17cpj, P111 ,10:38:12.91  ,+28:07:02.18  ,II      ,
+   PSNJ11220840-3804001,    PSNJ11220840-3804001, P111 ,11:22:08.00  ,-38:04:00.09  ,IIb     ,
+            ASASSN-18ex,             ASASSN-18ex, P111 ,11:51:59.839 ,+09:42:11.21  ,Ic      ,
+             SN2020admc,              SN2020admc, P111 ,11:54:06.07  ,-39:51:52.63  ,Ib      ,COMBINED
+               SN2014ge,       MASTEROTJ12045150, P111 ,12:04:51.49  ,+26:59:46.60  ,Ib      ,
+            ASASSN-18dr,             ASASSN-18dr, P111 ,12:25:58.541 ,+04:28:26.30  ,Ic-BL   ,
+              SN2020fqv,               SN2020fqv, P111 ,12:36:33.26  ,+11:13:54.03  ,II      ,COMBINED - 21 cubes available - TO BE REPEATED -- TO DO --
+                SN1990B,               SN2020fqv, P111 ,12:36:33.869 ,+11:14:30.08  ,Ib      ,
+               SN2004cc,               SN2020fqv, P111 ,12:36:34.399 ,+11:14:32.78  ,Ic      ,
+              SN2017dcc,               SN2017dcc, P111 ,12:49:04.89  ,-12:12:22.24  ,Ic-pec  ,
+              SN2021hiv,               SN2017dcc, P111 ,12:49:05.843 ,-12:12:27.61  ,II      ,
+            ASASSN-18ph,             ASASSN-18ph, P111 ,12:55:10.144 ,-05:34:07.80  ,Ic      ,
+              SN2018adg,               AT2018adg, P111 ,13:25:31.23  ,-14:21:05.23  ,Ic      ,
+             SN2022adpt,               AT2018adg, P111 ,13:25:31.200 ,-14:21:32.29  ,Ia      ,
+              SN2018cbz,               SN2018cbz, P111 ,13:41:18.60  ,-04:20:46.56  ,Ic      ,
+              SN2019vsi,               SN2019vsi, P111 ,13:45:54.97  ,+23:03:42.83  ,Ib      ,
+            ASASSN-18hq,             ASASSN-18hq, P111 ,14:06:34.807 ,-32:34:44.06  ,IIb     ,COMBINED 5 POINTINGS
+      MASTEROTJ14102342,       MASTEROTJ14102342, P111 ,14:10:23.41  ,-43:18:43.70  ,Ib      ,COMBINED
+            ASASSN-18ky,             ASASSN-18ky, P111 ,14:14:18.420 ,+10:40:41.56  ,Ib      ,SN2018bvi P113 is much worst seeing 2arcsec
+              SN2018dbg,               SN2018dbg, P111 ,14:17:58.00  ,+26:24:44.65  ,Ibc     ,
+              SN2019hyk,               SN2018dbg, P111 ,14:17:57.850 ,+26:25:17.69  ,II      ,
+             SN2025afdy,               SN2018dbg, P111 ,14:17:59.411 ,+26:24:52.46  ,Ia      ,
+            ASASSN-15uy,             ASASSN-15uy, P111 ,14:32:15.31  ,+26:19:32.02  ,IIb     ,
+              SN2016jag,               SN2016jag, P111 ,15:23:19.82  ,-04:09:20.06  ,Ib      ,
+              SN2019pqo,               SN2019pqo, P111 ,15:41:30.33  ,+15:47:03.34  ,IIb     ,
+               SN2004ci,               SN2019pqo, P111 ,15:41:29.830 ,+15:47:13.09  ,II      ,
+               SN2019yz,                SN2019yz, P111 ,15:41:57.30  ,+00:42:39.44  ,Ic      ,COMBINED
+              SN2019ltw,             ASASSN-19sj, P111 ,16:18:38.495 ,+21:58:23.25  ,II      ,ALSO OBSERVED BYT THE OTHER P111 PROGRAMME - MUCH BETTER HERE
+              SN2016ajo,               SN2016ajo, P111 ,18:44:12.49  ,+24:09:29.6   ,Ib      ,3 extra pointings not used for bad seeing 
+              SN2017fek,              ATLAS17iif, P111 ,20:21:47.444 ,-10:43:53.27  ,IIb     ,
+   PSNJ20580766-5147074,    PSNJ20580766-5147074, P111 ,20:58:07.70  ,-51:47:07.96  ,Ib      ,
+               SN2014bt,                SN2014bt, P111 ,21:43:11.12  ,-38:58:05.80  ,Ibc     ,
+            ASASSN-16fp,             ASASSN-16fp, P111 ,21:59:04.14  ,+18:11:10.50  ,Ic-BL   ,
+              SN2016iyc,               SN2016iyc, P111 ,22:09:14.28  ,+21:31:17.40  ,IIb     ,COMBINED 10 POINTINGS
+              SN2018eoe,               SN2018eoe, P111 ,22:24:24.37  ,+18:04:18.84  ,Ib      ,
+               SN2014br,                SN2014br, P111 ,22:59:50.68  ,-61:33:22.20  ,Ibc     ,
+                SN2015K,                 SN2015K, P111 ,23:35:52.25  ,+23:36:51.95  ,Ic      ,COMBINED 7 POINTINGS
+              SN2018cew,               SN2018cew, P111 ,23:52:24.19  ,+28:46:30.22  ,Ib      ,
+              SN2019iep,               SN2019iep, P111 ,00:06:18.64  ,+25:27:45.60  ,Ibn     ,
+       OGLE-2014-SN-131,        OGLE-2014-SN-131, P111 ,01:14:00.81  ,-77:06:16.49  ,Ibn     ,
+              SN2018fmt,               SN2018fmt, P111 ,01:21:00.88  ,-13:51:46.42  ,Ibn     ,
+              SN2018gjx,               SN2018gjx, P111 ,02:16:15.57  ,+28:35:28.70  ,IIb     ,COMBINED
+               SN2000er,                SN2000er, P111 ,02:24:32.53  ,-58:26:17.99  ,Ibn     ,COMBINED
+                PS15dpn,                 PS15dpn, P111 ,02:32:59.77  ,+18:38:07.10  ,II      ,
+       OGLE-2012-SN-006,        OGLE-2012-SN-006, P111 ,03:33:34.78  ,-74:23:40.09  ,Ib-pec  ,
+              SN2022eux,               SN2022eux, P111 ,05:55:31.21  ,-15:40:34.10  ,Ibn     ,
+              SN2024fgj,               SN2022eux, P111 ,05:55:32.261 ,-15:40:38.02  ,II      ,
+              SN2022gzg,               SN2022gzg, P111 ,12:43:37.52  ,+01:23:03.82  ,Ibn     ,
+              SN2017jfv,               SN2017jfv, P111 ,13:38:25.34  ,-31:15:52.57  ,Ibn     ,
+             SN2020adlh,               SN2017jfv, P111 ,13:38:26.170 ,-31:15:52.09  ,Ia      ,
+              SN2019deh,               SN2019deh, P111 ,14:05:43.57  ,+09:30:56.88  ,Ibn     ,
+               SN2002ao,                SN2002ao, P111 ,14:29:35.741 ,-00:00:55.80  ,Ibn     ,
+              SN2022pff,               SN2022pff, P111 ,15:11:58.01  ,+32:50:29.68  ,Ibn     ,
+              iPTF13beo,               iPTF13beo, P111 ,16:12:26.63  ,+14:19:18.0   ,Ibn     ,
+              SN2016edk,               SN2016edk, P111 ,17:47:14.20  ,+30:13:29.31  ,Ibn     ,
+              SN2021zfx,               SN2021zfx, P111 ,21:09:23.75  ,+09:45:38.84  ,Ibn     ,
+              SN2019rii,               SN2019rii, P111 ,21:22:41.87  ,+22:52:54.84  ,Ibn     ,
+               LSQ13ccw,                LSQ13ccw, P111 ,21:35:51.64  ,-18:32:51.89  ,Ibc     ,
+              SN2019kbj,               SN2019kbj, P111 ,22:11:21.92  ,+19:37:03.45  ,II      ,
+              SN2020taz,               SN2020taz, P111 ,22:26:06.27  ,+10:33:29.63  ,Ibn     ,
+               SN2011hw,                SN2011hw, P111 ,22:26:14.53  ,+34:12:59.10  ,IIn     ,
+               PTF11rfh,                PTF11rfh, P111 ,22:35:49.58  ,-00:22:26.1   ,Ibn     ,
+              SN2020nxt,               SN2020nxt, P111 ,22:37:36.235 ,+35:00:07.68  ,Ibn     ,            
+             DES16C3cje,              DES16C3cje, P112 ,03:28:35.29  ,-27:09:06.60  ,II-87A? ,
+     OGLE-2003-NOOS-005,      OGLE-2003-NOOS-005, P112 ,05:55:38.07  ,-68:55:47.10  ,II-87A? ,
+               SN2009mw,                SN2009mw, P112 ,09:47:14.959 ,-24:51:18.79  ,II-87A? ,
+                SN2008H,                SN2009mw, P112 ,09:47:13.450 ,-24:50:25.80  ,II      ,
+               SN2012gg,                SN2012gg, P112 ,04:36:11.050 ,-05:04:53.11  ,II-87A? ,
+              SN2018imj,               SN2018imj, P112 ,06:51:05.757 ,+12:54:55.86  ,II-87A? ,combined 3 pointings. the 4th had a huge satelite trace.
+                SN2000H,               SN2018imj, P112 ,06:51:07.670 ,+12:55:18.52  ,IIb     ,
+              SN2022ymc,               SN2022ymc, P112 ,03:13:40.618 ,-01:16:32.17  ,II-87An?,
+              SN2021wun,               SN2021wun, P112 ,15:46:31.990 ,+25:25:44.69  ,II-87A? ,
+            SN2018anu_B,             SN2018anu_B, P112 ,17:36:14.351 ,+18:58:56.59  ,II      ,2nd epoch. spectrum in P104
+             SN2021adyl,              SN2021adyl, P112 ,09:28:04.091 ,+29:59:27.21  ,II-87A  , 
+               SN2006au,                SN2006au, P112 ,17:57:13.560 ,+12:11:03.19  ,II-87A  ,
+              SN2020scb,               SN2020scb, P113 ,00:18:25.624 ,+18:30:59.53  ,Ic      ,
+              SN2022jli,               SN2022jli, P113 ,00:34:45.690 ,-08:23:12.16  ,Ic      ,JOINED WITH SN2009em P114
+               SN2009em,               SN2022jli, P113 ,00:34:44.530 ,-08:23:57.59  ,Ic      ,
+               SN2019yc,                SN2019yc, P113 ,00:39:34.996 ,+00:52:04.13  ,IIb     ,
+              SN2020aqb,               SN2020aqb, P113 ,00:41:37.640 ,-03:15:12.53  ,IIP     ,
+              SN2019jyw,               SN2019jyw, P113 ,01:06:30.222 ,-02:11:55.63  ,II      ,
+             SN2020abjq,              SN2020abjq, P113 ,01:06:14.630 ,+03:34:26.08  ,II      ,
+              SN2019nyn,               SN2019nyn, P113 ,01:07:37.215 ,-41:51:12.33  ,II      ,
+              SN2019ofc,               SN2019ofc, P113 ,01:33:36.930 ,-38:35:59.10  ,II      ,
+              SN2020qbu,               SN2020qbu, P113 ,01:33:53.400 ,-13:04:49.30  ,Ic      ,
+              SN2020nja,               SN2020nja, P113 ,01:34:34.680 ,-03:20:37.75  ,II      ,
+              SN2025myc,               SN2020nja, P113 ,01:34:34.441 ,-03:20:50.37  ,Ibc     ,
+              SN2018cmj,               SN2018cmj, P113 ,01:38:53.315 ,-42:35:22.28  ,II      ,
+               SN2011gm,               SN2018cmj, P113 ,01:38:54.590 ,-42:35:08.81  ,Ia      ,
+              SN2020njz,               SN2020njz, P113 ,02:01:51.014 ,-10:28:11.85  ,Ic      ,JOINED WITH P115 SN2021bjk - 8 POINTINGS
+              SN2021bjk,               SN2020njz, P113 ,02:01:52.233 ,-10:27:49.04  ,Ibc     ,
+               SN2019rn,                SN2019rn, P113 ,02:17:59.609 ,+14:32:00.42  ,IIb     ,
+              SN2020obd,               SN2020obd, P113 ,02:28:35.914 ,-10:32:18.77  ,II      ,
+               SN1998dt,               SN2020obd, P113 ,02:28:35.719 ,-10:32:59.78  ,Ib      ,
+              SN2019xtw,               SN2019xtw, P113 ,02:43:33.630 ,-38:37:30.76  ,II      ,
+              SN2018hhr,               SN2018hhr, P113 ,02:55:48.940 ,+01:04:42.53  ,II      ,
+              SN2018hjx,               SN2018hjx, P113 ,03:24:55.572 ,-02:49:19.99  ,Ib      ,
+              SN2018fcx,               SN2018fcx, P113 ,04:05:56.720 ,-15:08:43.62  ,IIb     ,
+              SN2020cnu,               SN2020cnu, P113 ,04:24:08.164 ,-27:04:47.46  ,II      ,
+              SN2020ocz,               SN2020ocz, P113 ,05:10:44.200 ,-31:35:37.61  ,II      ,
+             SN2020aboq,              SN2020aboq, P113 ,06:38:23.730 ,-35:13:29.14  ,Ic-BL   ,
+              SN2017hyh,               SN2017hyh, P113 ,07:10:41.080 ,+06:27:41.29  ,IIb     ,           
+               SN2018fy,                SN2018fy, P113 ,09:53:20.038 ,-18:25:09.30  ,II      ,
+              SN2019bkc,               SN2019bkc, P113 ,10:00:22.544 ,-03:01:12.64  ,I       ,
+              SN2019uhm,               SN2019uhm, P113 ,10:28:48.470 ,-31:29:52.08  ,II      ,
+              SN2020pub,               SN2020pub, P113 ,10:37:35.560 ,-22:42:19.04  ,II      ,    
+              SN2019tsf,               SN2019tsf, P113 ,11:08:32.800 ,-10:28:54.44  ,Ib      ,
+              SN2019thi,               SN2019thi, P113 ,11:15:15.320 ,-27:39:11.88  ,II      ,
+             SN2020acpi,              SN2020acpi, P113 ,11:35:46.559 ,-49:02:12.43  ,II      ,
+              SN2024dhj,              SN2020acpi, P113 ,11:35:47.470 ,-49:01:48.97  ,II      ,
+              SN2019aax,               SN2019aax, P113 ,12:17:05.631 ,-26:37:44.95  ,II      ,
+              SN2020bfb,               SN2020bfb, P113 ,12:54:44.230 ,-39:51:09.50  ,Ic      ,
+               SN2018jq,                SN2018jq, P113 ,12:56:48.380 ,+03:53:27.24  ,Ib      ,COMBINED 3 POINTINGS
+               SN2018ke,                SN2018ke, P113 ,13:08:39.531 ,-41:27:16.04  ,II      ,
+               SN2018is,                SN2018is, P113 ,13:16:57.350 ,-16:37:04.43  ,II      ,
+              SN2020hop,               SN2020hop, P113 ,13:19:28.180 ,-13:43:25.47  ,Ic      ,
+              SN2017izl,               SN2017izl, P113 ,13:19:55.340 ,-47:17:04.78  ,II      ,
+              SN2021bmw,               SN2021bmw, P113 ,13:47:39.708 ,-29:25:54.64  ,II      ,only 3 pointings 4th is tilted
+              SN2020mvk,               SN2020mvk, P113 ,13:35:45.680 ,-30:52:30.36  ,II      ,
+               SN2020ad,                SN2020ad, P113 ,13:57:56.810 ,-29:17:07.40  ,II      ,COMBINED 12 POINTINGS
+              SN2018ecf,               SN2018ecf, P113 ,14:06:34.380 ,-34:18:04.14  ,II      ,
+              SN2019axz,               SN2019axz, P113 ,14:30:16.660 ,-43:33:41.15  ,II      ,COMBINED 8 POINTINGS
+              SN2018dza,               SN2018dza, P113 ,14:49:18.000 ,-30:17:22.45  ,II      ,
+              SN2021aez,               SN2021aez, P113 ,15:36:03.970 ,-37:18:04.36  ,II      ,
+              SN2020fsb,               SN2020fsb, P113 ,15:39:03.810 ,-25:58:28.34  ,II      ,
+              SN2019gvp,               SN2019gvp, P113 ,16:46:35.521 ,-31:35:31.28  ,Ib      ,
+              SN2019nxk,               SN2019nxk, P113 ,17:34:05.120 ,-14:48:31.93  ,II      ,
+              SN2019hqm,               SN2019hqm, P113 ,17:36:56.190 ,+21:06:17.06  ,II      ,
+              SN2020yzq,               SN2020yzq, P113 ,18:22:23.360 ,+23:28:32.05  ,II      ,
+              SN2019leu,               SN2019leu, P113 ,19:05:16.370 ,+27:00:25.52  ,II      ,
+              SN2019gqm,               SN2019gqm, P113 ,19:48:09.560 ,-24:26:36.60  ,II      ,COMBINED 8 POINTINGS
+              SN2019cwt,               SN2019cwt, P113 ,20:00:40.190 ,-34:47:42.97  ,Ic-pec  ,COMBINED 7 POINTINGS
+              SN2020zae,               SN2020zae, P113 ,20:07:47.955 ,-29:48:49.94  ,Ibc     ,COMBINED 6 POINTINGS
+              SN2022rgy,               SN2020zae, P113 ,20:07:48.370 ,-29:48:29.05  ,Ia      ,
+              SN2020fzj,               SN2020fzj, P113 ,20:15:42.935 ,-06:18:59.88  ,II      ,
+              SN2018fer,               SN2018fer, P113 ,20:33:05.240 ,-20:51:24.37  ,IIb     ,
+              SN2018dht,               SN2018dht, P113 ,20:55:19.057 ,+00:32:18.70  ,II      ,
+               SN2005hl,               SN2018dht, P113 ,20:55:19.790 ,+00:32:34.69  ,Ib      ,
+              SN2018fus,               SN2018fus, P113 ,21:02:31.290 ,-05:37:30.04  ,II      ,
+              SN2019dna,               SN2019dna, P113 ,21:05:23.810 ,+19:44:34.30  ,II      ,
+              SN2017hqj,               SN2017hqj, P113 ,21:05:39.014 ,+11:24:31.60  ,IIP     ,
+              SN2018ass,               SN2018ass, P113 ,21:10:19.020 ,-29:31:22.40  ,IIP     ,COMBINED 7 POINTINGS
+              SN2019sox,               SN2019sox, P113 ,21:31:24.720 ,+02:29:39.05  ,II      ,
+              SN2017hhx,               SN2017hhx, P113 ,22:00:32.929 ,-27:13:29.36  ,IIP     ,
+              SN2018emt,               SN2018emt, P113 ,22:10:35.660 ,-27:14:58.78  ,II      ,
+              SN2019dtt,               SN2019dtt, P113 ,22:34:37.510 ,+00:10:32.56  ,II      ,
+              SN2020voh,               SN2020voh, P113 ,23:03:40.290 ,-36:01:40.30  ,II      ,
+              SN2019fya,               SN2019fya, P113 ,23:15:16.060 ,+19:02:29.83  ,II      ,
+              SN2020zgl,               SN2020zgl, P113 ,23:28:01.150 ,-02:09:53.64  ,Ib-pec  ,
+              SN2020twk,               SN2020twk, P113 ,23:29:13.482 ,-02:05:42.05  ,II      ,
+              SN2020ovk,               SN2020ovk, P113 ,23:54:17.732 ,+26:19:36.16  ,II      ,
+               SN2012ap,                SN2012ap, P114 ,05:00:13.721 ,-03:20:51.22  ,Ic      ,
+               SN1994ai,                SN1994ai, P114 ,02:23:06.170 ,-21:13:58.30  ,Ic      ,
+              SN2018lei,               SN2018lei, P114 ,02:33:34.402 ,-39:02:45.24  ,Ic      ,
+               SN2012cw,                SN2012cw, P114 ,10:13:47.950 ,+03:26:02.62  ,Ic      ,
+               SN2003aa,                SN2003aa, P114 ,10:46:36.821 ,+13:45:32.18  ,Ia      ,
+               SN1997dq,                SN1997dq, P114 ,11:40:55.901 ,+11:28:45.70  ,Ib      ,
+               SN2003jg,                SN2003jg, P114 ,09:45:37.910 ,-31:11:21.01  ,Ibc     ,
+               LSQ13doo,                LSQ13doo, P114 ,11:48:45.780 ,-28:17:31.20  ,Ic-BL   ,
+               SN2011hp,                SN2011hp, P114 ,12:16:25.471 ,-43:19:46.88  ,Ic      ,
+               SN2011am,                SN2011hp, P114 ,12:16:25.999 ,-43:19:19.99  ,Ib      ,
+               SN2014ad,                SN2014ad, P114 ,11:57:44.441 ,-10:10:15.71  ,I       ,
+               SN2011jl,                SN2011jl, P114 ,10:43:02.950 ,-36:21:52.42  ,Ic      ,
+            ASASSN-15pz,             ASASSN-15pz, P114 ,03:08:48.443 ,−35:13:50.89  ,Ia-03fg ,
+               PTF10qrl,                PTF10qrl, P114 ,23:09:52.957 ,+13:07:57.38  ,IIb     ,
+              SN2016flq,               iPTF16flq, P114 ,00:28:36.504 ,-01:33:03.24  ,Ic      ,
+              iPTF15cna,               iPTF15cna, P114 ,23:20:10.945 ,+28:50:57.94  ,IIb     ,
+               SN2011kn,                PTF11mnb, P114 ,00:34:13.250 ,+02:48:31.43  ,Ic      , 
+              SN2016hgp,               iPTF16hgp, P114 ,00:12:06.413 ,+32:11:50.88  ,Ic      ,
+               SN2013bb,                PTF13aby, P114 ,14:12:13.961 ,+15:50:31.49  ,IIb     ,
+              SN2019nyk,               SN2019nyk, P115 ,00:15:15.202 ,-08:11:21.85  ,II      ,
+             SN2020aeje,              SN2020aeje, P115 ,00:17:11.970 ,-07:37:37.42  ,II      ,
+               SN2019zc,                SN2019zc, P115 ,00:29:29.394 ,-13:28:42.69  ,II      ,
+              SN2019hgu,               SN2019hgu, P115 ,00:50:24.886 ,-12:05:42.59  ,II      ,
+              SN2018cdc,               SN2018cdc, P115 ,00:51:05.260 ,-07:03:47.75  ,II      ,
+              SN2019gql,               SN2019gql, P115 ,00:51:40.874 ,-13:19:05.80  ,II      ,
+              SN2019lre,               SN2019lre, P115 ,01:58:50.798 ,-09:35:05.63  ,II      ,
+              SN2018lcd,               SN2018lcd, P115 ,01:51:10.670 ,-03:29:24.94  ,II      ,
+              SN2018jkb,               SN2018jkb, P115 ,02:21:09.800 ,-04:04:23.77  ,II      ,
+              SN2020yyz,               SN2020yyz, P115 ,02:34:00.140 ,+20:58:26.44  ,IIP     ,
+              SN2019ply,               SN2019ply, P115 ,02:59:46.990 ,+15:17:48.70  ,IIb     ,
+              SN2018jfp,               SN2018jfp, P115 ,03:17:56.270 ,-00:10:10.81  ,II      ,
+              SN2017jcu,               SN2017jcu, P115 ,03:22:46.957 ,+00:08:53.49  ,II      ,
+              SN2017ilo,               SN2017ilo, P115 ,03:31:20.643 ,+04:07:54.52  ,II      ,
+              SN2018hle,               SN2018hle, P115 ,03:39:28.106 ,-13:07:02.48  ,II      ,
+              SN2020rvf,               SN2020rvf, P115 ,03:54:15.928 ,+15:55:42.62  ,Ia      ,
+              SN2019xvo,               SN2019xvo, P115 ,03:58:22.720 ,+06:42:55.62  ,II      ,
+              SN2018gle,               SN2018gle, P115 ,04:25:03.010 ,-14:36:47.92  ,Ic      ,
+             SN2020adhh,              SN2020adhh, P115 ,04:43:46.180 ,+28:58:10.53  ,II      ,
+              SN2020aer,               SN2020aer, P115 ,04:48:35.430 ,-04:49:19.78  ,II      ,
+              SN2019tba,               SN2019tba, P115 ,04:55:09.840 ,-16:09:01.30  ,II      ,
+              SN2020eai,               SN2020eai, P115 ,04:59:08.050 ,+04:58:21.81  ,Ib      ,
+              SN2020htt,               SN2020htt, P115 ,10:31:38.384 ,-17:51:08.08  ,Ib      ,
+              SN2020bij,               SN2020bij, P115 ,10:55:11.680 ,-26:08:24.47  ,II      ,
+               SN2021os,                SN2021os, P115 ,12:02:54.070 ,+05:36:53.17  ,II      ,
+              SN2019dke,               SN2019dke, P115 ,12:53:38.200 ,-26:17:31.42  ,II      ,
+              SN2020kxg,               SN2020kxg, P115 ,13:20:00.505 ,-16:39:40.06  ,Ib      ,
+              SN2017kam,               SN2017kam, P115 ,13:42:43.930 ,-24:20:06.18  ,II-pec  ,
+              SN2018ctr,               SN2018ctr, P115 ,13:48:47.820 ,+06:21:18.83  ,II      ,
+              SN2018bui,               SN2018bui, P115 ,14:20:43.440 ,+13:41:43.04  ,II      ,
+               SN2018rz,                SN2018rz, P115 ,14:27:11.440 ,-02:16:11.21  ,IIP     ,
+              SN2020jjj,               SN2020jjj, P115 ,14:31:19.640 ,-25:39:31.10  ,II      ,
+              SN2019bzd,               SN2019bzd, P115 ,14:47:32.040 ,-19:45:57.71  ,IIP     ,
+              SN2018kfn,               SN2018kfn, P115 ,16:02:42.480 ,+15:14:11.26  ,II      ,
+              SN2019lsj,               SN2019lsj, P115 ,19:36:59.131 ,-11:57:13.62  ,IIP     ,
+              SN2020hox,               SN2020hox, P115 ,19:42:26.160 ,-15:52:44.08  ,II      ,
+              SN2020vzv,               SN2020vzv, P115 ,21:13:24.765 ,+17:40:29.08  ,II      ,
+              SN2018iqx,               SN2018iqx, P115 ,22:27:53.592 ,+19:27:38.44  ,Ibc     ,
+              SN2020uas,               SN2020uas, P115 ,22:59:38.670 ,+20:08:35.66  ,Ibc     ,
+              SN2019odp,               SN2019odp, P115 ,23:07:19.090 ,+13:51:21.42  ,Ib      ,
+              SN2019wbd,               SN2019wbd, P115 ,23:20:35.172 ,-00:52:51.07  ,II      ,
+              SN2020uzq,               SN2020uzq, P115 ,23:34:00.190 ,-11:46:59.06  ,II      ,
+              SN2019hnl,               SN2019hnl, P115 ,23:43:10.263 ,-02:56:58.64  ,II      ,
+              SN2018gvt,               SN2018gvt, P115 ,23:07:32.545 ,+23:00:20.93  ,II      ,
+              SN2019tkm,            ZTF19acgldqr, P115 ,00:22:28.215 ,-04:50:10.92  ,Ia-91bg , 
+              SN2019tkn,            ZTF19achetvw, P115 ,00:25:42.053 ,+08:38:08.36  ,Ia-91bg , 
+             SN2020aclx,            ZTF20acymtbr, P115 ,00:37:53.521 ,-21:28:18.95  ,Ia-91bg , 
+              SN2020vzp,            ZTF20aciigcw, P115 ,00:58:50.243 ,+12:56:24.06  ,Ia-91bg , 
+              SN2019qkz,            ZTF19abzprpk, P115 ,01:00:30.560 ,+25:35:37.78  ,Ia-91bg , 
+              SN2018jag,            ZTF18acrcetn, P115 ,01:03:48.310 ,+10:35:32.38  ,Ia-91bg ,  
+              SN2020pwu,            ZTF20abmddts, P115 ,01:25:44.197 ,+02:26:10.41  ,Ia-91bg ,observed also in P116 - JOINED
+             SN2020abpe,            ZTF20acvbrbv, P115 ,01:36:24.560 ,+22:02:59.29  ,Ia-91bg , 
+              SN2019hvu,            ZTF19aavvvrc, P115 ,01:50:39.930 ,+33:05:09.49  ,Ia-91bg , 
+              SN2019qyo,            ZTF19acazpyz, P115 ,02:01:47.206 ,-01:20:27.45  ,Ia-91bg , 
+              SN2019mbm,            ZTF19abjpkdz, P115 ,02:35:59.270 ,+10:26:31.10  ,Ia-91bg , 
+              SN2020bdf,            ZTF20aaivjce, P115 ,02:55:47.832 ,+15:06:01.17  ,Ia-91bg ,
+              SN2019vuh,            ZTF19acyftrs, P115 ,03:26:42.374 ,-23:29:55.69  ,Ia-91bg , 
+              SN2020iyz,            ZTF20aaydgsu, P115 ,12:57:51.162 ,-17:15:36.01  ,Ia-04gs , 
+              SN2019iaf,            ZTF19abalrbb, P115 ,18:13:22.222 ,+11:29:34.06  ,Ia-91bg , 
+              SN2019mad,            ZTF19abiahik, P115 ,20:06:06.177 ,+08:09:08.77  ,Ia-91bg , 
+              SN2019ell,            ZTF19aatvkrn, P115 ,20:29:40.920 ,+02:23:07.62  ,Ia-04gs , 
+              SN2019etc,            ZTF19aatvljp, P115 ,21:06:08.120 ,+14:58:53.83  ,Ia-04gs , 
+              SN2020pki,            ZTF19aaarhtg, P115 ,21:12:24.304 ,+13:00:17.57  ,Ia-86G  , 
+              SN2018ebs,            ZTF19abkbkxy, P115 ,21:39:37.601 ,+08:56:39.71  ,Ia      , 
+              SN2019luv,            ZTF19abioohk, P115 ,21:55:15.008 ,-12:08:56.37  ,Ia-91bg ,observed also in P116 - JOINED
+              SN2020rlj,            ZTF20abtctgr, P115 ,23:01:09.614 ,+23:29:14.00  ,Ia-91bg , 
+              SN2019noh,            ZTF19abpqvdh, P115 ,23:05:40.758 ,+27:39:57.52  ,Ia-91bg , 
+              SN2020khr,            ZTF20aakhpmp, P115 ,23:21:49.410 ,+03:49:41.74  ,Ia-91bg ,observed also in P116 - JOINED
+              SN2019weu,            ZTF19acxgxcu, P115 ,23:24:33.190 ,+05:06:39.35  ,Ia-02es , 
+              SN2020yti,            ZTF20acoredl, P115 ,23:35:23.651 ,-14:47:49.80  ,Ia-04gs , 
+              SN2019hhz,            ZTF19aaynsws, P115 ,23:50:38.621 ,+06:06:23.25  ,Ia-91bg , 
+              SN2022vqz,            ZTF22abhrjld, P116 ,00:51:05.782 ,+29:32:12.16  ,Ia-02es ,
+               SN2020yo,            ZTF20aafqpum, P116 ,03:06:06.513 ,+13:54:48.57  ,Ia-91bg ,
+              SN2019qih,            ZTF19abzlsbl, P116 ,03:52:10.730 ,-08:30:22.97  ,Ia-91bg ,
+              SN2018fhx,            ZTF20acmuzkw, P116 ,06:24:37.980 ,-23:43:59.05  ,Ia-91bg ,*************
+              SN2020amt,            ZTF20aahaxjl, P116 ,07:34:43.709 ,+18:02:32.97  ,Ia-91bg ,
+             SN2020abmg,            ZTF20acuoacn, P116 ,08:15:24.545 ,-06:57:27.74  ,Ia-91bg ,
+             SN2020acbx,            ZTF20acwpbgv, P116 ,08:46:21.190 ,-12:39:21.58  ,Ia-91bg ,*************
+              SN2020yje,            ZTF20acnznol, P116 ,10:27:11.716 ,+10:01:29.79  ,Ia-91bg ,*************
+             SN2020acjw,            ZTF20acwqndp, P116 ,11:31:00.919 ,+27:14:34.20  ,Ia-04gs ,*************
+              SN2019rlq,            ZTF19acblzux, P116 ,03:37:57.403 ,-05:00:02.42  ,Ia-91bg ,*************
+              SN2020agm,            ZTF20aagvvnr, P116 ,10:49:57.092 ,+13:56:39.32  ,Ia-04gs ,*************
+              SN2020ckd,            ZTF20aamkyyx, P116 ,12:36:36.600 ,+08:35:15.36  ,Ia-04gs ,*************
+              SN2020szq,            ZTF20abzettb, P116 ,04:07:24.057 ,+30:17:19.47  ,Ia-91bg ,*************
+              SN2018iko,            ZTF18acemhyb, P116 ,07:56:34.150 ,+30:10:35.76  ,Ia-04gs ,*************
+              SN2018jpn,            ZTF18acslpba, P116 ,02:44:08.213 ,-09:27:06.00  ,Ia-04gs ,*************
+              SN2018gio,            ZTF18actasgb, P116 ,04:20:41.270 ,-14:46:52.61  ,Ia-02es ,*************
+              SN2019wdx,            ZTF19acxngol, P116 ,08:23:41.402 ,+21:26:03.97  ,Ia-91bg ,*************
+               SN2015bs,                SN2015bs, DTD  ,22:33:43.775 ,-06:22:08.33  ,II      ,MUSE-DEEP
+            ASASSN-15ja,             ASASSN-15ja, HK   ,01:09:39.03  ,-61:19:58.33  ,Ia      ,NO LC  ---   SN spectrum THERE
+                SN2010F,                 SN2010F, HK   ,10:05:21.050 ,-34:13:21.00  ,II      ,
+               SN1999ca,                 SN2010F, HK   ,10:05:22.920 ,-34:12:41.29  ,II      ,
+               SN2009bb,                SN2009bb, HK   ,10:31:33.871 ,-39:57:29.99  ,Ic      ,
+               SN2009md,                SN2009md, HK   ,10:48:26.280 ,+12:32:02.80  ,II      ,MUSE-DEEP
+               SN1997dn,                SN1997dn, HK   ,10:54:18.950 ,+27:14:07.30  ,II      ,
+               SN2001fv,                SN2001fv, HK   ,11:04:01.661 ,+28:01:55.70  ,II      ,
+                SN1985G,                 SN1985G, HK   ,12:28:40.409 ,+09:15:39.82  ,II      ,SDSS OBJID problem
+                SN2009N,                 SN2009N, HK   ,12:31:09.470 ,-08:02:56.29  ,II      ,
+                SN1970A,                 SN1970A, HK   ,12:32:40.65  ,+14:02:38.2   ,II      ,
+               SN2006my,                SN2006my, HK   ,12:43:40.740 ,+16:23:14.10  ,II      ,
+                SN1987K,                SN2006my, HK   ,12:43:41.17  ,+16:23:44.9   ,II      ,
+                SN1997X,                 SN1997X, HK   ,12:48:14.280 ,-03:19:58.51  ,Ic      ,COMBINED 20 POINTINGS
+                SN1983K,                 SN1983K, HK   ,12:49:12.250 ,-08:37:42.20  ,II      ,
+              SN2024muv,                 NGC4699, arx  ,12:49:02.452 ,-08:39:51.19  ,Ia      ,also host of 1983K
+               SN2011jm,                SN2011jm, HK   ,12:54:51.101 ,+02:39:14.90  ,Ic      ,COMBINED 10 POINTINGS
+               SN2011fh,                SN2011fh, HK   ,12:56:14.009 ,-29:29:54.82  ,IIn     ,
+               SN1999br,                SN1999br, HK   ,13:00:41.801 ,+02:29:45.82  ,IIn     ,COMBINED 16 POINTINGS(1800s + 3600s core)
+                SN2000P,                 SN2000P, HK   ,13:07:10.529 ,-28:14:02.51  ,IIn     ,
+                SN1990Q,                 SN1990Q, HK   ,15:21:33.250 ,-07:22:26.62  ,II      ,
+                SN2001X,                 SN2001X, HK   ,15:21:55.450 ,+05:03:42.08  ,II      ,
+               SN2005at,                SN2005at, HK   ,19:09:53.570 ,-63:49:22.80  ,Ic      ,COMBINED 20 POINTINGS
+               SN1998bw,                SN1998bw, HK   ,19:35:03.310 ,-52:50:44.81  ,Ic      ,MUSE-DEEP
+                SN1978G,                 SN1978G, HK   ,22:20:48.31  ,-46:01:23.0   ,IIn     ,
+               SN2012ho,                SN2012ho, HK   ,22:40:17.021 ,-02:25:34.10  ,II      ,
+               SN2005hk,                SN2005hk, JL   ,00:27:50.870 ,-01:11:52.51  ,Ia-02cx ,4;202 CREATED MANUALLY 
+               SN2013gr,                SN2013gr, JL   ,01:46:27.900 ,-58:40:23.81  ,Ia-02cx ,NO LC
+                SN2012Z,                 SN2012Z, JL   ,03:22:05.350 ,-15:23:15.61  ,Ia-02cx ,COMBINED 10 POINTINGS
+               SN2002fk,                 SN2012Z, JL   ,03:22:05.710 ,-15:24:03.20  ,Ia-02cx ,
+               SN1991bj,                SN1991bj, JL   ,03:41:30.480 ,-04:39:49.61  ,Ia-02cx ,NO LC - 100;199 CREATED MANUALLY
+               SN2008ge,                SN2008ge, JL   ,04:08:24.679 ,-47:53:47.40  ,Ia-02cx ,NO LC
+                SN2009J,                 SN2009J, JL   ,05:55:21.130 ,-76:55:20.78  ,Ia-02cx ,
+               SN2009iw,                 SN2009J, JL   ,05:55:25.639 ,-76:55:15.89  ,Ia      ,NO LC
+               SN2010ae,                SN2010ae, JL   ,07:15:54.650 ,-57:20:36.89  ,Ia-02cx ,
+               SN2008ae,                SN2008ae, JL   ,09:56:03.199 ,+10:29:58.810 ,Ia-02cx ,MUSE-DEEP - 191;165 CREATED MANUALLY 
+               SN2002cx,                SN2002cx, JL   ,13:13:49.721 ,+06:57:31.90  ,Ia-02cx ,143;108 CREATED MANUALLY 
+              SN2023yni,                SN2002cx, JL   ,13:13:49.55  ,+06:57:39.44  ,II      ,
+               SN2014ey,               iPTF14ans, JL   ,15:04:29.972 ,+02:19:51.25  ,Ia-02cx ,
+              SN2022oor,               iPTF14ans, JL   ,15:04:29.806 ,+02:20:18.82  ,II      ,MUSE-DEEP
+               SN2004cs,                SN2004cs, JL   ,17:50:14.381 ,+14:16:59.48  ,Ia-02cx ,NO LC
+               SN2011ce,                SN2011ce, JL   ,18:55:35.839 ,-53:43:29.10  ,Ia-02cx ,NO LC
+               SN2004do,                SN2011ce, JL   ,18:55:33.720 ,-53:43:22.80  ,Ia      ,NO LC
+              SN2025tam,                SN2011ce, JL   ,18:55:34.321 ,-53:43:22.76  ,II      ,
+               SN2008ha,                SN2008ha, JL   ,23:34:52.690 ,+18:13:35.40  ,Ia-02cx ,
+               SN2010jr,               IRAS05177, SV   ,05:19:34.471 ,-32:39:14.62  ,II      ,
+               SN2005ip,                 NGC2906, SV   ,09:32:06.420 ,+08:26:44.41  ,II      ,
+               SN2000cb,                  IC1158, SV   ,16:01:32.150 ,+01:42:23.00  ,II      ,COMBINED 6 POINTINGS
+               SN2000do,                 NGC6754, SV   ,19:11:26.191 ,-50:38:24.50  ,Ia      ,NO LC 
+               SN2005cu,                 NGC6754, SV   ,19:11:24.511 ,-50:38:28.79  ,II      ,
+               SN1998dq,                 NGC6754, SV   ,19:11:23.779 ,-50:38:25.51  ,Ia      ,NO LC 
+                SN1998X,                 NGC6754, SV   ,19:11:23.19  ,-50:38:33.8   ,II      ,
+               SN2000ft,                 NGC7469, SV   ,23:03:15.511 ,+08:52:26.29  ,II      ,
+               SN2008ec,                 NGC7469, SV   ,23:03:16.560 ,+08:52:19.81  ,Ia      ,
+              AT2017glg,                 NGC7469, SV   ,23:03:14.800 ,+08:52:55.00  ,?       ,
+                SN1993R,                 NGC7742, SV   ,23:44:16.29  ,+10:46:07.10  ,II      ,NO LC 
+               SN2014cy,                 NGC7742, SV   ,23:44:16.030 ,+10:46:12.50  ,II      ,
+              SN2021ocs,                  Arp144, arx  ,00:06:27.481 ,-13:24:56.91  ,Ic      ,   
+               SN2010hp,                  Arp256, arx  ,00:18:50.011 ,-10:21:40.61  ,II      ,
+                SN1994Z,                 NGC0087, arx  ,00:21:16.601 ,-48:37:49.51  ,II      ,MUSE-DEEP
+               SN2014da,                 NGC0128, arx  ,00:29:15.120 ,+02:51:57.60  ,Ia      ,
+              AT2016fnl,                 Mrk0950, arx  ,00:29:57.042 ,+32:53:37.51  ,TDE     ,
+             SN2021afdx,               cartwheel, arx  ,00:37:42.580 ,-33:43:25.28  ,II      ,MUSE-DEEP
+               SN2011gz,                SN2011gz, arx  ,00:37:46.270 ,-33:39:51.41  ,Ia      ,another cube will be available with apparently better resolution
+               SN2003ic,                 Holm15A, arx  ,00:41:50.230 ,-09:18:19.01  ,Ia      ,
+                SN1940E,                 NGC0253, arx  ,00:47:31.400 ,-25:17:37.00  ,I       ,HUGE GALAXY TO BE COMBINED AT SOME POINT -- TO DO --
+              SN2021qzp,                NGC0247B, arx  ,00:47:35.640 ,-20:25:40.15  ,Ibc     ,MUSE-DEEP   
+              SN2021vtq,             ESO540-G025, arx  ,00:47:38.940 ,-20:31:24.46  ,Ia      ,MUSE-DEEP   
+             SN2020acli,              SN2020acli, arx  ,00:55:08.916 ,-37:44:19.85  ,IIn     ,           
+               SN2008ee,                 NGC0307, arx  ,00:56:32.959 ,-01:46:16.00  ,Ia      ,NO LC
+               SN2007nq,                UGC00595, arx  ,00:57:33.569 ,-01:23:19.00  ,Ia      ,
+               SN2010jo,                UGC00595, arx  ,00:57:35.580 ,-01:23:33.40  ,Ia      ,NO LC
+              SN2024rsv,                   3C033, arx  ,01:08:52.934 ,+13:19:50.09  ,Ia      ,
+                SN1995Y,                 NGC0410, arx  ,01:10:59.599 ,+33:08:40.70  ,Ia      ,COMBINED 3 POINTINGS - NO LC
+              SN2019krl,                 NGC0628, arx  ,01:36:49.651 ,+15:46:46.21  ,IIn     ,PHANGS
+              SN2022sat,               SN2022sat, arx  ,02:02:04.800 ,-28:35:28.97  ,II      ,this is small field muse - mostly SN spectrum
+                SN2005H,                 NGC0838, arx  ,02:09:38.520 ,-10:08:43.58  ,II      ,MUSE-DEEP
+              SN2021zex,                   IC214, arx  ,02:14:05.673 ,+05:10:35.59  ,II      ,      
+              SN2018djd,                 NGC0863, arx  ,02:14:33.830 ,-00:45:56.77  ,Ia      ,MUSE-DEEP
+               SN2000dx,                   Arp10, arx  ,02:18:26.880 ,+05:39:02.02  ,Ia      ,
+              SN2016frs,              ESO115-G02, arx  ,02:17:29.370 ,-59:51:23.47  ,Ia      ,MUSE-DEEP
+               SN2005dm,                   IC219, arx  ,02:18:39.250 ,-06:54:10.80  ,Ia-91bg ,
+              SN2021vtl,                 NGC0940, arx  ,02:29:28.070 ,+31:38:38.08  ,Ia      ,      
+              SN2020rht,              SWIFTJ3728, arx  ,02:30:17.310 ,+28:36:02.63  ,II      ,
+              SN2018ivc,                 NGC1068, arx  ,02:42:41.290 ,-00:00:31.71  ,II      ,COMBINED 20 POINTINGS
+               SN2004fd,                 NGC1060, arx  ,02:43:15.250 ,+32:25:25.61  ,Ia      ,NO LC
+               SN2020dr,                 NGC1099, arx  ,02:45:18.878 ,-17:42:18.51  ,Ic      ,
+                SN2009H,                 NGC1084, arx  ,02:45:58.361 ,-07:35:00.31  ,II      ,
+               SN2012ec,                 NGC1084, arx  ,02:45:59.880 ,-07:34:27.01  ,II      ,
+               SN1996an,                 NGC1084, arx  ,02:46:00.83  ,-07:34:20.30  ,II      ,
+               SN1998dl,                 NGC1084, arx  ,02:46:01.469 ,-07:34:25.10  ,II      ,
+                SN1963P,                 NGC1084, arx  ,02:46:02.100 ,-07:34:50.48  ,Ia      ,
+               SN1992bd,                 NGC1097, arx  ,02:46:18.900 ,-30:16:30.00  ,II      ,
+                SN1995V,                 NGC1087, arx  ,02:46:26.770 ,-00:29:55.61  ,II      ,PHANGS
+              SN2019oyw,              GRB190829A, arx  ,02:58:10.510 ,-08:57:27.20  ,Ic-BL   ,
+              SN2021yxr,                  Arp108, arx  ,03:03:07.476 ,-22:12:04.86  ,II      ,      
+             SN2022acko,                 NGC1300, arx  ,03:19:38.990 ,-19:23:42.68  ,II      ,PHANGS
+              SN2023nfg,                UGC02690, arx  ,03:20:42.980 ,-01:06:33.48  ,II      ,
+                SN1981D,                 SN1981D, arx  ,03:22:38.40  ,-37:13:58.00  ,Ia      ,THIS NEED TO BE JOINED WITH SN2006dd in NGC1316 -- TO DO -- NO LC           
+               SN1994aa,                 NGC1320, arx  ,03:24:49.399 ,-03:02:33.61  ,Ia      ,MUSE-DEEP
+               SN2002fw,                    MXDF, arx  ,03:32:37.519 ,-27:46:46.60  ,Ia      ,FROM UDF-MOSAIC
+               SN2012fq,           CANDELSCDFS16, arx  ,03:32:32.899 ,-27:51:21.10  ,Ia      ,NO LC - REDSHIFT VERY LARGE -> RESTFRAME VERY BLUE. ANALYZE INDEPENDENTLY
+               SN1999gu,             HUDF09-2-03, arx  ,03:33:00.149 ,-27:51:40.10  ,II      ,
+               SN2001du,                 NGC1365, arx  ,03:33:29.100 ,-36:08:31.20  ,II      ,PHANGS
+                SN1983V,                 NGC1365, arx  ,03:33:31.661 ,-36:08:54.89  ,II      ,PHANGS
+               SN2012fr,                 NGC1365, arx  ,03:33:35.990 ,-36:07:37.70  ,Ia      ,PHANGS
+                SN1992A,                 NGC1380, arx  ,03:36:27.430 ,-34:57:31.50  ,Ia      ,
+              SN2022ffv,                 NGC1381, arx  ,03:36:29.715 ,-35:17:21.59  ,Ia      ,MUSE-DEEP
+              AT2020pju,                 NGC1385, arx  ,03:37:29.920 ,-24:30:04.14  ,LBV     ,PHANGS
+                SN1985P,                 NGC1433, arx  ,03:42:06.360 ,-47:12:36.00  ,II      ,PHANGS
+               SN2005my,               ESO302-27, arx  ,04:01:53.129 ,-41:56:08.30  ,II      ,
+              SN2016gqv,                UGC02936, arx  ,04:02:48.534 ,+01:58:15.57  ,Ic-pec  ,MUSE-DEEP
+               SN1991bd,                UGC02936, arx  ,04:02:49.661 ,+01:58:26.40  ,Ia      ,   
+              SN2018fhw,               SN2018fhw, arx  ,04:18:06.200 ,-63:36:56.41  ,Ia      ,MUSE-DEEP
+             SN2021aefx,                 NGC1566, arx  ,04:19:53.400 ,-54:56:53.09  ,Ia      ,PHANGS      
+               SN2010el,                 NGC1566, arx  ,04:19:58.829 ,-54:56:38.51  ,Ia-02cx ,PHANGS      
+            ASASSN-14ha,                 NGC1566, arx  ,04:20:01.416 ,-54:56:17.16  ,II      ,PHANGS      
+              SN2019obh,                 MRK0618, arx  ,04:36:22.244 ,-10:22:20.04  ,IIb     ,COMBINED 8 POINTINGS
+              SN2022aau,                 NGC1672, arx  ,04:45:41.754 ,-59:14:43.38  ,II      ,PHANGS same galaxy as SN2017gax
+              AT2019qiz,               AT2019qiz, arx  ,04:46:37.880 ,-10:13:34.90  ,TDE     ,
+               SN2012gk,               ESO305-21, arx  ,05:22:41.501 ,-39:03:44.32  ,II      ,
+                SN1987A,                 SN1987A, arx  ,05:35:27.989 ,-69:16:11.50  ,II      ,
+              AT2019xis,               AT2019xis, arx  ,05:36:13.700 ,-69:16:24.70  ,II-LE   ,COMBINED 9 POINTINGS
+                SN2011N,              ESO120-016, arx  ,05:51:35.179 ,-59:02:51.29  ,Ic      ,15 CUBES JOINED BUT THERE ARE 56 -- TO DO --
+              SN2018hnq,               PGC019085, arx  ,06:27:38.610 ,-54:27:24.08  ,Ia      ,
+               SN2010bh,              GRB100316D, arx  ,07:10:31.800 ,-56:15:20.20  ,Ic-BL   ,
+               SN2008cm,                 NGC2369, arx  ,07:16:38.750 ,-62:18:52.88  ,Ia      ,
+               SN2011gw,                  IC2200, arx  ,07:28:17.021 ,-62:21:18.90  ,Ibc     ,
+              SN2020xyw,               ESO123-11, arx  ,07:28:08.020 ,-62:21:28.91  ,Ia      ,SN spectrum there!
+               SN2003lw,               GRB031203, arx  ,08:02:30.199 ,-39:51:02.99  ,Ic      , COMBINED 12 POINTINGS - WEIRD STRUCTURE AT THE CENTER OF THE CUBE SN IN ONE SIDE
+                SN2001J,                UGC04729, arx  ,09:00:43.231 ,+17:37:15.60  ,II      ,
+               SN2012bz,              GRB120422A, arx  ,09:07:38.381 ,+14:01:07.50  ,Ibc     ,
+              SN2016gwl,                 NGC2865, arx  ,09:23:28.020 ,-23:10:10.74  ,Ia      ,
+                SN2003D,                  Arp321, arx  ,09:38:53.520 ,-04:51:05.11  ,Ia-pec  ,COMBINED 12 POINTINGS
+              SN2026dwm,                  Arp321, arx  ,09:38:54.025 ,-04:51:37.97  ,IIb     ,different galaxy
+               SN2012il,                SN2012il, arx  ,09:46:12.850 ,+19:50:28.21  ,Ic      ,
+             SN2023abqf,                  Arp303, arx  ,09:46:20.11  ,+03:04:16.58  ,Ia      ,
+              SN2020jsh,                  Arp303, arx  ,09:46:21.430 ,+03:04:23.77  ,Ia      ,
+               SN2014es,           MCG-01-24-012, arx  ,09:20:46.910 ,-08:03:34.00  ,IIn     ,MUSE-DEEP
+               SN2003ao,                 NGC2993, arx  ,09:45:48.461 ,-14:22:14.02  ,II      ,MUSE-DEEP
+              SN2022wte,                  Arp255, arx  ,09:53:10.713 ,+07:52:30.48  ,Ia      ,MUSE-DEEP
+              AT2018hyz,               AT2018hyz, arx  ,10:06:50.871 ,+01:41:34.08  ,TDE     ,   
+              SN2021htf,                   JO204, arx  ,10:13:46.560 ,-00:54:30.97  ,II      ,MUSE-DEEP
+              SN2021fpn,                   JO204, arx  ,10:13:47.640 ,-00:54:55.08  ,IIn     ,   
+              SN2020ejm,                  IC2560, arx  ,10:16:18.850 ,-33:33:49.17  ,Ia      ,COMBINED 10 POINTINGS
+                SN1983U,                 NGC3227, arx  ,10:23:29.410 ,+19:51:55.69  ,I       ,
+                SN2012A,                 NGC3239, arx  ,10:25:07.390 ,+17:09:14.62  ,II      ,COMBINED 8 POINTINGS
+               SN2001db,                 NGC3256, arx  ,10:27:50.400 ,-43:54:20.99  ,II      ,
+               SN2018ec,                 NGC3256, arx  ,10:27:50.770 ,-43:54:06.30  ,Ic      ,
+             SN2021afuq,                 NGC3256, arx  ,10:27:52.150 ,-43:54:07.17  ,Ic      ,      
+              SN2025qgd,                 NGC3256, arx  ,10:27:51.066 ,-43:54:20.96  ,II      ,      
+               SN2010hx,                 NGC3258, arx  ,10:28:51.060 ,-35:36:22.28  ,Ia      ,COMBINED 8 POINTINGS
+               SN2007av,                 NGC3279, arx  ,10:34:43.171 ,+11:11:38.29  ,II      ,16 CUBES JOINED BUT THERE ARE 36 -- TO DO --
+              SN2018aqi,                 NGC3393, arx  ,10:48:25.453 ,-25:09:35.90  ,Ia      ,
+               SN2010bi,                  Arp335, arx  ,11:04:25.490 ,+04:50:17.59  ,II      ,MUSE-DEEP
+              SN2017iuk,            LCRSB1107092, arx  ,11:09:39.510 ,-12:35:18.49  ,Ic-BL   ,
+              SN2017cze,                2MIG1546, arx  ,11:09:46.824 ,-13:22:50.66  ,Ia      ,NO LC
+               SN1997bs,                 NGC3627, arx  ,11:20:14.251 ,+12:58:19.60  ,IIn     ,PHANGS
+               SN2009hd,                 NGC3627, arx  ,11:20:16.961 ,+12:58:46.60  ,II      ,PHANGS
+              SN2016cok,                 NGC3627, arx  ,11:20:19.033 ,+12:58:56.64  ,II      ,PHANGS
+               SN2010gx,                SN2010gx, arx  ,11:25:46.711 ,-08:49:41.41  ,Ic      ,
+               SN2004gj,                  Arp197, arx  ,11:30:59.630 ,+20:28:06.82  ,IIb     ,
+               SN2013gl,                  Arp197, arx  ,11:31:00.480 ,+20:28:10.31  ,Ib      ,  
+               SN2015bn,                  PS15ae, arx  ,11:33:41.550 ,+00:43:33.50  ,SLSN-I  ,SN spectrum there
+              AT2023clx,                   Arp83, arx  ,11:40:09.397 ,+15:19:38.54  ,TDE     ,
+              AT2018meh,                   Arp83, arx  ,11:40:09.426 ,+15:19:37.34  ,TDE     ,
+              SN2021kos,                   IC719, arx  ,11:40:19.010 ,+09:00:37.66  ,Ib      ,   
+              SN2022ais,                UGC06877, arx  ,11:54:10.204 ,+00:08:16.91  ,Ia      ,      
+               SN2004gt,                Antennae, arx  ,12:01:50.371 ,-18:52:12.68  ,Ibc     ,THIS NEEDS TO BE COMBINED -- TO DO --
+               SN2013dk,               Antennae2, arx  ,12:01:52.721 ,-18:52:18.30  ,Ic      ,THIS NEEDS TO BE COMBINED -- TO DO --
+                SN1985B,                 NGC4045, arx  ,12:02:44.081 ,+01:58:45.52  ,II      ,
+              SN2019wbg,                 NGC4045, arx  ,12:02:42.723 ,+01:59:03.64  ,IIn     ,
+                SN1986I,                 NGC4254, arx  ,12:18:52.080 ,+14:24:44.39  ,II      ,PHANGS
+                SN2014L,                 NGC4254, arx  ,12:18:48.679 ,+14:24:43.49  ,Ic      ,PHANGS
+                SN1972Q,                 NGC4254, arx  ,12:18:50.800 ,+14:26:40.00  ,II      ,PHANGS
+                SN2001A,                 NGC4261, arx  ,12:19:23.011 ,+05:49:40.51  ,Ia      ,NO LC
+              SN2020ftl,                 NGC4277, arx  ,12:20:03.754 ,+05:20:33.67  ,Ia      ,MUSE-DEEP
+              SN2020jfo,                 NGC4303, arx  ,12:21:50.480 ,+04:28:54.05  ,II      ,PHANGS
+                SN1964F,                 NGC4303, arx  ,12:21:53.000 ,+04:28:27.00  ,II      ,
+                SN1926A,                 NGC4303, arx  ,12:21:54.100 ,+04:29:37.00  ,II      ,  
+               SN2006ov,                 NGC4303, arx  ,12:21:55.301 ,+04:29:16.69  ,II      ,  
+               SN1999gn,                 NGC4303, arx  ,12:21:57.019 ,+04:27:45.61  ,II      ,
+               SN2014dt,                 NGC4303, arx  ,12:21:57.569 ,+04:28:18.52  ,Ia-02cx ,NO LC 
+                SN1961I,                 NGC4303, arx  ,12:22:00.439 ,+04:28:13.30  ,II      ,
+              SN2019ehk,                 NGC4321, arx  ,12:22:56.130 ,+15:49:33.60  ,Ib      ,PHANGS same galaxy as SN2006X
+               SN2020oi,                 NGC4321, arx  ,12:22:54.925 ,+15:49:25.05  ,Ic      ,
+                SN1959E,                 NGC4321, arx  ,12:22:58.901 ,+15:49:01.09  ,I       ,
+                SN1979C,                 NGC4321, arx  ,12:22:58.630 ,+15:47:51.68  ,II      ,
+              SN2023fyq,                 NGC4388, arx  ,12:25:45.874 ,+12:39:48.87  ,Ib-pec  ,MUSE-DEEP JOINING 8 POINTINGS
+              SN2020nvb,                 NGC4457, arx  ,12:28:58.780 ,+03:34:22.01  ,Ia      ,THERE ARE LOTS OF CUBES UNPUBLISHED -- TO DO --
+                SN1960F,                NGC4496A, arx  ,12:31:42.050 ,+03:56:47.80  ,Ia      ,COMBINED 8 POINTINGS
+               SN1999cl,                 NGC4501, arx  ,12:31:56.009 ,+14:25:35.29  ,Ia      ,THIS NEEDS TO BE COMBINED -- TO DO -- 24 of 32 cubes reduced other 8 have problems
+               SN2008cn,                 NGC4603, arx  ,12:40:55.661 ,-40:58:12.11  ,II      ,
+                SN1939A,                 NGC4636, arx  ,12:42:48.700 ,+02:41:36.00  ,Ia      ,MUSE-DEEP
+               SN2012au,                 NGC4790, arx  ,12:54:52.181 ,-10:14:50.21  ,Ib      ,
+               SN2009au,               ESO443-21, arx  ,12:59:46.001 ,-29:36:07.49  ,-       ,SN_OUT_OF_FOV
+               SN2022jo,                  IC4040, arx  ,13:00:37.660 ,+28:03:25.70  ,II      ,
+               PTF11dgh,                  IC4040, arx  ,13:00:38.059 ,+28:03:24.19  ,Ia      ,
+                SN1968I,                 NGC4981, arx  ,13:08:48.87  ,-06:46:40.80  ,Ia      ,MUSE-DEEP               
+                SN2007C,                 NGC4981, arx  ,13:08:49.301 ,-06:47:01.00  ,Ib      ,MUSE-DEEP 
+               SN1991bi,                 NGC5127, arx  ,13:23:43.980 ,+31:33:51.08  ,Ia      ,
+              SN2016adj,               SN2016adj, arx  ,13:25:24.110 ,-43:00:57.50  ,Ib      ,THIS IS TO BE COMBINED QITH SN1986G -- TO DO --
+              SN2023dpj,                 NGC5135, arx  ,13:25:44.399 ,-29:50:11.91  ,II      ,
+              SN2017dps,                  IC4296, arx  ,13:36:40.039 ,-33:58:01.29  ,Ia      ,NO LC.  COMBINED 18 POINTINGS
+                SN1968L,                 NGC5236, arx  ,13:37:00.511 ,-29:51:59.00  ,II      ,HUGE MOSAIC NGC5236 TO BE DONE -- TO DO --
+                SN1895B,                 NGC5253, arx  ,13:39:57.30  ,-31:38:06.00  ,Ia      ,COMBINED 16 POINTINGS - NO LC
+             SN2020abir,                 NGC5331, arx  ,13:52:16.530 ,+02:06:25.67  ,Ia      ,more data will be available
+               SN2018zz,                 NGC5419, arx  ,14:03:39.060 ,-33:58:42.60  ,Ia      ,NO LC
+              SN2020alh,                 NGC5419, arx  ,14:03:38.763 ,-33:58:37.39  ,Ia      ,
+              SN2016aew,                   IC986, arx  ,14:11:26.491 ,+01:17:09.47  ,Ia      ,MUSE-DEEP
+               SN1996cr,              ESO097-013, arx  ,14:13:10.010 ,-65:20:44.41  ,IIn     ,COMBINED 16 POINTINGS
+              SN2023kyb,                 NGC5626, arx  ,14:29:51.415 ,-29:45:11.51  ,Ia      ,MUSE-DEEP JOINING 8 POINTINGS
+              SN2017cbv,                 NGC5643, arx  ,14:32:34.420 ,-44:08:02.74  ,-       ,SN NOT IN THE FoV - BUT THIS WAS ANALYZED FOR SAHANA - COMBINED 8 POINTINGS
+               SN2011kf,                SN2011kf, arx  ,14:36:57.530 ,+16:30:56.59  ,Ic      ,
+                SN2009Y,                 NGC5728, arx  ,14:42:23.849 ,-17:14:48.41  ,Ia      ,MUSE-DEEP
+               SN2009jh,                SN2009jh, arx  ,14:49:10.090 ,+29:25:10.42  ,SLSN-I  ,
+               SN1996ae,                 NGC5775, arx  ,14:53:59.810 ,+03:31:46.31  ,IIn     ,COMBINED 13 POINTINGS
+               SN2004dg,                 NGC5806, arx  ,14:59:58.961 ,+01:53:25.58  ,II      ,
+                SN2012P,                 NGC5806, arx  ,14:59:59.119 ,+01:53:24.40  ,Ibc     ,
+              iPTF13bvn,                 NGC5806, arx  ,15:00:00.152 ,+01:52:53.17  ,Ib      ,
+              SN2018bsz,               SN2018bsz, arx  ,16:09:39.112 ,-32:03:45.63  ,II      ,
+               PS1-14xw,                 NGC6240, arx  ,16:52:57.63  ,+02:23:36.50  ,Ia-91T  ,MUSE-DEEP - SN in THE BORDERRRRRRR 
+               SN2010gp,                 NGC6240, arx  ,16:52:57.391 ,+02:23:16.40  ,-       ,SN NOT IN THE FoV 
+               SN2000bg,                 NGC6240, arx  ,16:52:58.130 ,+02:23:50.50  ,IIn     ,
+               SN2013dc,                 NGC6240, arx  ,16:52:58.970 ,+02:24:25.49  ,II      ,
+              SN2022qmx,               SN2022qmx, arx  ,17:35:44.328 ,+04:49:56.86  ,Ia      ,MUSE-DEEP. more data will be available
+              SN2024esn,         IRAS18090+0130E, arx  ,18:11:39.658 ,+01:31:49.23  ,Ia      ,
+               SN2004ip,          IRAS18293+3413, arx  ,18:32:41.261 ,-34:11:26.70  ,II      ,
+               SN2013if,          IRAS18293+3413, arx  ,18:32:41.098 ,-34:11:27.23  ,II      ,
+               SN1997de,                 NGC6769, arx  ,19:18:20.820 ,-60:29:42.00  ,Ia      ,
+               SN2008da,                NGC6845A, arx  ,20:00:57.410 ,-47:04:02.71  ,II      ,
+               SN2005bs,                SN2005bs, arx  ,20:10:14.110 ,-56:38:43.58  ,Ia      ,COMBINED
+               SN2011ei,                 NGC6925, arx  ,20:34:22.620 ,-31:58:23.59  ,IIb     ,COMBINED
+               SN2006ms,                 NGC6935, arx  ,20:38:20.520 ,-52:06:55.91  ,II      ,
+              SN2022swf,               SN2022swf, arx  ,20:45:41.858 ,-10:40:34.30  ,Ia      ,
+               SN2012ga,                 NGC6975, arx  ,20:52:25.099 ,-05:46:15.60  ,II      ,
+              AT2019dsg,               AT2019dsg, arx  ,20:57:02.974 ,+14:12:15.86  ,TDE     ,
+              SN2024hjt,                  IIZw96, arx  ,20:57:25.003 ,+17:07:41.76  ,II      ,
+              SN2017hgz,                 NGC7130, arx  ,21:48:20.120 ,-34:57:10.40  ,Ia      ,
+               SN2010bt,                 NGC7130, arx  ,21:48:20.220 ,-34:57:16.49  ,IIn     ,
+              SN2020llx,                 NGC7140, arx  ,21:52:14.038 ,-55:33:44.17  ,II      ,
+                SN2015L,             ASASSN-15lh, arx  ,22:02:15.451 ,-61:39:34.60  ,SLSN-I  ,
+               SN2009dt,                  IC5169, arx  ,22:10:09.271 ,-36:05:42.61  ,Ic      ,MUSE-DEEP
+               SN1999ee,                  IC5179, arx  ,22:16:10.001 ,-36:50:39.70  ,Ia      ,
+               SN1999ex,                  IC5179, arx  ,22:16:07.270 ,-36:50:53.70  ,Ic      ,
+              SN2018kcw,                  IC5179, arx  ,22:16:07.949 ,-36:50:56.94  ,II      ,
+               SN2010gg,             ESO602-G025, arx  ,22:31:25.471 ,-19:01:54.80  ,II      ,
+               PTF09dav,                PTF09dav, arx  ,22:46:55.150 ,+21:37:34.10  ,Ia-pec  ,
+              SN2022wsp,                 NGC7448, arx  ,23:00:03.526 ,+15:58:42.60  ,II      ,COMBINED 4 POINTINGS
+               SN1997dt,                 NGC7448, arx  ,23:00:02.930 ,+15:58:50.92  ,Ia      ,
+               SN1998dh,                 NGC7541, arx  ,23:14:40.310 ,+04:32:14.10  ,Ia      ,COMBINED 7 POINTINGS
+              SN2017jmk,                 NGC7541, arx  ,23:14:45.130 ,+04:31:50.63  ,II      ,
+               AT2014ej,                 NGC7552, arx  ,23:16:09.790 ,-42:34:57.50  ,LBV     ,COMBINED  11 POINTINGS
+               SN2000ey,                  IC1481, arx  ,23:19:25.200 ,+05:54:21.10  ,Ia      ,NO LC 
+               SN2011hb,                 NGC7674, arx  ,23:27:55.510 ,+08:46:45.70  ,Ia      ,
+               SN2011ee,                 NGC7674, arx  ,23:27:57.341 ,+08:46:38.10  ,Ic      ,
+                SN2000A,                 NGC7674, arx  ,23:27:58.901 ,+08:47:02.11  ,Ia      ,
+               SN2004cx,                 NGC7755, arx  ,23:47:52.860 ,-30:31:32.59  ,II      ,MUSE-DEEP
+              SN2019fkq,                  IC5364, arx  ,23:56:24.390 ,-29:01:25.61  ,Ia      ,
+                SN1989G,                  IC2637, arx  ,11:13:49.300 ,+09:35:21.00  ,I       ,
+              SN2020syb,           MCG-02-15-004, arx  ,05:33:50.179 ,-13:21:17.49  ,Ia      ,
+              SN2025scw,                 NGC0424, arx  ,01:11:27.200 ,-38:04:53.29  ,II      ,
+             SN2024aecx,                 NGC3521, arx  ,11:05:49.544 ,-00:02:05.46  ,Ic      ,
+              SN2021low,               SN2021low, arx  ,11:44:46.260 ,+20:07:34.28  ,Ia      ,
+              SN2023rzh,               SN2023rzh, arx  ,01:13:52.212 ,+13:16:08.82  ,Ia      ,
+             SN2024abvr,              SN2024abvr, arx  ,01:34:02.680 ,-09:46:28.70  ,Ia      ,
+             SN2025aano,              SN2025aano, arx  ,06:02:51.977 ,-23:41:27.89  ,Ia      ,
+               SN2025ei,                SN2025ei, arx  ,11:44:47.404 ,+19:46:24.36  ,II      ,
+              SN2025rin,               SN2025rin, arx  ,13:02:52.661 ,-02:30:41.62  ,Ia      ,
+              SN2025rjo,               SN2025rjo, arx  ,13:26:35.754 ,-30:59:35.59  ,II      ,
+              SN2025wmj,               SN2025wmj, arx  ,22:47:20.005 ,-65:03:31.11  ,Ia-91bg ,
+              SN2025pfh,                  Arp200, arx  ,02:53:42.256 ,+13:00:58.49  ,Ic      ,
+                SN1984A,                 NGC4419, arx  ,12:26:55.750 ,+15:03:18.00  ,I       ,
+               SN2012cc,                 NGC4419, arx  ,12:26:56.810 ,+15:02:45.49  ,II      ,
+              SN2024phz,                 NGC4330, arx  ,12:23:15.765 ,+11:21:54.35  ,II      ,
+              SN2025ulz,               SN2025ulz, arx  ,15:51:54.201 ,+30:54:08.67  ,II      ,
+               SN2025kg,               EP250108a, arx  ,03:42:28.389 ,-22:30:21.28  ,Ic-BL   ,*************
+              SN2018hib,                ESO417-6, arx  ,02:56:21.270 ,-32:11:08.77  ,Ia      ,*************
+             SN2020acct,                 NGC2981, arx  ,09:44:56.055 ,+31:05:45.73  ,IIn     ,*************
+                SN1981G,                 NGC4874, arx  ,12:59:36.700 ,+27:57:48.00  ,I       ,*************
