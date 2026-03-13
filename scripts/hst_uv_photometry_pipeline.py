@@ -35,6 +35,12 @@ OUTPUT_IMAGES_DIR = PROJECT_ROOT / "outputs" / "images"
 SURVEY = "HST"
 FILTER = "WFC3_UVIS_F275W"
 RBAND_DEFAULT_ORDER = ["DES", "LegacySurvey", "PanSTARRS", "SkyMapper"]
+PLOT_FONT_FAMILY = "STIXGeneral"
+CBF_BLUE = "#0072B2"       # Okabe-Ito blue
+CBF_ORANGE = "#E69F00"     # Okabe-Ito orange
+CBF_VERMILION = "#D55E00"  # Okabe-Ito vermilion
+
+plt.rcParams["font.family"] = PLOT_FONT_FAMILY
 
 
 # ------------------------------------------------------------------
@@ -528,25 +534,32 @@ def _draw_panel(
     max_radius_deg = (min(nx, ny) * pixscale_deg) / 2.0
 
     for rdeg in apertures_deg:
-        f.show_circles(ra, dec, radius=min(rdeg, max_radius_deg), edgecolor="red", lw=2)
+        f.show_circles(
+            ra,
+            dec,
+            radius=min(rdeg, max_radius_deg),
+            edgecolor=CBF_VERMILION,
+            lw=2.8,
+        )
 
     f.recenter(ra, dec, width=fov_arcsec / 3600.0, height=fov_arcsec / 3600.0)
     f.add_scalebar(1 / 3600)
-    f.scalebar.set_label("1 arcsec")
-    f.scalebar.set_color("cyan")
-    f.scalebar.set_linewidth(2.5)
-    f.scalebar.set_font(size=5.5, weight="normal")
+    f.scalebar.set_color(CBF_BLUE)
+    f.scalebar.set_linewidth(3.0)
+    f.scalebar.set_corner("bottom right")
+    f.scalebar.set_label("")
     f.ax.text(
         0.5,
-        0.97,
+        0.965,
         panel_title,
         transform=f.ax.transAxes,
         color="white",
-        fontsize=6.5,
+        fontsize=12.0,
         ha="center",
         va="top",
         fontweight="bold",
-        bbox={"boxstyle": "round,pad=0.12", "fc": "black", "ec": "none", "alpha": 0.45},
+        fontfamily=PLOT_FONT_FAMILY,
+        bbox={"boxstyle": "round,pad=0.16", "fc": "black", "ec": "none", "alpha": 0.5},
     )
     if panel_text:
         f.ax.text(
@@ -555,11 +568,24 @@ def _draw_panel(
             panel_text,
             transform=f.ax.transAxes,
             color="white",
-            fontsize=5.8,
+            fontsize=10.8,
             ha="left",
             va="top",
-            bbox={"boxstyle": "round,pad=0.15", "fc": "black", "ec": "none", "alpha": 0.55},
+            fontfamily=PLOT_FONT_FAMILY,
+            bbox={"boxstyle": "round,pad=0.18", "fc": "black", "ec": "none", "alpha": 0.6},
         )
+    f.ax.text(
+        0.965,
+        0.07,
+        "1 arcsec",
+        transform=f.ax.transAxes,
+        color=CBF_BLUE,
+        fontsize=10.6,
+        ha="right",
+        va="top",
+        fontfamily=PLOT_FONT_FAMILY,
+        fontweight="semibold",
+    )
 
     return f
 
@@ -669,7 +695,7 @@ def plot_supernova_panels(
         has_r = bool(plot_rband_file) and Path(plot_rband_file).exists()
 
         if has_r:
-            fig = plt.figure(figsize=(8, 4))
+            fig = plt.figure(figsize=(9.6, 4.8))
             f1 = _draw_panel(
                 fits_file=plot_hst_file,
                 fig=fig,
@@ -692,9 +718,9 @@ def plot_supernova_panels(
                 panel_text=rband_text,
                 fov_arcsec=fov_arcsec,
             )
-            plt.suptitle(supernova_name, fontsize=7)
+            plt.suptitle(supernova_name, fontsize=18, fontfamily=PLOT_FONT_FAMILY, fontweight="semibold")
         else:
-            fig = plt.figure(figsize=(4, 4))
+            fig = plt.figure(figsize=(4.8, 4.8))
             f1 = _draw_panel(
                 fits_file=plot_hst_file,
                 fig=fig,
@@ -706,9 +732,9 @@ def plot_supernova_panels(
                 panel_text=hst_text,
                 fov_arcsec=fov_arcsec,
             )
-            plt.title(supernova_name, fontsize=7)
+            plt.title(supernova_name, fontsize=18, fontfamily=PLOT_FONT_FAMILY, fontweight="semibold")
 
-        plt.savefig(out, dpi=300, bbox_inches="tight")
+        plt.savefig(out, dpi=400, bbox_inches="tight")
     except Exception as e:
         print(f"Error plotting {supernova_name}: {e}")
     finally:
@@ -822,6 +848,49 @@ def _add_band_limits(
             mag_ul.append(-2.5 * np.log10(float(ful)) + float(zp))
 
     df[f"{prefix}_mag_upper_limit"] = mag_ul
+    return df
+
+
+def add_absolute_magnitude_columns(df: pd.DataFrame, z_col: str = "z") -> pd.DataFrame:
+    """
+    Convert apparent magnitudes to absolute magnitudes using distance modulus:
+        M = m - mu
+    where mu is derived from redshift with the configured cosmology.
+
+    Notes:
+    - No K-correction is applied.
+    - Redshift must be finite and > 0.
+    """
+    if z_col not in df.columns:
+        return df
+
+    z = pd.to_numeric(df[z_col], errors="coerce")
+    mu = pd.Series(np.nan, index=df.index, dtype=float)
+    valid = np.isfinite(z) & (z > 0)
+    if valid.any():
+        mu.loc[valid] = [cosmo.distmod(float(zz)).value for zz in z.loc[valid]]
+
+    df["distance_modulus"] = mu
+
+    # Base apparent magnitude columns from hostphot outputs.
+    mag_cols = [
+        c
+        for c in df.columns
+        if re.match(rf"^{re.escape(FILTER)}_[^_]+$", c) and (not c.endswith("_zeropoint"))
+    ]
+    mag_cols += [
+        c
+        for c in df.columns
+        if re.match(r"^rband_r_[^_]+$", c) and (not c.endswith("_zeropoint"))
+    ]
+
+    # Upper-limit magnitude columns created in this pipeline.
+    mag_cols += [c for c in df.columns if c.endswith("_mag_upper_limit")]
+
+    for col in sorted(set(mag_cols)):
+        m = pd.to_numeric(df[col], errors="coerce")
+        df[f"{col}_abs"] = m - mu
+
     return df
 
 
@@ -1229,6 +1298,9 @@ def main() -> int:
     for c in ["RA(degrees)", "DEC(degrees)", "z"]:
         if c in df_summary.columns:
             df_summary[c] = pd.to_numeric(df_summary[c], errors="coerce")
+
+    # Add absolute magnitudes from apparent magnitudes and redshift distance modulus.
+    df_summary = add_absolute_magnitude_columns(df_summary, z_col="z")
 
     df_summary.to_csv(output_summary, index=False, float_format="%.6g")
     print(f"Wrote summary: {output_summary} ({len(df_summary)} rows)")

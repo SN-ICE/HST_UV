@@ -124,6 +124,41 @@ python scripts/hst_uv_photometry_pipeline.py \
 | `--rband-surveys ...` | Set r-band survey priority order |
 | `--snr-threshold 3.0` | Threshold for upper-limit reporting |
 
+## Sync images to Overleaf
+
+This repository includes a lightweight Git-based Overleaf sync workflow for images.
+
+### 1) One-time connection setup
+
+From the repository root, run:
+
+```bash
+scripts/overleaf_connect.sh \
+  --git-url "https://git.overleaf.com/<your-project-id>" \
+  --source-dir "images" \
+  --target-dir "images"
+```
+
+This clones your Overleaf project into `.overleaf/` and stores local sync settings in this repo's `.git/config`.
+
+### 2) Push new images whenever needed
+
+```bash
+scripts/overleaf_sync_images.sh
+```
+
+By default, FITS files are excluded from sync (to avoid Overleaf Git size-limit failures).
+
+Optional flags:
+
+| Flag | Purpose |
+|---|---|
+| `--source-dir <path>` | Override image source directory in this repo |
+| `--target-dir <path>` | Override destination path inside Overleaf project |
+| `--delete` | Remove files in Overleaf destination that no longer exist locally |
+| `--include-fits` | Include FITS files (not recommended for Overleaf Git) |
+| `--commit-message "<msg>"` | Custom sync commit message |
+
 ## Outputs
 
 | File | Description |
