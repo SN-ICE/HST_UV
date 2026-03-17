@@ -1,0 +1,2 @@
+atlas_file,atlas_name,sample_sn,status,message,output_file,n_points_total,n_ATgr,n_ATri
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw_mjd56000/ASASSN-14dd_atlas_forcedphot.txt,ASASSN-14dd,ASASSN-14dd,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/ASASSN-14dd_raw.txt,11,3,8

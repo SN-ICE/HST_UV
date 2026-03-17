@@ -27,8 +27,7 @@ import astropy.units as u
 from astropy.io import fits
 from astropy.wcs import WCS
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent
+from project_paths import DATA_DIR, hst_program_dir
 
 
 def _iter_fits_files(roots: Iterable[Path], patterns: Iterable[str]) -> List[Path]:
@@ -162,7 +161,7 @@ def main() -> int:
     parser.add_argument(
         "--roots",
         nargs="+",
-        default=[str(PROJECT_ROOT / "16741"), str(PROJECT_ROOT / "17176")],
+        default=[str(hst_program_dir("16741")), str(hst_program_dir("17179"))],
         help="Root directories to scan recursively for FITS files.",
     )
     parser.add_argument(
@@ -173,12 +172,12 @@ def main() -> int:
     )
     parser.add_argument(
         "--tns-csv",
-        default=str(PROJECT_ROOT / "data" / "tns_public_objects.csv.zip"),
+        default=str(DATA_DIR / "tns_public_objects.csv.zip"),
         help="Path to TNS public objects CSV (.csv, .csv.gz, or .zip containing CSV).",
     )
     parser.add_argument(
         "--output",
-        default=str(PROJECT_ROOT / "data" / "tns_crossmatch.csv"),
+        default=str(DATA_DIR / "tns_crossmatch.csv"),
         help="Output CSV path.",
     )
     parser.add_argument(

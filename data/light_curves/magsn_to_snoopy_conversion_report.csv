@@ -1,0 +1,89 @@
+sample_sn,status,magsn_field,obj_selected,n_points,n_filters,output_file,message
+ASASSN-13cj,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+ASASSN-13cp,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+ASASSN-14ba,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+ASASSN-14cu,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+ASASSN-14db,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+ASASSN-14dd,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+ASASSN-14dz,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+ASASSN-14ig,ok,ASAS14ig,0.0,24,6,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/ASASSN-14ig_raw.txt,
+ASASSN-14lv,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+ASASSN-14mg,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+ASASSN-15ho,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+CSP13V,ok,CSP13V,0.0,54,9,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/CSP13V_raw.txt,
+CSS130317:082848+293031,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+LSQ12cfx,ok,LSQ12cfx,0.0,24,8,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/LSQ12cfx_raw.txt,
+LSQ12cid,ok,LSQ12cid,0.0,19,9,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/LSQ12cid_raw.txt,
+LSQ12dbr,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+LSQ12hnx,ok,LSQ12hnx,0.0,31,6,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/LSQ12hnx_raw.txt,
+LSQ14aeg,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+LSQ14fmg,ok,LSQ14fmg,0.0,191,7,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/LSQ14fmg_raw.txt,
+LSQ14gde,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+PS15mb,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+PSNJ07250042+2347030,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+PTF12iiq,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+PTF12jgb,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN1968I,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN1991bj,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN1995Y,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN1997de,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2000do,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2000dx,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2000ey,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2004cs,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2004fd,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2005bs,ok,SN2005bs,0.0,12,4,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2005bs_raw.txt,
+SN2005cf_B,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2008ee,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2009ev,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2009mz,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2010jn,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2010jo,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2011ce,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2011jq,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2012ec,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2012fw,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2012he,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2013da,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2013dl,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2013ef,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2013gr,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2013hk,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2014bz,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2014cr,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2014dm,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2014ey,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2016ecm,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2016gwl,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2016jhr,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2017cyy,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2017dps,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2017hgz,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2018agk,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2018djd,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2018hnq,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2018oh,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2018xx,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2018zz,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2019fkq,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2020ejm,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2020xyw,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2021abze,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2021acnt,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2021adlr,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2021adxd,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2021aess,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2021afkk,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2021agbn,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2021bmw,ok,2021bmw,0.0,118,3,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2021bmw_raw.txt,
+SN2021cgu,ok,2021cgu,0.0,105,3,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2021cgu_raw.txt,
+SN2021csp,ok,2021csp,0.0,157,3,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2021csp_raw.txt,
+SN2021dbg,ok,2021dbg,0.0,164,3,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2021dbg_raw.txt,
+SN2021gno,ok,2021gno,0.0,81,3,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2021gno_raw.txt,
+SN2022crr,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2022crv,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2022epu,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SN2022wsp,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+SNF20080612-003,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv
+iPTF13dyt,ok,PTF13dyt,0.0,58,5,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/iPTF13dyt_raw.txt,
+iPTF14hvh,missing_in_magsn,,,0,0,,No matching field in MAGSN.csv

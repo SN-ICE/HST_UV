@@ -1,0 +1,7 @@
+B_IOO IOO_Bessell-B.txt VegaB=0.0 B at Liverpool+IOO
+V_IOO IOO_Bessell-V.txt VegaB=0.0 V at Liverpool+IOO
+u_IOO IOO_SDSS-U.txt AB sloan u at Liverpool+IOO
+g_IOO IOO_SDSS-G.txt AB sloan g at Liverpool+IOO
+r_IOO IOO_SDSS-R.txt AB sloan r at Liverpool+IOO
+i_IOO IOO_SDSS-I.txt AB sloan i at Liverpool+IOO
+z_IOO IOO_SDSS-Z.txt AB sloan z at Liverpool+IOO

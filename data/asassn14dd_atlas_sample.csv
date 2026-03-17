@@ -1,0 +1,2 @@
+targname,matched_snname,cubename,rasn,decsn,sntype,fits_subfolder,fits_filename,fits_relpath,redshift,redshift_source
+ASASSN-14DD-HOST,ASASSN-14dd,ASASSN-14dd,07:45:14.38,-71:24:14.04,Ibn,data/hst_programs/17179/drc/MAST_2025-08-10T09_44_38.398Z/HST,if0g0q010_drc.fits,data/hst_programs/17179/drc/MAST_2025-08-10T09_44_38.398Z/HST/if0g0q010_drc.fits,0.017842,corez_zobs

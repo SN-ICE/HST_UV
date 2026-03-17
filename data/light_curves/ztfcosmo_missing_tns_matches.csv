@@ -1,0 +1,8 @@
+file,base_name,iau_from_tns,matched_missing_sample,n_matches,ra_deg,dec_deg
+ZTF19aacgslb_LC.csv,ZTF19aacgslb,SN2019np,SN2019np,1,157.34158,29.51064
+ZTF20aaumsrr_LC.csv,ZTF20aaumsrr,SN2020ftl,SN2020ftl,1,185.01572,5.34333
+ZTF21aamokak_LC.csv,ZTF21aamokak,SN2021dov,SN2021dov,1,134.07796,-0.44213
+ZTF21aclhsxb_LC.csv,ZTF21aclhsxb,SN2021adlv,SN2021adlv,1,127.76599,-4.19421
+ZTF22aaemvhi_LC.csv,ZTF22aaemvhi,SN2022esa,SN2022esa,1,253.49004,-9.70284
+ZTF22abhrjld_LC.csv,ZTF22abhrjld,SN2022vqz,SN2022vqz,1,12.7741,29.53672
+ZTF24aaacpsp_LC.csv,ZTF24aaacpsp,SN2023abqf,SN2023abqf,1,146.58387,3.07125

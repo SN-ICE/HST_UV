@@ -20,8 +20,12 @@ from astropy.wcs import WCS
 from astropy.wcs.utils import proj_plane_pixel_scales
 import astropy.units as u
 from hostphot.cutouts import set_HST_image, download_images
-from hostphot.surveys_utils import get_survey_filters
+from hostphot.photometry.dust import calc_extinction
+from hostphot.surveys_utils import get_survey_filters, survey_pixel_scale
+from hostphot.utils import open_fits_from_url
 from reproject import reproject_interp
+
+from project_paths import DATA_DIR, resolve_project_path
 
 fits.conf.use_memmap = False
 
@@ -34,7 +38,8 @@ WORK_IMAGES_DIR = PROJECT_ROOT / "images"
 OUTPUT_IMAGES_DIR = PROJECT_ROOT / "outputs" / "images"
 SURVEY = "HST"
 FILTER = "WFC3_UVIS_F275W"
-RBAND_DEFAULT_ORDER = ["DES", "LegacySurvey", "PanSTARRS", "SkyMapper"]
+RBAND_DEFAULT_ORDER = ["LegacySurvey", "DES", "PanSTARRS", "SkyMapper"]
+LEGACYSURVEY_R_CUTOUT_ARCMIN = 2.0
 PLOT_FONT_FAMILY = "STIXGeneral"
 CBF_BLUE = "#0072B2"       # Okabe-Ito blue
 CBF_ORANGE = "#E69F00"     # Okabe-Ito orange
@@ -50,8 +55,8 @@ def parse_args() -> argparse.Namespace:
     """Parse CLI options for data locations and runtime behavior."""
     parser = argparse.ArgumentParser(description="Run HST UV host photometry from a prepared input table.")
 
-    parser.add_argument("--input-csv", default=str(PROJECT_ROOT / "data" / "supernovas_input.csv"))
-    parser.add_argument("--mapping-csv", default=str(PROJECT_ROOT / "data" / "fits_to_sn_mapping.csv"))
+    parser.add_argument("--input-csv", default=str(DATA_DIR / "supernovas_input.csv"))
+    parser.add_argument("--mapping-csv", default=str(DATA_DIR / "fits_to_sn_mapping.csv"))
 
     parser.add_argument("--resume-pickle", default=str(PROJECT_ROOT / "outputs" / "results.pkl"))
     parser.add_argument("--save-pickle", default=str(PROJECT_ROOT / "outputs" / "results.pkl"))
@@ -101,6 +106,11 @@ def parse_args() -> argparse.Namespace:
         help="Priority order for selecting exactly one r-band survey.",
     )
     parser.add_argument("--disable-rband", action="store_true", help="Skip r-band photometry attempts.")
+    parser.add_argument(
+        "--rband-only",
+        action="store_true",
+        help="Run only the optical r-band hostphot step, without requiring HST FITS.",
+    )
 
     return parser.parse_args()
 
@@ -185,6 +195,46 @@ def _finite_float(value) -> float:
     return x if np.isfinite(x) else np.nan
 
 
+def rescale_mw_corrected_flux_errors(row_dict: dict, ra: float, dec: float, ap_radii: list) -> dict:
+    """
+    Rescale flux uncertainties by the same Milky Way extinction factor used by hostphot.
+
+    hostphot corrects fluxes when ``correct_extinction=True`` but leaves the reported
+    flux errors unchanged. Magnitude errors do not need an update because extinction
+    is applied as an additive constant in magnitude space.
+    """
+    out = dict(row_dict)
+
+    def _apply_scale(marker: str, survey: str, filt: str, prefix: str = "") -> None:
+        if out.get(marker):
+            return
+        try:
+            a_ext = float(calc_extinction(filt, survey, ra, dec))
+        except Exception:
+            return
+        if not np.isfinite(a_ext):
+            return
+        scale = 10 ** (0.4 * a_ext)
+        if not np.isfinite(scale) or scale <= 0:
+            return
+
+        for ap in ap_radii:
+            lab = ap_label(ap)
+            col = f"{prefix}{filt}_{lab}_flux_err"
+            val = _finite_float(out.get(col, np.nan))
+            if np.isfinite(val):
+                out[col] = val * scale
+        out[marker] = True
+
+    _apply_scale("__mw_flux_err_scaled_hst__", SURVEY, FILTER)
+
+    rband_survey = str(out.get("rband_survey", "")).strip()
+    if rband_survey:
+        _apply_scale("__mw_flux_err_scaled_rband__", rband_survey, "r", prefix="rband_")
+
+    return out
+
+
 def format_1kpc_mag_text(
     row_dict: dict,
     mag_col: str,
@@ -193,11 +243,14 @@ def format_1kpc_mag_text(
     flux_err_col: str,
     zp_col: str,
     snr_threshold: float,
+    negative_flux_only: bool = False,
 ) -> str:
     """
-    Build compact annotation text for the 1 kpc aperture:
-    - detection: m=...+/-...
-    - upper limit: m_lim(...sigma)=...
+    Build compact annotation text for the 1 kpc aperture.
+
+    For optical survey photometry we keep positive-flux measurements even when
+    S/N is low, and only switch to an upper limit when the measured flux is
+    negative.
     """
     mag = _finite_float(row_dict.get(mag_col, np.nan))
     mag_err = _finite_float(row_dict.get(mag_err_col, np.nan))
@@ -207,7 +260,12 @@ def format_1kpc_mag_text(
 
     if np.isfinite(flux) and np.isfinite(flux_err) and flux_err > 0:
         snr = flux / flux_err
-        if np.isfinite(snr) and snr <= snr_threshold:
+        use_upper_limit = False
+        if negative_flux_only:
+            use_upper_limit = flux < 0
+        elif np.isfinite(snr) and snr <= snr_threshold:
+            use_upper_limit = True
+        if use_upper_limit:
             flux_ul = snr_threshold * flux_err
             if np.isfinite(zp) and np.isfinite(flux_ul) and flux_ul > 0:
                 mag_ul = -2.5 * np.log10(flux_ul) + zp
@@ -243,7 +301,7 @@ def load_mapping(mapping_csv: Path) -> dict:
             continue
         p = Path(fp)
         if not p.is_absolute():
-            p = (PROJECT_ROOT / p).resolve()
+            p = resolve_project_path(fp)
         out.setdefault(name, []).append(str(p))
     return out
 
@@ -275,14 +333,14 @@ def prepare_input_table(input_csv: Path, ra_format: str = "auto") -> pd.DataFram
 
         if "fits_relpath" in cols:
             work["fits_file"] = df["fits_relpath"].astype(str).map(
-                lambda p: str((PROJECT_ROOT / p).resolve()) if p else ""
+                lambda p: str(resolve_project_path(p)) if str(p).strip() else ""
             )
         elif "fits_subfolder" in cols and "fits_filename" in cols:
             work["fits_file"] = (
                 df["fits_subfolder"].astype(str).str.strip()
                 + "/"
                 + df["fits_filename"].astype(str).str.strip()
-            ).map(lambda p: str((PROJECT_ROOT / p).resolve()))
+            ).map(lambda p: str(resolve_project_path(p)))
         else:
             work["fits_file"] = ""
 
@@ -310,6 +368,148 @@ def prepare_input_table(input_csv: Path, ra_format: str = "auto") -> pd.DataFram
         "Expected either new columns [matched_snname, rasn, decsn, redshift] "
         "or legacy [Supernova, RA(H:M:S), DEC(D:M:S), Redshift z]."
     )
+
+
+def load_existing_summary(output_summary: Path) -> pd.DataFrame:
+    """Load the existing summary table if present."""
+    if not output_summary.exists():
+        return pd.DataFrame()
+    try:
+        return pd.read_csv(output_summary)
+    except Exception as e:
+        print(f"Could not load existing summary {output_summary}: {e}")
+        return pd.DataFrame()
+
+
+def _existing_summary_has_photometry(row: pd.Series) -> bool:
+    """Return True if a summary row represents completed photometry."""
+    status = str(row.get("status", "")).strip().lower()
+    if status == "ok":
+        return True
+
+    for col in [
+        f"{FILTER}_1",
+        f"{FILTER}_1_flux",
+        f"{FILTER}_2",
+        f"{FILTER}_2_flux",
+        f"{FILTER}_3",
+        f"{FILTER}_3_flux",
+    ]:
+        if col not in row.index:
+            continue
+        value = pd.to_numeric(pd.Series([row[col]]), errors="coerce").iloc[0]
+        if np.isfinite(value):
+            return True
+    return False
+
+
+def existing_completed_names(existing_summary: pd.DataFrame) -> set[str]:
+    """Return normalized SN names already present with completed photometry."""
+    if len(existing_summary) == 0 or "Supernova" not in existing_summary.columns:
+        return set()
+    mask = existing_summary.apply(_existing_summary_has_photometry, axis=1)
+    names = existing_summary.loc[mask, "Supernova"].astype(str).map(normalize_name)
+    return {name for name in names if name}
+
+
+def _existing_summary_has_rband_photometry(row: pd.Series) -> bool:
+    """Return True if a summary row already contains optical r-band photometry."""
+    survey = str(row.get("rband_survey", "")).strip()
+    if survey:
+        return True
+
+    for col in [
+        "rband_r_1",
+        "rband_r_1_flux",
+        "rband_r_2",
+        "rband_r_2_flux",
+        "rband_r_3",
+        "rband_r_3_flux",
+    ]:
+        if col not in row.index:
+            continue
+        value = pd.to_numeric(pd.Series([row[col]]), errors="coerce").iloc[0]
+        if np.isfinite(value):
+            return True
+    return False
+
+
+def existing_rband_completed_names(existing_summary: pd.DataFrame) -> set[str]:
+    """Return normalized SN names already present with optical r-band photometry."""
+    if len(existing_summary) == 0 or "Supernova" not in existing_summary.columns:
+        return set()
+    mask = existing_summary.apply(_existing_summary_has_rband_photometry, axis=1)
+    names = existing_summary.loc[mask, "Supernova"].astype(str).map(normalize_name)
+    return {name for name in names if name}
+
+
+def _status_rank(value: object) -> int:
+    """Rank summary rows so merged duplicates keep the most informative status."""
+    text = str(value).strip().lower()
+    if text == "ok":
+        return 3
+    if text == "outside_fov_nan":
+        return 2
+    if text == "rband_only_ok":
+        return 1
+    return 0
+
+
+def _merge_duplicate_summary_group(group: pd.DataFrame) -> pd.Series:
+    """Collapse duplicate summary rows for one SN into a single best row."""
+    ranked = group.assign(_status_rank=group.get("status", "").map(_status_rank))
+    ranked = ranked.sort_values("_status_rank", kind="stable")
+    base = ranked.iloc[-1].drop(labels=["_status_rank"]).copy()
+
+    for _, row in ranked.iloc[:-1].iterrows():
+        for col, value in row.items():
+            if col == "_status_rank":
+                continue
+            base_val = base.get(col, np.nan)
+            base_missing = pd.isna(base_val) or str(base_val).strip() == ""
+            value_missing = pd.isna(value) or str(value).strip() == ""
+            if base_missing and not value_missing:
+                base[col] = value
+
+    return base
+
+
+def merge_summary_rows(existing_summary: pd.DataFrame, new_summary: pd.DataFrame) -> pd.DataFrame:
+    """Append new rows to an existing summary and keep one merged row per SN."""
+    if len(existing_summary) == 0:
+        return new_summary.copy()
+    if len(new_summary) == 0:
+        return existing_summary.copy()
+
+    combined = pd.concat([existing_summary, new_summary], ignore_index=True, sort=False)
+    if "Supernova" in combined.columns:
+        combined = (
+            combined.groupby("Supernova", dropna=False, sort=False, group_keys=False)
+            .apply(_merge_duplicate_summary_group)
+            .reset_index(drop=True)
+        )
+    elif "file" in combined.columns:
+        combined = combined.drop_duplicates(subset=["file"], keep="last")
+    return combined.reset_index(drop=True)
+
+
+def merge_processing_logs(existing_log: Path, new_rows: list[dict]) -> pd.DataFrame:
+    """Append new processing-log rows to any existing log, preferring newer duplicates."""
+    frames = []
+    if existing_log.exists():
+        try:
+            frames.append(pd.read_csv(existing_log))
+        except Exception as e:
+            print(f"Could not load existing processing log {existing_log}: {e}")
+    if new_rows:
+        frames.append(pd.DataFrame(new_rows))
+    if not frames:
+        return pd.DataFrame()
+
+    combined = pd.concat(frames, ignore_index=True, sort=False)
+    if {"name", "fits_file"}.issubset(combined.columns):
+        combined = combined.drop_duplicates(subset=["name", "fits_file"], keep="last")
+    return combined.reset_index(drop=True)
 
 
 def choose_image_files(row: pd.Series, mapping: dict) -> list:
@@ -352,6 +552,71 @@ def validate_fits_wcs(fits_file: str, ra: float, dec: float) -> tuple[bool, str]
         return True, "ok"
     except Exception as e:
         return False, f"wcs_error:{e}"
+
+
+def normalize_hst_aperture_value(value: object, header: fits.Header | None = None) -> str | None:
+    """Map WFC3/UVIS aperture names to hostphot's expected UVIS1/UVIS2 labels."""
+    if value is None:
+        return None
+    text = str(value).strip().upper()
+    if not text:
+        return None
+    if text.startswith("UVIS1"):
+        return "UVIS1"
+    if text.startswith("UVIS2"):
+        return "UVIS2"
+    if text == "UVIS-CENTER":
+        return "UVIS2"
+    if text == "UVIS":
+        return "UVIS1"
+    if text in {"UVIS-FIX", "MULTIPLE"} and header is not None:
+        photmode = str(header.get("PHOTMODE", "")).upper()
+        if "UVIS2" in photmode:
+            return "UVIS2"
+        if "UVIS1" in photmode:
+            return "UVIS1"
+    return text
+
+
+def prepare_hst_fits_for_hostphot(fits_file: str) -> tuple[str, Path | None]:
+    """Create a temporary FITS copy with normalized HST header keywords when hostphot needs them."""
+    try:
+        with fits.open(fits_file, memmap=False) as hdul:
+            primary = hdul[0].header
+            sci = hdul[1].header if len(hdul) > 1 else primary
+
+            primary_aperture = normalize_hst_aperture_value(primary.get("APERTURE"), sci)
+            sci_aperture = normalize_hst_aperture_value(sci.get("APERTURE"), sci)
+            target_aperture = sci_aperture or primary_aperture
+
+            updates: list[tuple[int, str, object]] = []
+            if target_aperture:
+                if primary.get("APERTURE") != target_aperture:
+                    updates.append((0, "APERTURE", target_aperture))
+                if len(hdul) > 1 and sci.get("APERTURE") != target_aperture:
+                    updates.append((1, "APERTURE", target_aperture))
+
+            # Some drizzled products only carry these keywords in the primary header.
+            for key in ["TELESCOP", "INSTRUME", "DETECTOR", "FILTER", "FILTER1", "FILTER2"]:
+                if key not in sci or sci.get(key) in (None, ""):
+                    value = primary.get(key)
+                    if value not in (None, "") and len(hdul) > 1:
+                        updates.append((1, key, value))
+
+            if not updates:
+                return fits_file, None
+
+            with fits.open(fits_file, memmap=False) as patched:
+                for ext, key, value in updates:
+                    if ext < len(patched):
+                        patched[ext].header[key] = value
+
+                tmp_dir = Path(tempfile.mkdtemp(prefix="hostphot_hst_", dir="/tmp"))
+                tmp_path = tmp_dir / Path(fits_file).name
+                patched.writeto(tmp_path, overwrite=True)
+            return str(tmp_path), tmp_dir
+    except Exception:
+        return fits_file, None
 
 
 def get_zeropoint_from_fits(fits_file: str) -> float | None:
@@ -414,6 +679,94 @@ def find_rband_fits(name: str, survey: str) -> str:
     return ""
 
 
+def _fits_has_2d_image(fits_file: str) -> bool:
+    path = Path(fits_file)
+    if not path.exists():
+        return False
+    try:
+        with fits.open(path) as hdul:
+            for hdu in hdul:
+                if hdu.data is None:
+                    continue
+                arr = np.squeeze(hdu.data)
+                if np.ndim(arr) == 2:
+                    return True
+    except Exception:
+        return False
+    return False
+
+
+def ensure_work_images_rband(name: str, survey: str, rb_file: str) -> str:
+    """Ensure hostphot can see an existing local r-band FITS under workdir/images."""
+    if not rb_file:
+        return ""
+    src = Path(rb_file).expanduser().resolve()
+    if not src.exists():
+        return ""
+    if not _fits_has_2d_image(str(src)):
+        return ""
+    work_survey_dir = WORK_IMAGES_DIR / str(name).strip() / str(survey).strip()
+    work_survey_dir.mkdir(parents=True, exist_ok=True)
+    dst = work_survey_dir / src.name
+    if src != dst:
+        shutil.copy2(src, dst)
+    return str(dst.resolve())
+
+
+def download_legacysurvey_r_cutout(
+    name: str,
+    ra: float,
+    dec: float,
+    size_arcmin: float = LEGACYSURVEY_R_CUTOUT_ARCMIN,
+    version: str = "dr10",
+) -> str:
+    """Download a valid 2D Legacy Survey r-band cutout, avoiding hostphot's single-band slicing bug."""
+    survey_dir = WORK_IMAGES_DIR / str(name).strip() / "LegacySurvey"
+    survey_dir.mkdir(parents=True, exist_ok=True)
+    outfile = survey_dir / "LegacySurvey_r.fits"
+
+    pixel_scale = survey_pixel_scale("LegacySurvey", "g")
+    size_arcsec = (size_arcmin * u.arcmin).to(u.arcsec).value
+    size_pixels = int(size_arcsec / pixel_scale)
+    url = (
+        "https://www.legacysurvey.org/viewer/fits-cutout"
+        f"?ra={ra}&dec={dec}&layer=ls-{version}&pixscale={pixel_scale}&bands=r&size={size_pixels}&invvar"
+    )
+
+    master_hdu = open_fits_from_url(url)
+    try:
+        data = master_hdu[0].data
+        invvar = master_hdu[1].data if len(master_hdu) > 1 else None
+        header = master_hdu[0].header.copy()
+        header.append(("BAND", "r", "Band - added by HST_UV pipeline"), end=True)
+
+        if data is None:
+            raise RuntimeError("LegacySurvey returned no primary image data")
+        data = np.asarray(data)
+        if data.ndim == 3:
+            data = data[0]
+        elif data.ndim != 2:
+            raise RuntimeError(f"Unexpected LegacySurvey image ndim={data.ndim}")
+
+        hdus = [fits.PrimaryHDU(data=data, header=header)]
+        if invvar is not None:
+            invvar = np.asarray(invvar)
+            if invvar.ndim == 3:
+                invvar = invvar[0]
+            if invvar.ndim == 2:
+                inv_header = master_hdu[1].header.copy()
+                inv_header.append(("BAND", "r", "Band - added by HST_UV pipeline"), end=True)
+                hdus.append(fits.ImageHDU(data=invvar, header=inv_header))
+
+        fits.HDUList(hdus).writeto(outfile, overwrite=True)
+    finally:
+        master_hdu.close()
+
+    if not _fits_has_2d_image(str(outfile)):
+        raise RuntimeError(f"LegacySurvey cutout written but invalid 2D image not found: {outfile}")
+    return str(outfile.resolve())
+
+
 def try_rband_local_photometry(
     name: str,
     ra: float,
@@ -435,17 +788,28 @@ def try_rband_local_photometry(
             errors.append(f"{survey}:no_r_filter")
             continue
 
+        rb_file = find_rband_fits(name, survey)
+        if rb_file and (not _fits_has_2d_image(rb_file)):
+            rb_file = ""
         try:
-            # Download only r-band for this survey.
-            download_images(
-                name=name,
-                ra=ra,
-                dec=dec,
-                survey=survey,
-                filters=["r"],
-                overwrite=True,
-                save_input=False,
-            )
+            # Reuse an existing local r-band file when available.
+            if not rb_file:
+                if survey == "LegacySurvey":
+                    rb_file = download_legacysurvey_r_cutout(name=name, ra=ra, dec=dec)
+                else:
+                    download_images(
+                        name=name,
+                        ra=ra,
+                        dec=dec,
+                        survey=survey,
+                        filters=["r"],
+                        overwrite=True,
+                        save_input=False,
+                    )
+                    rb_file = find_rband_fits(name, survey)
+            rb_file = ensure_work_images_rband(name, survey, rb_file)
+            if not rb_file:
+                raise FileNotFoundError(f"Valid local {survey} r-band FITS not found")
         except Exception as e:
             errors.append(f"{survey}:download_failed:{e}")
             continue
@@ -467,7 +831,6 @@ def try_rband_local_photometry(
                 save_input=False,
             )
             rb_dict = result_to_dict(rb)
-            rb_file = find_rband_fits(name, survey)
             return survey, "r", rb_dict, rb_file, ""
         except Exception as e:
             errors.append(f"{survey}:phot_failed:{e}")
@@ -770,13 +1133,16 @@ def _add_band_limits(
     mag_col: str | None = None,
     mag_err_col: str | None = None,
     blank_detected_mag_on_ul: bool = True,
+    negative_flux_only: bool = False,
 ) -> pd.DataFrame:
     """
     Add S/N and upper-limit columns for one band/aperture.
 
     Definitions used:
     - S/N = flux / flux_err
-    - Upper-limit condition: flux_err > 0 and S/N <= snr_threshold
+    - Upper-limit condition:
+      - default: flux_err > 0 and S/N <= snr_threshold
+      - optical mode: flux_err > 0 and flux < 0
     - Flux upper limit: snr_threshold * flux_err
     - Magnitude upper limit: -2.5 log10(flux_upper_limit) + zeropoint
 
@@ -797,7 +1163,10 @@ def _add_band_limits(
     snr = snr.where(valid_snr, np.nan)
 
     is_ul = pd.Series(pd.NA, index=df.index, dtype="boolean")
-    is_ul.loc[valid_snr] = snr.loc[valid_snr] <= snr_threshold
+    if negative_flux_only:
+        is_ul.loc[valid_snr] = flux.loc[valid_snr] < 0
+    else:
+        is_ul.loc[valid_snr] = snr.loc[valid_snr] <= snr_threshold
 
     is_ul_bool = is_ul.fillna(False).astype(bool)
     flux_ul = pd.Series(np.nan, index=df.index, dtype=float)
@@ -907,8 +1276,10 @@ def relocate_hostphot_images(name: str) -> tuple[Path, Path] | None:
         return None
     src_base = src.resolve()
     if dst.exists():
-        shutil.rmtree(dst, ignore_errors=True)
-    shutil.move(str(src), str(dst))
+        shutil.copytree(src, dst, dirs_exist_ok=True)
+        shutil.rmtree(src, ignore_errors=True)
+    else:
+        shutil.move(str(src), str(dst))
     return src_base, dst.resolve()
 
 
@@ -948,8 +1319,20 @@ def main() -> int:
     print(f"Loaded {len(data)} input rows")
     print(f"Loaded mapping keys: {len(mapping)}")
 
+    existing_summary = load_existing_summary(output_summary)
+    completed_names = (
+        existing_rband_completed_names(existing_summary)
+        if args.rband_only
+        else existing_completed_names(existing_summary)
+    )
+    if completed_names:
+        label = "optical r-band" if args.rband_only else "completed photometry"
+        print(f"Existing {label} rows in summary: {len(completed_names)}")
+
     results_dict = {}
     nan_summary_rows = []
+    skipped_completed = 0
+    skipped_unavailable = 0
 
     if (not args.no_resume) and (not args.dry_run) and resume_pickle.exists():
         try:
@@ -965,6 +1348,10 @@ def main() -> int:
 
     for _, row in data.iterrows():
         name = str(row["Supernova"]).strip()
+        if (not args.dry_run) and normalize_name(name) in completed_names:
+            skipped_completed += 1
+            continue
+
         ra = pd.to_numeric(row["RA(DEGREES)"], errors="coerce")
         dec = pd.to_numeric(row["DEC(DEGREES)"], errors="coerce")
         z = pd.to_numeric(row.get("Redshift z"), errors="coerce")
@@ -986,23 +1373,99 @@ def main() -> int:
         ra = float(ra)
         dec = float(dec)
 
+        if args.rband_only:
+            result_key = f"rband::{name}"
+            try:
+                rb_survey, rb_filter, rb_dict, rb_fits, rb_err = try_rband_local_photometry(
+                    name=name,
+                    ra=ra,
+                    dec=dec,
+                    z=z,
+                    ap_radii=ap_radii,
+                    save_plots=not args.no_plots,
+                    survey_priority=args.rband_surveys,
+                )
+                if rb_dict:
+                    combined = dict(rb_dict)
+                    combined["status"] = "rband_only_ok"
+                    combined["message"] = ""
+                    combined["rband_survey"] = rb_survey
+                    combined["rband_filter"] = rb_filter
+                    combined["rband_fits_file"] = rb_fits
+                    combined["file"] = rb_fits or ""
+                    for k, v in list(rb_dict.items()):
+                        combined[f"rband_{k}"] = v
+                        combined.pop(k, None)
+                    if "Supernova" not in combined:
+                        combined["Supernova"] = name
+                    if "RA(degrees)" not in combined:
+                        combined["RA(degrees)"] = ra
+                    if "DEC(degrees)" not in combined:
+                        combined["DEC(degrees)"] = dec
+                    if "z" not in combined:
+                        combined["z"] = z
+                    combined = rescale_mw_corrected_flux_errors(combined, ra=ra, dec=dec, ap_radii=ap_radii)
+                    results_dict[result_key] = combined
+                    log_rows.append(
+                        {
+                            "name": name,
+                            "fits_file": rb_fits,
+                            "status": "rband_only_ok",
+                            "message": "",
+                            "ra_deg": ra,
+                            "dec_deg": dec,
+                            "redshift": z,
+                            "rband_survey": rb_survey,
+                        }
+                    )
+                else:
+                    log_rows.append(
+                        {
+                            "name": name,
+                            "fits_file": "",
+                            "status": "rband_only_failed",
+                            "message": rb_err,
+                            "ra_deg": ra,
+                            "dec_deg": dec,
+                            "redshift": z,
+                            "rband_survey": "",
+                        }
+                    )
+            except Exception as e:
+                print(f"Error processing r-band only for {name}: {e}")
+                log_rows.append(
+                    {
+                        "name": name,
+                        "fits_file": "",
+                        "status": "rband_only_failed",
+                        "message": str(e),
+                        "ra_deg": ra,
+                        "dec_deg": dec,
+                        "redshift": z,
+                        "rband_survey": "",
+                    }
+                )
+            finally:
+                moved = relocate_hostphot_images(name)
+                if moved:
+                    src_base, dst_base = moved
+                    if result_key in results_dict:
+                        rb_file = str(results_dict[result_key].get("rband_fits_file", "")).strip()
+                        if rb_file and rb_file.startswith(str(src_base)):
+                            new_rb_file = rb_file.replace(str(src_base), str(dst_base), 1)
+                            results_dict[result_key]["rband_fits_file"] = new_rb_file
+                            results_dict[result_key]["file"] = new_rb_file
+            continue
+
         image_files = choose_image_files(row, mapping)
         if not image_files:
-            print(f"No FITS found for {name}")
-            log_rows.append(
-                {
-                    "name": name,
-                    "fits_file": "",
-                    "status": "no_fits",
-                    "message": "No FITS resolved from input row or mapping",
-                    "ra_deg": ra,
-                    "dec_deg": dec,
-                    "redshift": z,
-                }
-            )
+            skipped_unavailable += 1
             continue
 
         for file in image_files:
+            hst_file = file
+            hst_tmp_dir: Path | None = None
+            result_key = f"{file}::{name}"
             if args.dry_run:
                 ok, msg = validate_fits_wcs(file, ra, dec)
                 log_rows.append(
@@ -1055,8 +1518,9 @@ def main() -> int:
                 continue
 
             try:
+                hst_file, hst_tmp_dir = prepare_hst_fits_for_hostphot(file)
                 # HST local photometry in 1,2,3 kpc apertures.
-                set_HST_image(file, FILTER, name)
+                set_HST_image(hst_file, FILTER, name)
                 hst_res = lp.multi_band_phot(
                     name,
                     ra,
@@ -1077,6 +1541,7 @@ def main() -> int:
                 combined = dict(hst_dict)
                 combined["status"] = "ok"
                 combined["message"] = ""
+                combined["file"] = file
                 combined["rband_survey"] = ""
                 combined["rband_filter"] = ""
                 combined["rband_fits_file"] = ""
@@ -1105,6 +1570,8 @@ def main() -> int:
                     else:
                         combined["rband_error"] = rb_err
 
+                combined = rescale_mw_corrected_flux_errors(combined, ra=ra, dec=dec, ap_radii=ap_radii)
+
                 # Compact 1 kpc annotations for publication-friendly panels.
                 hst_text = format_1kpc_mag_text(
                     row_dict=combined,
@@ -1123,9 +1590,10 @@ def main() -> int:
                     flux_err_col="rband_r_1_flux_err",
                     zp_col="rband_r_zeropoint",
                     snr_threshold=float(args.snr_threshold),
+                    negative_flux_only=True,
                 )
 
-                results_dict[file] = combined
+                results_dict[result_key] = combined
 
                 # Diagnostic figure: left HST panel + right r-band panel (if available).
                 if (not args.no_plots) and np.isfinite(z) and z > 0:
@@ -1133,7 +1601,7 @@ def main() -> int:
                     aperture_1kpc_deg = [(((1.0 * u.kpc) / da) * u.rad).to(u.deg).value]
                     safe_name = sanitize_name_for_file(name)
                     plot_supernova_panels(
-                        hst_file=file,
+                        hst_file=hst_file,
                         ra=ra,
                         dec=dec,
                         supernova_name=name,
@@ -1193,35 +1661,42 @@ def main() -> int:
             finally:
                 moved = relocate_hostphot_images(name)
                 # Keep stored r-band paths consistent after moving hostphot folders.
-                if moved and (file in results_dict):
+                if moved and (result_key in results_dict):
                     src_base, dst_base = moved
-                    rb_file = str(results_dict[file].get("rband_fits_file", "")).strip()
+                    rb_file = str(results_dict[result_key].get("rband_fits_file", "")).strip()
                     if rb_file and rb_file.startswith(str(src_base)):
-                        results_dict[file]["rband_fits_file"] = rb_file.replace(
+                        results_dict[result_key]["rband_fits_file"] = rb_file.replace(
                             str(src_base), str(dst_base), 1
                         )
+                if hst_tmp_dir is not None:
+                    shutil.rmtree(hst_tmp_dir, ignore_errors=True)
 
-    pd.DataFrame(log_rows).to_csv(processing_log, index=False)
-    print(f"Wrote processing log: {processing_log} ({len(log_rows)} rows)")
+    log_df = merge_processing_logs(processing_log, log_rows)
+    log_df.to_csv(processing_log, index=False)
+    print(f"Wrote processing log: {processing_log} ({len(log_df)} rows)")
+    if skipped_completed:
+        print(f"Skipped already-completed objects: {skipped_completed}")
+    if skipped_unavailable:
+        print(f"Skipped objects with unavailable FITS: {skipped_unavailable}")
 
     if args.dry_run:
         print("Dry-run completed. No photometry outputs were generated.")
         return 0
 
-    with open(save_pickle, "wb") as f:
-        pickle.dump(results_dict, f)
-    print(f"Saved results pickle: {save_pickle} ({len(results_dict)} entries)")
-
     # Build table from successful photometry results.
     rows = []
-    for fits_file, res in results_dict.items():
-        row = {"file": fits_file}
+    for _, res in results_dict.items():
+        row = {"file": str(res.get("file", "")).strip()}
         row.update(result_to_dict(res))
         rows.append(row)
 
     if (not rows) and (not nan_summary_rows):
-        print("No photometry results produced.")
+        print("No new photometry results produced.")
         return 0
+
+    with open(save_pickle, "wb") as f:
+        pickle.dump(results_dict, f)
+    print(f"Saved results pickle: {save_pickle} ({len(results_dict)} entries)")
 
     frames = []
     if rows:
@@ -1234,14 +1709,30 @@ def main() -> int:
     df_all = df_all.drop_duplicates(subset=["file"], keep="first")
 
     # Normalize base columns.
-    if "Supernova" not in df_all.columns and "name" in df_all.columns:
-        df_all["Supernova"] = df_all["name"]
-    if "RA(degrees)" not in df_all.columns and "ra" in df_all.columns:
-        df_all["RA(degrees)"] = df_all["ra"]
-    if "DEC(degrees)" not in df_all.columns and "dec" in df_all.columns:
-        df_all["DEC(degrees)"] = df_all["dec"]
-    if "z" not in df_all.columns and "redshift" in df_all.columns:
-        df_all["z"] = df_all["redshift"]
+    if "name" in df_all.columns:
+        if "Supernova" not in df_all.columns:
+            df_all["Supernova"] = df_all["name"]
+        else:
+            missing_supernova = df_all["Supernova"].isna() | (df_all["Supernova"].astype(str).str.strip() == "")
+            df_all.loc[missing_supernova, "Supernova"] = df_all.loc[missing_supernova, "name"]
+    if "ra" in df_all.columns:
+        if "RA(degrees)" not in df_all.columns:
+            df_all["RA(degrees)"] = df_all["ra"]
+        else:
+            missing_ra = pd.to_numeric(df_all["RA(degrees)"], errors="coerce").isna()
+            df_all.loc[missing_ra, "RA(degrees)"] = df_all.loc[missing_ra, "ra"]
+    if "dec" in df_all.columns:
+        if "DEC(degrees)" not in df_all.columns:
+            df_all["DEC(degrees)"] = df_all["dec"]
+        else:
+            missing_dec = pd.to_numeric(df_all["DEC(degrees)"], errors="coerce").isna()
+            df_all.loc[missing_dec, "DEC(degrees)"] = df_all.loc[missing_dec, "dec"]
+    if "redshift" in df_all.columns:
+        if "z" not in df_all.columns:
+            df_all["z"] = df_all["redshift"]
+        else:
+            missing_z = pd.to_numeric(df_all["z"], errors="coerce").isna()
+            df_all.loc[missing_z, "z"] = df_all.loc[missing_z, "redshift"]
     if "status" not in df_all.columns:
         df_all["status"] = "ok"
     if "message" not in df_all.columns:
@@ -1263,6 +1754,7 @@ def main() -> int:
     first_cols = [c for c in first_cols if c in df_all.columns]
     other_cols = [c for c in df_all.columns if c not in first_cols]
     df_summary = df_all[first_cols + other_cols].copy()
+    df_summary = df_summary[[c for c in df_summary.columns if not str(c).startswith("__mw_flux_err_scaled_")]].copy()
 
     # Add explicit S/N and upper-limit columns for HST and selected r-band.
     for ap in ap_radii:
@@ -1292,6 +1784,7 @@ def main() -> int:
             fits_col=None,
             mag_col=f"rband_r_{lab}",
             mag_err_col=f"rband_r_{lab}_err",
+            negative_flux_only=True,
         )
 
     # Keep types readable.
@@ -1301,6 +1794,14 @@ def main() -> int:
 
     # Add absolute magnitudes from apparent magnitudes and redshift distance modulus.
     df_summary = add_absolute_magnitude_columns(df_summary, z_col="z")
+
+    df_summary = merge_summary_rows(existing_summary, df_summary)
+
+    # Keep human-friendly first columns, then all measurement columns after merge.
+    first_cols = [c for c in first_cols if c in df_summary.columns]
+    other_cols = [c for c in df_summary.columns if c not in first_cols]
+    df_summary = df_summary[first_cols + other_cols].copy()
+    df_summary = df_summary[[c for c in df_summary.columns if not str(c).startswith("__mw_flux_err_scaled_")]].copy()
 
     df_summary.to_csv(output_summary, index=False, float_format="%.6g")
     print(f"Wrote summary: {output_summary} ({len(df_summary)} rows)")

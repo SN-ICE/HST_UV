@@ -1,0 +1,69 @@
+sample_sn,lowz_match_used,status,message,output_file,n_filters,n_points
+ASASSN-13ch,asassn-13ch,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/ASASSN-13ch_raw.txt,6,55
+ASASSN-13cu,asassn-13cu,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/ASASSN-13cu_raw.txt,4,16
+ASASSN-14fa,asassn-14fa,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/ASASSN-14fa_raw.txt,7,56
+CSS121006:232854+085452,css121006_232854+085452,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/CSS121006_232854+085452_raw.txt,1,2
+CSS121114:090202+101800,css121114_090202+101800,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/CSS121114_090202+101800_raw.txt,2,6
+LSQ12dbr,lsq12dbr,failed,No .out_<filter> files found,,0,0
+LSQ12fhs,lsq12fhs,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/LSQ12fhs_raw.txt,9,106
+LSQ12fmx,lsq12fmx,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/LSQ12fmx_raw.txt,2,6
+LSQ13cmt,lsq13cmt,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/LSQ13cmt_raw.txt,2,5
+LSQ13crf,lsq13crf,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/LSQ13crf_raw.txt,4,33
+OGLE16euo,ogle16euo,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/OGLE16euo_raw.txt,1,23
+PS15mt,ps15mt,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/PS15mt_raw.txt,4,24
+PTF10ops,ptf10ops,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/PTF10ops_raw.txt,4,42
+PTF11qmo,ptf11qmo,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/PTF11qmo_raw.txt,2,4
+PTF12iiq,ptf12iiq,failed,No .out_<filter> files found,,0,0
+PTF12jgb,ptf12jgb,failed,No .out_<filter> files found,,0,0
+SN1968I,sn1968i,failed,No .out_<filter> files found,,0,0
+SN1986G,sn1986g,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN1986G_raw.txt,8,156
+SN1991bj,sn1991bj,failed,No .out_<filter> files found,,0,0
+SN1995Y,sn1995y,failed,No .out_<filter> files found,,0,0
+SN1998dh,sn1998dh,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN1998dh_raw.txt,5,205
+SN1999ee,sn1999ee,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN1999ee_raw.txt,9,692
+SN2000dx,sn2000dx,failed,No .out_<filter> files found,,0,0
+SN2000ey,sn2000ey,failed,No .out_<filter> files found,,0,0
+SN2001da,sn2001da,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2001da_raw.txt,9,140
+SN2001el,sn2001el,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2001el_raw.txt,8,262
+SN2002ha,sn2002ha,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2002ha_raw.txt,9,162
+SN2002jg,sn2002jg,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2002jg_raw.txt,4,81
+SN2003ic,sn2003ic,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2003ic_raw.txt,5,22
+SN2004fd,sn2004fd,failed,No .out_<filter> files found,,0,0
+SN2005cf,sn2005cf,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2005cf_raw.txt,17,1193
+SN2005dm,sn2005dm,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2005dm_raw.txt,4,63
+SN2006E,sn2006e,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2006E_raw.txt,9,134
+SN2006cm,sn2006cm,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2006cm_raw.txt,4,51
+SN2007cq,sn2007cq,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2007cq_raw.txt,20,304
+SN2007fb,sn2007fb,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2007fb_raw.txt,12,267
+SN2007fs,sn2007fs,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2007fs_raw.txt,8,217
+SN2008cm,sn2008cm,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2008cm_raw.txt,4,74
+SN2008ee,sn2008ee,failed,No .out_<filter> files found,,0,0
+SN2008ge,sn2008ge,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2008ge_raw.txt,4,20
+SN2009ig,sn2009ig,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2009ig_raw.txt,19,527
+SN2009jr,sn2009jr,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2009jr_raw.txt,13,173
+SN2009mz,sn2009mz,failed,No .out_<filter> files found,,0,0
+SN2009nr,sn2009nr,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2009nr_raw.txt,5,147
+SN2010dl,sn2010dl,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2010dl_raw.txt,3,13
+SN2010ev,sn2010ev,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2010ev_raw.txt,16,222
+SN2010ko,sn2010ko,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2010ko_raw.txt,13,184
+SN2011Z,sn2011z,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2011Z_raw.txt,8,133
+SN2011gf,sn2011gf,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2011gf_raw.txt,2,5
+SN2011ha,sn2011ha,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2011ha_raw.txt,2,2
+SN2011hb,sn2011hb,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2011hb_raw.txt,2,5
+SN2011hk,sn2011hk,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2011hk_raw.txt,2,4
+SN2011io,sn2011io,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2011io_raw.txt,2,2
+SN2012Z,sn2012z,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2012Z_raw.txt,25,836
+SN2012fk,sn2012fk,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2012fk_raw.txt,2,5
+SN2012fw,sn2012fw,failed,No .out_<filter> files found,,0,0
+SN2013cs,sn2013cs,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2013cs_raw.txt,11,129
+SN2013ex,sn2013ex,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2013ex_raw.txt,11,91
+SN2015H,sn2015h,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2015H_raw.txt,7,122
+SN2016hnk,sn2016hnk,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2016hnk_raw.txt,11,282
+SN2017cbv,sn2017cbv,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2017cbv_raw.txt,6,161
+SN2017erp,sn2017erp,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2017erp_raw.txt,10,340
+SN2017fgc,sn2017fgc,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2017fgc_raw.txt,4,271
+SN2017fzw,sn2017fzw,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2017fzw_raw.txt,16,453
+SN2018gv,sn2018gv,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2018gv_raw.txt,4,259
+SNF20080612-003,snf20080612-003,failed,No .out_<filter> files found,,0,0
+iPTF13dge,iptf13dge,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/iPTF13dge_raw.txt,13,477
+iPTF13dkl,iptf13dkl,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/iPTF13dkl_raw.txt,5,12

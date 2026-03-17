@@ -1,0 +1,9 @@
+sn_name,ztf_file,sep_arcsec,status,message,output_file,n_points_total,n_ztfg,n_ztfr,n_ztfi
+SN2019np,ZTF19aacgslb_LC.csv,0.0100647132982889,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2019np_raw.txt,118,67,42,9
+SN2021dov,ZTF21aamokak_LC.csv,0.033190313539862,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2021dov_raw.txt,85,35,39,11
+SN2022vqz,ZTF22abhrjld_LC.csv,0.0412949463320833,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2022vqz_raw.txt,137,57,52,28
+SN2021adlv,ZTF21aclhsxb_LC.csv,0.1193725763319215,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2021adlv_raw.txt,65,25,36,4
+SN2022esa,ZTF22aaemvhi_LC.csv,0.1464342529845135,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2022esa_raw.txt,106,43,63,0
+SN2018yu,ZTF18acuyoyf_LC.csv,0.1921287326711004,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2018yu_raw.txt,49,32,17,0
+SN2023abqf,ZTF24aaacpsp_LC.csv,0.2927383108711063,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2023abqf_raw.txt,59,21,20,18
+SN2020ftl,ZTF20aaumsrr_LC.csv,2.3349429223549167,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2020ftl_raw.txt,100,58,42,0

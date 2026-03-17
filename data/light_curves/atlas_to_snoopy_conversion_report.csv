@@ -1,0 +1,35 @@
+atlas_file,atlas_name,sample_sn,status,message,output_file,n_points_total,n_ATgr,n_ATri
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/ASASSN-14ba_atlas_forcedphot.txt,ASASSN-14ba,ASASSN-14ba,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/ASASSN-14cu_atlas_forcedphot.txt,ASASSN-14cu,ASASSN-14cu,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/ASASSN-14db_atlas_forcedphot.txt,ASASSN-14db,ASASSN-14db,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/ASASSN-14dd_atlas_forcedphot.txt,ASASSN-14dd,ASASSN-14dd,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/ASASSN-14dz_atlas_forcedphot.txt,ASASSN-14dz,ASASSN-14dz,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/ASASSN-14mg_atlas_forcedphot.txt,ASASSN-14mg,ASASSN-14mg,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/ASASSN-15ho_atlas_forcedphot.txt,ASASSN-15ho,ASASSN-15ho,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2014bz_atlas_forcedphot.txt,SN2014bz,SN2014bz,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2014cr_atlas_forcedphot.txt,SN2014cr,SN2014cr,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2014dm_atlas_forcedphot.txt,SN2014dm,SN2014dm,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2014ey_atlas_forcedphot.txt,SN2014ey,SN2014ey,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2016ecm_atlas_forcedphot.txt,SN2016ecm,SN2016ecm,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2016gwl_atlas_forcedphot.txt,SN2016gwl,SN2016gwl,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2016jhr_atlas_forcedphot.txt,SN2016jhr,,failed,No sample SN match for ATLAS file name SN2016jhr,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2017cyy_atlas_forcedphot.txt,SN2017cyy,,failed,No sample SN match for ATLAS file name SN2017cyy,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2017dps_atlas_forcedphot.txt,SN2017dps,SN2017dps,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2018agk_atlas_forcedphot.txt,SN2018agk,,failed,No sample SN match for ATLAS file name SN2018agk,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2018djd_atlas_forcedphot.txt,SN2018djd,SN2018djd,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2018hnq_atlas_forcedphot.txt,SN2018hnq,SN2018hnq,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2018oh_atlas_forcedphot.txt,SN2018oh,,failed,No sample SN match for ATLAS file name SN2018oh,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2018xx_atlas_forcedphot.txt,SN2018xx,,failed,No sample SN match for ATLAS file name SN2018xx,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2018zz_atlas_forcedphot.txt,SN2018zz,SN2018zz,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2020ejm_atlas_forcedphot.txt,SN2020ejm,SN2020ejm,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2020xyw_atlas_forcedphot.txt,SN2020xyw,SN2020xyw,skipped_no_new_filters_or_points,,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2021abze_atlas_forcedphot.txt,SN2021abze,,failed,No sample SN match for ATLAS file name SN2021abze,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2021acnt_atlas_forcedphot.txt,SN2021acnt,,failed,No sample SN match for ATLAS file name SN2021acnt,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2021adlr_atlas_forcedphot.txt,SN2021adlr,,failed,No sample SN match for ATLAS file name SN2021adlr,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2021aess_atlas_forcedphot.txt,SN2021aess,,failed,No sample SN match for ATLAS file name SN2021aess,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2021afkk_atlas_forcedphot.txt,SN2021afkk,,failed,No sample SN match for ATLAS file name SN2021afkk,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2021agbn_atlas_forcedphot.txt,SN2021agbn,,failed,No sample SN match for ATLAS file name SN2021agbn,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2022crr_atlas_forcedphot.txt,SN2022crr,,failed,No sample SN match for ATLAS file name SN2022crr,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2022crv_atlas_forcedphot.txt,SN2022crv,,failed,No sample SN match for ATLAS file name SN2022crv,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/SN2022epu_atlas_forcedphot.txt,SN2022epu,,failed,No sample SN match for ATLAS file name SN2022epu,,0,0,0
+/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw/iPTF14hvh_atlas_forcedphot.txt,iPTF14hvh,iPTF14hvh,skipped_no_new_filters_or_points,,,0,0,0

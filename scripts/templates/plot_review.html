@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ app_title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      :root {
+        --bg: #f2efe8;
+        --fg: #16222d;
+        --muted: #5b6975;
+        --panel: #fffaf1;
+        --line: #d5cdbd;
+        --accent: #0a6c74;
+        --accent-2: #b94f35;
+      }
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        background: linear-gradient(180deg, #ece7dc 0%, #f6f2ea 100%);
+        color: var(--fg);
+      }
+      .shell {
+        max-width: 1480px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+      .shell.paper-only {
+        max-width: none;
+        padding: 14px;
+      }
+      .topbar {
+        display: grid;
+        grid-template-columns: 1.4fr 1fr;
+        gap: 18px;
+        margin-bottom: 18px;
+      }
+      .panel {
+        background: rgba(255, 250, 241, 0.94);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 18px 20px;
+        box-shadow: 0 14px 28px rgba(22, 34, 45, 0.08);
+      }
+      .title {
+        font-size: 30px;
+        line-height: 1.1;
+        margin: 0 0 8px 0;
+      }
+      .meta {
+        color: var(--muted);
+        font-size: 15px;
+      }
+      .stats {
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+      }
+      .stat {
+        padding: 10px 12px;
+        border-radius: 12px;
+        background: #efe7d9;
+        font-size: 14px;
+      }
+      .layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 350px;
+        gap: 18px;
+      }
+      .layout.paper-only {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .figure-panel img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+        border: 1px solid var(--line);
+        background: white;
+      }
+      .paper-toolbar {
+        position: sticky;
+        top: 10px;
+        z-index: 10;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 14px;
+        margin-bottom: 12px;
+        padding: 12px 14px;
+        border-radius: 14px;
+        background: rgba(255, 250, 241, 0.96);
+        border: 1px solid var(--line);
+        box-shadow: 0 12px 24px rgba(22, 34, 45, 0.08);
+      }
+      .paper-toolbar .choice {
+        margin: 0;
+        padding: 8px 10px;
+      }
+      .controls form {
+        display: grid;
+        gap: 14px;
+      }
+      .choice {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 14px 12px;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: #fffdf8;
+      }
+      .choice input {
+        width: 22px;
+        height: 22px;
+      }
+      .choice label {
+        font-size: 17px;
+        cursor: pointer;
+      }
+      .hint {
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .buttons {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      button, a.button {
+        appearance: none;
+        border: 0;
+        border-radius: 999px;
+        padding: 12px 16px;
+        background: var(--accent);
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 15px;
+      }
+      button.secondary, a.secondary {
+        background: #ddd3c4;
+        color: var(--fg);
+      }
+      button.warn {
+        background: var(--accent-2);
+      }
+      .small-grid {
+        display: grid;
+        gap: 10px;
+        font-size: 14px;
+      }
+      .survey-banner {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 14px;
+        padding: 12px 14px;
+        border-radius: 999px;
+        background: #d8ebe6;
+        border: 1px solid #9fc9bf;
+        color: #124942;
+        font-size: 15px;
+      }
+      .survey-banner strong {
+        font-size: 16px;
+      }
+      .small-grid div {
+        padding: 10px 12px;
+        border-radius: 10px;
+        background: #f6f0e3;
+      }
+      @media (max-width: 980px) {
+        .topbar, .layout {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell{% if paper_only_mode %} paper-only{% endif %}">
+      {% if paper_only_mode %}
+      <div class="paper-toolbar">
+        <div class="meta">{{ app_title }} · {{ idx + 1 }} / {{ total }}</div>
+        <form id="paper-only-form" method="post" action="{{ url_for('save_review', idx=idx) }}" style="display:flex; gap:12px; align-items:center; margin:0;">
+          <input type="hidden" name="reviewed" value="true">
+          <input type="hidden" name="needs_revision" value="false">
+          <input type="hidden" name="paper_candidate" value="false">
+          <input type="hidden" name="action" id="action-field" value="next">
+          <div class="choice">
+            <input
+              type="checkbox"
+              id="paper_candidate"
+              name="paper_candidate"
+              value="true"
+              {% if paper_candidate %}checked{% endif %}
+            >
+            <label for="paper_candidate">Include in paper</label>
+          </div>
+          <div class="buttons">
+            <a class="button secondary" href="{{ url_for('review', idx=prev_idx) }}">Previous</a>
+            <a class="button secondary" href="{{ url_for('review', idx=next_idx) }}">Next</a>
+          </div>
+        </form>
+      </div>
+      {% else %}
+      <div class="topbar">
+        <div class="panel">
+          <div class="meta" style="margin-bottom: 8px;">{{ app_title }}</div>
+          <h1 class="title">{{ record.supernova }}</h1>
+          <div class="meta">
+            {{ idx + 1 }} / {{ total }} · status {{ record.status }}
+            {% if record.adopted_r_survey %}
+            · adopted optical {{ record.adopted_r_survey }}
+            {% endif %}
+          </div>
+          <div class="survey-banner">
+            <span>Adopted optical survey from results table:</span>
+            <strong>{{ record.adopted_r_survey or "blank" }}</strong>
+          </div>
+          <div class="small-grid" style="margin-top: 14px;">
+            <div>UV mag: {{ record.uv_mag or "blank" }}</div>
+            <div>Adopted r mag: {{ record.adopted_r_mag or "blank" }}</div>
+            <div>File: {{ record.filename }}</div>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="stats">
+            <div class="stat">Reviewed: {{ reviewed_count }}</div>
+            <div class="stat">Needs revision: {{ revision_count }}</div>
+            <div class="stat">Paper picks: {{ paper_count }}</div>
+          </div>
+          <div class="buttons" style="margin-top: 16px;">
+            <a class="button secondary" href="{{ url_for('review', idx=prev_idx) }}">Previous</a>
+            <a class="button secondary" href="{{ url_for('review', idx=next_idx) }}">Next</a>
+            <a class="button" href="{{ url_for('review', idx=first_unreviewed_idx) }}">Next unreviewed</a>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      <div class="layout{% if paper_only_mode %} paper-only{% endif %}">
+        <div class="panel figure-panel">
+          <img src="{{ url_for('serve_plot', filename=record.filename, v=plot_mtime) }}" alt="{{ record.supernova }}">
+        </div>
+
+        {% if not paper_only_mode %}
+        <div class="panel controls">
+          <form id="review-form" method="post" action="{{ url_for('save_review', idx=idx) }}">
+            <input type="hidden" name="reviewed" value="true">
+            <input type="hidden" name="action" id="action-field" value="save">
+            <input type="hidden" name="needs_revision" value="false">
+            <input type="hidden" name="paper_candidate" value="false">
+
+            <div class="choice">
+              <input
+                type="checkbox"
+                id="needs_revision"
+                name="needs_revision"
+                value="true"
+                {% if needs_revision %}checked{% endif %}
+              >
+              <label for="needs_revision">Needs revision</label>
+            </div>
+
+            <div class="choice">
+              <input
+                type="checkbox"
+                id="paper_candidate"
+                name="paper_candidate"
+                value="true"
+                {% if paper_candidate %}checked{% endif %}
+              >
+              <label for="paper_candidate">Nice for paper</label>
+            </div>
+
+            <div class="hint">
+              Checking either box saves immediately and jumps to the next image.
+              Use the buttons below if you want to save without advancing.
+            </div>
+
+            <div class="buttons">
+              <button type="submit" class="secondary" onclick="setAction('save')">Save here</button>
+              <button type="submit" class="secondary" onclick="setAction('next')">Save and next</button>
+              <button type="submit" class="secondary" onclick="setAction('prev')">Save and previous</button>
+              <button type="submit" class="warn" onclick="setAction('next-unreviewed')">Save and next unreviewed</button>
+            </div>
+          </form>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <script>
+      const form = document.getElementById("review-form") || document.getElementById("paper-only-form");
+      const actionField = document.getElementById("action-field");
+      const paperBox = document.getElementById("paper_candidate");
+      const revisionBox = document.getElementById("needs_revision");
+
+      function setAction(value) {
+        actionField.value = value;
+      }
+
+      function submitAndAdvance() {
+        setAction("next");
+        form.requestSubmit();
+      }
+
+      if (revisionBox) {
+        revisionBox.addEventListener("change", () => {
+          submitAndAdvance();
+        });
+      }
+
+      if (paperBox) {
+        paperBox.addEventListener("change", () => {
+          submitAndAdvance();
+        });
+      }
+
+      document.addEventListener("keydown", (event) => {
+        if (event.target.tagName === "INPUT") return;
+        if (event.key === "r" && revisionBox) {
+          revisionBox.checked = true;
+          submitAndAdvance();
+        } else if (event.key === "p") {
+          paperBox.checked = !paperBox.checked;
+          submitAndAdvance();
+        } else if (event.key === "ArrowRight") {
+          window.location.href = "{{ url_for('review', idx=next_idx) }}";
+        } else if (event.key === "ArrowLeft") {
+          window.location.href = "{{ url_for('review', idx=prev_idx) }}";
+        }
+      });
+    </script>
+  </body>
+</html>

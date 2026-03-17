@@ -6,4 +6,6 @@
 __pycache__/
 *.pyc
 .overleaf/
+data/hst_programs/
+data/hst_downloads/
 outputs/images/

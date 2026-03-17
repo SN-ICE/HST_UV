@@ -1,0 +1,2 @@
+obs_id,productFilename,dataURI,status,message,local_path,bytes
+hst_skycell-p0497x09y14_wfc3_uvis_f275w_all,hst_skycell-p0497x09y14_wfc3_uvis_f275w_all_drc.fits,mast:HST/product/hst_skycell-p0497x09y14_wfc3_uvis_f275w_all_drc.fits,failed,"('Connection broken: IncompleteRead(1200726016 bytes read, 1258007744 more expected)', IncompleteRead(1200726016 bytes read, 1258007744 more expected))",,0

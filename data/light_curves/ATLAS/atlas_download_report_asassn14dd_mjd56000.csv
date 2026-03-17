@@ -1,0 +1,2 @@
+sn_name,year_from_name,ra_deg,dec_deg,status,message,task_url,result_url,output_file,n_data_lines
+ASASSN-14dd,2014,116.30991666666665,-71.40390000000001,ok,,https://fallingstar-data.com/forcedphot/queue/3978987/,https://fallingstar-data.com/forcedphot/static/results/job3978987.txt,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ATLAS/raw_mjd56000/ASASSN-14dd_atlas_forcedphot.txt,2470

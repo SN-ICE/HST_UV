@@ -1,0 +1,15 @@
+sn_name,recovered_file,status,message,output_file,n_points_total,n_ztfg,n_ztfr,n_ztfi
+ASASSN-14ba,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ZTF/raw/ZTF_ASASSN-14ba_forcedphot.txt,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/ASASSN-14ba_ztf_forced_raw.txt,65,16,39,10
+ASASSN-14cu,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ZTF/raw/ZTF_ASASSN-14cu_forcedphot.txt,failed,Recovered file is empty,,0,0,0,0
+ASASSN-14dz,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ZTF/raw/ZTF_ASASSN-14dz_forcedphot.txt,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/ASASSN-14dz_ztf_forced_raw.txt,33,3,30,0
+ASASSN-14mg,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ZTF/raw/ZTF_ASASSN-14mg_forcedphot.txt,failed,No photometry left after cuts,,0,0,0,0
+SN2014dm,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ZTF/raw/ZTF_SN2014dm_forcedphot.txt,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2014dm_ztf_forced_raw.txt,3,1,2,0
+SN2016ecm,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ZTF/raw/ZTF_SN2016ecm_forcedphot.txt,failed,Recovered file is empty,,0,0,0,0
+SN2017cyy,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ZTF/raw/ZTF_SN2017cyy_forcedphot.txt,failed,Recovered file is empty,,0,0,0,0
+SN2017dps,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ZTF/raw/ZTF_SN2017dps_forcedphot.txt,failed,Recovered file is empty,,0,0,0,0
+SN2018djd,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ZTF/raw/ZTF_SN2018djd_forcedphot.txt,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2018djd_ztf_forced_raw.txt,3,0,3,0
+SN2018xx,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ZTF/raw/ZTF_SN2018xx_forcedphot.txt,failed,Recovered file is empty,,0,0,0,0
+SN2018zz,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ZTF/raw/ZTF_SN2018zz_forcedphot.txt,failed,Recovered file is empty,,0,0,0,0
+SN2020ejm,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ZTF/raw/ZTF_SN2020ejm_forcedphot.txt,failed,Recovered file is empty,,0,0,0,0
+SN2020xyw,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ZTF/raw/ZTF_SN2020xyw_forcedphot.txt,failed,Recovered file is empty,,0,0,0,0
+SN2021afkk,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/ZTF/raw/ZTF_SN2021afkk_forcedphot.txt,ok,,/Users/lluisgalbany/Downloads/HST_UV/data/light_curves/SNooPy/SN2021afkk_ztf_forced_raw.txt,95,18,77,0
